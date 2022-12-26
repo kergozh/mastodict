@@ -1,0 +1,10 @@
+###########################################
+#    Locale for mastodon dictionary bot   #
+###########################################
+
+abierto:
+  es: "abierto"
+  ca: "obert"
+  en: "opened"  
+  gl: "aberto"
+  

@@ -1,0 +1,4 @@
+Mastodon.py>=1.5.1
+Unidecode>=1.3.6
+pyyaml
+git+https://github.com/lgbaixauli/pybot

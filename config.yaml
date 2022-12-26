@@ -1,0 +1,71 @@
+################################
+#    Mastodon dictionaty bot   #
+################################
+
+# App Info
+app:
+  # [String] Name of the app
+  name: "lambebot"
+  # [String] Name of the actions file 
+  actions_file_name: "actions.yaml" 
+
+# Mastobot config
+bot:
+  # [String] Name of the app
+  app_name: "lambe"
+  # [String]  Instance hostname 
+  hostname: "frikiverse.zone"
+  # [String] Access type: Access Token = "AT" | Credentials = "CR" 
+  access_type: "AT"
+
+# Mastobot access token configuration
+access_token:
+  # [String] client id
+  client_id: "aaa"
+  # [String] Client secret
+  secret: "bbb"
+  # [String] Access token
+  token: "ccc"
+
+# Mastobot credentials configuration
+credentials:
+  # [Bool] With credentials, force log in
+  force_login: False
+  # [String] Name of the secrets directory
+  secrets_directory: "secrets"
+  # [String] Name of the secrets file
+  secrets_file_name: "secrets.txt"
+
+# Testing options
+testing:
+  # [String] Test word in toot
+  text_word: "test"
+  # [Bool] Ignore test toots
+  ignore_test_toot: False
+  # [Bool] Disable post the answer to Mastodon
+  disable_post: True
+  # [Bool] Disable dismiss de the notification
+  disable_dismiss: True
+  # [Bool] Force programmer
+  force_programmer: True
+  # [Bool] force private mention when post
+  force_mention: True
+  # [String] user to mention when force private
+  user_mention: "kergozh"
+
+# Logging config
+logger:
+  # [Integer] Log level: NOTSET=0 | DEBUG=10 | INFO=20 | WARN=30 | ERROR=40 | CRITICAL=50
+  loglevel: 10
+  # [String] Name of the logger
+  name: "mastodict_bot"
+  # [Bool] Dump the log into a file
+  to_file: False
+  # [String] Directory of the logger
+  directory: "log"
+  # [String] Filename of the log file
+  filename: "mastodict_bot.log"
+  # [Bool] Dump the log into a stdout
+  to_stdout: True
+  # [String] Format of the log
+  format: "[%(asctime)s] %(levelname)-8s %(name)-12s %(message)s"
