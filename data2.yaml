@@ -1,0 +1,2073 @@
+
+languages:
+   "q": "Quenya"
+   "s": "Sindarin"
+
+sources:
+   "1000W": "1000 Words"
+   "AAD": "An Adunaic Dictionary"
+   "AAQ": "Agreement of Adjectives in Quenya"
+   "ABNW": "Ales Bican’s New Words"
+   "AESED": "Ambar Eldaron’s Sindarin English Dictionary"
+   "AF": "Atalante Fragments"
+   "AL": "Ardalambion Website"
+   "AL-Doriathrin": "Ardalambion — Doriathrin"
+   "AL-Ilkorin": "Ardalambion — Ilkorin"
+   "AL-Nandorin": "Ardalambion — Nandorin"
+   "ANQP": "Atanquesta: a NeoQuenya Primer"
+   "AT": "Amanye Tenceli"
+   "ATD": "A Tolkien Dictionary"
+   "CH": "The Children of Húrin"
+   "DEANS": "On the Diphthongs ei, ai in Noldorin and Sindarin"
+   "DTS": "Mellonath Daeron Index of Tengwa Specimina"
+   "EA": "Encyclopedia of Arda"
+   "EE": "Essekenta Endamarwa"
+   "EIP": "Early Ilkorin Phonology"
+   "Elfling": "Elfling Mailing List"
+   "ENPP": "Early Noldorin Plural Patterns"
+   "EotAL": "Etymologies of the Atani Languages"
+   "Ety": "Etymologies"
+   "EtyAC": "Etymologies, Addenda and Corrigenda"
+   "FJNQ": "Fiona Jallings’s Neo-Quenya Wordlist"
+   "FJNS": "Fiona Jallings’s Neo-Sindarin Wordlist"
+   "GG": "Gnomish Grammar"
+   "GGAI": "The Goldogrin Grammar — An Introduction"
+   "GL": "Gnomish Lexicon"
+   "GP": "Goldogrin Pronouns "
+   "GPT": "The Goldogrin Past Tense"
+   "GS": "Gateway to Sindarin"
+   "GTLC": "Glǽmscrafu — Tolkien’s Linguistic Cellar"
+   "HFQC": "Helge Fauskanger’s Quenya Course"
+   "HH": "History of the Hobbit"
+   "HPG": "Historical Phonology of Goldogrin"
+   "HPITN": "Historical Phonologies of Ilkorin, Telerin and Noldorin around 1923"
+   "HSD": "Hiswelókë’s Sindarin Dictionary"
+   "LA": "I Lam Arth"
+   "Lambengolmor": "Lambengolmor Mailing List"
+   "LB": "Lays of Beleriand"
+   "LBI": "Lays of Beleriand — Index"
+   "Let": "Letters of J.R.R. Tolkien"
+   "LFC": "Letters from Father Christmas"
+   "LGtAG": "Lalaith’s Guide to Adûnaic Grammar"
+   "LotR": "Lord of the Rings, 50th Anniversary One-Volume Edition"
+   "LotRI": "Lord of the Rings — Index"
+   "LP-AM": "Lord’s Prayer and Ave Maria"
+   "LR": "Lost Road and Other Writings"
+   "LRI": "Lost Road and Other Writings — Index"
+   "LT1": "Book of Lost Tales Part One"
+   "LT1A": "Book of Lost Tales Part One — Appendix"
+   "LT1I": "Book of Lost Tales Part One — Index"
+   "LT2": "Book of Lost Tales Part Two"
+   "LT2A": "Book of Lost Tales Part Two — Appendix"
+   "LT2I": "Book of Lost Tales Part Two — Index"
+   "MC": "Monsters and the Critics"
+   "Minor-Doc": "Minor Documents"
+   "MR": "Morgoth’s Ring"
+   "MRI": "Morgoth’s Ring — Index"
+   "MS": "Merin Sentence"
+   "NBA": "Ni-bitha Adûnâyê"
+   "NM": "The Nature of Middle-Earth"
+   "NPE": "Noldorin Plurals in the Etymologies"
+   "NQNT": "Neo-Quenya New Testament"
+   "NQW": "Neo-Quenya Wiki"
+   "NTTLS": "Notes Towards a Translation of Lúthien’s Song"
+   "OT": "On Telerin"
+   "PE11": "Parma Eldalamberon #11"
+   "PE12": "Parma Eldalamberon #12"
+   "PE13": "Parma Eldalamberon #13"
+   "PE14": "Parma Eldalamberon #14"
+   "PE15": "Parma Eldalamberon #15"
+   "PE16": "Parma Eldalamberon #16"
+   "PE17": "Parma Eldalamberon #17"
+   "PE18": "Parma Eldalamberon #18"
+   "PE19": "Parma Eldalamberon #19"
+   "PE20": "Parma Eldalamberon #20"
+   "PE21": "Parma Eldalamberon #21"
+   "PE22": "Parma Eldalamberon #22"
+   "PED-TAI": "Une Phrase Elfique Dans « J. R. R. Tolkien, Artist & Illustrator »"
+   "PEE": "Parma Eldalamberon Errata"
+   "PESC": "Pedin Edhellen: a Sindarin Course"
+   "Plotz": "Plotz Letter"
+   "PM": "Peoples of Middle-Earth"
+   "PMCH": "Parma Mittarion - Calma Hendas"
+   "PME": "Poetic and Mythological Words of Eldarissa"
+   "PMI": "Peoples of Middle-Earth — Index"
+   "PPQ": "Parma Penyanë Quettaron"
+   "PPW": "Parf Pith ’Wain"
+   "QL": "Qenya Lexicon"
+   "QLE": "Quetin i Lambë Eldaiva"
+   "QPT": "Quenya Past Tense"
+   "QPW": "Quenya Psalmist Wordlist"
+   "QQ": "Quettaparma Quenyallo"
+   "RC": "The Lord of the Rings: a Reader’s Companion"
+   "RGEO": "The Road Goes Ever On"
+   "RS": "Return of the Shadow"
+   "RSI": "Return of the Shadow — Index"
+   "S": "Silmarillion"
+   "SA": "Silmarillion Appendix"
+   "SD": "Sauron Defeated"
+   "SDI1": "Sauron Defeated — Index 1"
+   "SDI2": "Sauron Defeated — Index 2"
+   "SI": "Silmarillion — Index"
+   "SM": "Shaping of Middle-Earth"
+   "SMI": "Shaping of Middle-Earth — Index"
+   "TAI": "J.R.R. Tolkien: Artist and Illustrator"
+   "TFC": "Tamas Ferencz’s Coinages"
+   "TG": "Tolkien Gateway"
+   "TI": "Treason of Isengard"
+   "TII": "Treason of Isengard — Index"
+   "TLM": "Teleri Lambëo Minaþurië"
+   "TMME": "Tolkien, Maker of Middle-earth"
+   "Tolklang": "Tolklang Mailing List"
+   "TR": "Tolkien Reader"
+   "TT17": "Tyalië Tyelelliéva #17"
+   "UT": "Unfinished Tales of Númenor and Middle-earth"
+   "UTI": "Unfinished Tales — Index"
+   "VASN": "Vowel Affection in Sindarin and Noldorin"
+   "VLDS": "Vinyë Lambengolmor Discord Server"
+   "VQP": "VinQuettaParma Wiki"
+   "VSH": "Verbs, Syntax, Hooray!"
+   "VT06": "Vinyar Tengwar #06"
+   "VT21": "Vinyar Tengwar #21"
+   "VT24": "Vinyar Tengwar #24"
+   "VT27": "Vinyar Tengwar #27"
+   "VT28": "Vinyar Tengwar #28"
+   "VT32": "Vinyar Tengwar #32"
+   "VT36": "Vinyar Tengwar #36"
+   "VT39": "Vinyar Tengwar #39"
+   "VT40": "Vinyar Tengwar #40"
+   "VT41": "Vinyar Tengwar #41"
+   "VT42": "Vinyar Tengwar #42"
+   "VT43": "Vinyar Tengwar #43"
+   "VT44": "Vinyar Tengwar #44"
+   "VT45": "Vinyar Tengwar #45"
+   "VT46": "Vinyar Tengwar #46"
+   "VT47": "Vinyar Tengwar #47"
+   "VT48": "Vinyar Tengwar #48"
+   "VT49": "Vinyar Tengwar #49"
+   "VT50": "Vinyar Tengwar #50"
+   "VTE": "Vinyar Tengwar Errata"
+   "WGHC": "A Welsh Grammar, Historical and Comparative"
+   "WJ": "War of the Jewels"
+   "WJI": "War of the Jewels — Index"
+   "WR": "War of the Ring"
+   "WRI": "War of the Ring — Index"
+
+word_categories:
+   "PW": "Physical World"
+   "PW_WO": "World"
+   "PW_UN": "Universe"
+   "PW_EL": "Earth, Land"
+   "PW_GS": "Ground, Soil"
+   "PW_DU": "Dust, Powder"
+   "PW_MU": "Mud, Mire"
+   "PW_SA": "Sand, Grit"
+   "PW_HW": "Hill, Mountain"
+   "PW_PS": "Peak, Summit"
+   "PW_SC": "Slope, Cliff"
+   "PW_MP": "Mound, Pile"
+   "PW_PF": "Plain, Field"
+   "PW_VA": "Dale, Valley"
+   "PW_RP": "Ravine, Pass"
+   "PW_IS": "Isle, Island"
+   "PW_ML": "Mainland, Continent"
+   "PW_SH": "Shore, Beach"
+   "PW_WA": "Water"
+   "PW_SE": "Sea"
+   "PW_LA": "Lake, Pond"
+   "PW_GB": "Gulf, Bay"
+   "PW_WV": "Wave, Surge"
+   "PW_FF": "Foam, Froth"
+   "PW_SS": "Splash, Spray"
+   "PW_RS": "Brook, Stream, River"
+   "PW_SW": "Spring, Well"
+   "PW_WH": "Whirlpool"
+   "PW_WF": "Woods, Forest"
+   "PW_TR": "Tree, Oak"
+   "PW_WD": "Wood, Timber"
+   "PW_SR": "Rock, Stone"
+   "PW_CV": "Cave"
+   "PW_SK": "Sky, Heavens"
+   "PW_SU": "Sun"
+   "PW_MO": "Moon"
+   "PW_ST": "Star"
+   "PW_SL": "Starlight"
+   "PW_LI": "Flash, Lightning"
+   "PW_TH": "Noise, Thunder"
+   "PW_LT": "Thunderbolt, Lightning Strike"
+   "PW_LG": "Light"
+   "PW_DA": "Darkness"
+   "PW_DM": "Dark, Murky"
+   "PW_SD": "Shade, Shadow"
+   "PW_AI": "Air, Ether"
+   "PW_WI": "Wind"
+   "PW_DX": "Storm"
+   "PW_BR": "Breeze"
+   "PW_CL": "Cloud, Mirk"
+   "PW_MI": "Mist, Fog, Haze"
+   "PW_RA": "Rain"
+   "PW_RB": "Rainbow"
+   "PW_SN": "Snow"
+   "PW_IC": "Ice, Frost"
+   "PW_FR": "to Freeze"
+   "PW_WE": "Weather"
+   "PW_FI": "Fire"
+   "PW_FL": "Flame"
+   "PW_SM": "Smoke"
+   "PW_AS": "Ashes"
+   "PW_BU": "to Burn, Scorch"
+   "PW_LK": "to Light, Kindle"
+   "PW_MT": "Match, Fire Stick"
+   "PW_OT": "Physical World (other)"
+   "MK": "Mankind"
+   "MK_HB": "Human Being"
+   "MK_MA": "Man"
+   "MK_WO": "Woman"
+   "MK_MS": "Male"
+   "MK_FS": "Female"
+   "MK_SX": "Sex"
+   "MK_BO": "Boy"
+   "MK_GI": "Girl"
+   "MK_CH": "Child"
+   "MK_IN": "Infant"
+   "MK_HU": "Husband"
+   "MK_WI": "Wife"
+   "MK_BD": "Bride"
+   "MK_MR": "to Wed, Marry"
+   "MK_MW": "Wedding, Marriage"
+   "MK_MC": "Married Couple"
+   "MK_FA": "Father"
+   "MK_MO": "Mother"
+   "MK_PA": "Parent"
+   "MK_SO": "Son"
+   "MK_DA": "Daughter"
+   "MK_SD": "Offspring"
+   "MK_BR": "Brother"
+   "MK_SI": "Sister"
+   "MK_BS": "Sibling"
+   "MK_GF": "Grandfather"
+   "MK_GM": "Grandmother"
+   "MK_GS": "Grandson"
+   "MK_GD": "Granddaughter"
+   "MK_UN": "Uncle"
+   "MK_AU": "Aunt"
+   "MK_NE": "Nephew"
+   "MK_NI": "Niece"
+   "MK_CO": "Cousin"
+   "MK_AN": "Ancestor"
+   "MK_DE": "Descendant"
+   "MK_FL": "Father-in-Law"
+   "MK_ML": "Mother-in-Law"
+   "MK_SL": "Son-in-Law"
+   "MK_DL": "Daughter-in-Law"
+   "MK_BL": "Brother-in-Law"
+   "MK_SW": "Sister-in-Law"
+   "MK_SF": "Stepfather"
+   "MK_SM": "Stepmother"
+   "MK_SS": "Stepson"
+   "MK_SR": "Stepdaughter"
+   "MK_OR": "Orphan"
+   "MK_WD": "Widow"
+   "MK_RE": "Relative"
+   "MK_FM": "Family"
+   "MK_OT": "Mankind (other)"
+   "AN": "Animals"
+   "AN_AN": "Animal"
+   "AN_MA": "Male Animal"
+   "AN_FE": "Female Animal"
+   "AN_CA": "to Castrate"
+   "AN_LI": "Livestock"
+   "AN_PV": "to Pasture"
+   "AN_PS": "Pasture"
+   "AN_HE": "Herdsman"
+   "AN_ST": "Stall, Stable"
+   "AN_CB": "Cattle, Bovines"
+   "AN_BU": "Bull"
+   "AN_OX": "Ox, Steer"
+   "AN_CO": "Cow"
+   "AN_CF": "Calf"
+   "AN_SH": "Sheep"
+   "AN_RA": "Ram"
+   "AN_WE": "Wether"
+   "AN_EW": "Ewe"
+   "AN_LA": "Lamb"
+   "AN_SW": "Swine"
+   "AN_BO": "Boar"
+   "AN_BA": "Barrow"
+   "AN_SO": "Sow"
+   "AN_PI": "Pig"
+   "AN_GO": "Goat"
+   "AN_HG": "He-Goat"
+   "AN_KI": "Kid"
+   "AN_HO": "Horse (generic)"
+   "AN_SN": "Stallion"
+   "AN_GE": "Gelding"
+   "AN_MR": "Mare"
+   "AN_FC": "Foal, Colt"
+   "AN_AD": "Ass, Donkey"
+   "AN_MU": "Mule"
+   "AN_HC": "Chicken (generic)"
+   "AN_CK": "Cock, Rooster"
+   "AN_CN": "Capon"
+   "AN_HN": "Hen"
+   "AN_CH": "Chicken"
+   "AN_GS": "Goose"
+   "AN_DU": "Duck"
+   "AN_DO": "Dog"
+   "AN_PU": "Puppy"
+   "AN_CT": "Cat"
+   "AN_MO": "Mouse, Rodent"
+   "AN_BI": "Bird"
+   "AN_EH": "Eagle, Hawk"
+   "AN_CR": "Crow, Raven"
+   "AN_GP": "Gull, Petrel"
+   "AN_SX": "Swan"
+   "AN_BT": "Bird (other)"
+   "AN_FI": "Fish"
+   "AN_CX": "Conch"
+   "AN_FM": "Fisherman"
+   "AN_WO": "Wolf"
+   "AN_LN": "Lion"
+   "AN_BR": "Bear"
+   "AN_FX": "Fox"
+   "AN_DE": "Deer"
+   "AN_MK": "Monkey"
+   "AN_EL": "Elephant"
+   "AN_CM": "Camel"
+   "AN_HU": "to Hunt"
+   "AN_IN": "Insect"
+   "AN_SP": "Spider"
+   "AN_BE": "Bee"
+   "AN_FL": "Fly (n)"
+   "AN_WR": "Worm"
+   "AN_SK": "Snake"
+   "AN_OT": "Animals (other)"
+   "BP": "Body Parts and Functions"
+   "BP_BO": "Body"
+   "BP_SH": "Skin, Hide"
+   "BP_FL": "Flesh"
+   "BP_HA": "Hair"
+   "BP_BE": "Beard"
+   "BP_HO": "Hair (other)"
+   "BP_BL": "Blood"
+   "BP_BN": "Bone"
+   "BP_RI": "Rib"
+   "BP_HN": "Horn (animal)"
+   "BP_TA": "Tail"
+   "BP_BA": "Back"
+   "BP_HE": "Head"
+   "BP_SK": "Skull"
+   "BP_BR": "Brain"
+   "BP_FA": "Face"
+   "BP_FO": "Forehead"
+   "BP_EB": "Eyebrow"
+   "BP_JW": "Jaw"
+   "BP_CK": "Cheek"
+   "BP_CN": "Chin"
+   "BP_EY": "Eye"
+   "BP_SE": "Sharpeyed"
+   "BP_EE": "Evileyed"
+   "BP_EA": "Ear"
+   "BP_NO": "Nose"
+   "BP_MO": "Mouth"
+   "BP_LI": "Lip"
+   "BP_TG": "Tongue"
+   "BP_TO": "Tooth"
+   "BP_NK": "Neck"
+   "BP_TR": "Throat"
+   "BP_SD": "Shoulder"
+   "BP_AR": "Arm"
+   "BP_EL": "Elbow"
+   "BP_HD": "Hand"
+   "BP_HX": "Hand (other)"
+   "BP_FI": "Finger"
+   "BP_TM": "Thumb"
+   "BP_LE": "Leg"
+   "BP_KN": "Knee"
+   "BP_FT": "Foot"
+   "BP_TE": "Toe"
+   "BP_NA": "Nail, Claw"
+   "BP_WI": "Wing"
+   "BP_FE": "Feather"
+   "BP_FC": "Front of Chest"
+   "BP_BW": "Breast of Woman"
+   "BP_UA": "Udder of Animals"
+   "BP_NV": "Navel"
+   "BP_HR": "Heart"
+   "BP_LV": "Liver"
+   "BP_BS": "Belly, Stomach"
+   "BP_WO": "Womb"
+   "BP_EG": "Egg"
+   "BP_TS": "Testicle"
+   "BP_PE": "Penis"
+   "BP_BB": "to Breathe; Breath"
+   "BP_YG": "to Gape, Yawn"
+   "BP_CO": "to Cough"
+   "BP_SN": "to Sneeze"
+   "BP_SW": "Sweat, Perspiration"
+   "BP_SP": "to Spit"
+   "BP_VO": "to Vomit"
+   "BP_BI": "to Bite"
+   "BP_LC": "to Lick"
+   "BP_WK": "to Wink"
+   "BP_SL": "to Sleep; Sleep"
+   "BP_DR": "Dream"
+   "BP_WA": "to Wake"
+   "BP_FB": "to Fart, Break Wind"
+   "BP_UU": "to Urinate; Urine"
+   "BP_ED": "to Void Excrement; Dung, Excrement"
+   "BP_SI": "to have Sexual Intercourse"
+   "BP_BP": "to Beget (of Father)"
+   "BP_BM": "to Bear (of Mother)"
+   "BP_PR": "Pregnant"
+   "BP_CC": "to Conceive"
+   "BP_LL": "to Live; Living; Life"
+   "BP_IM": "Immortal"
+   "BP_DD": "to Die; Dead; Death"
+   "BP_KI": "to Kill"
+   "BP_CS": "Corpse, Body"
+   "BP_BD": "to Bury the Dead"
+   "BP_GR": "Grave, Tomb"
+   "BP_SM": "Strong, Mighty, Powerful"
+   "BP_WE": "Weak, Infirm"
+   "BP_WH": "Well; Health"
+   "BP_SS": "Sick; Sickness"
+   "BP_WD": "to Wound; Wound; Wounded"
+   "BP_CH": "to Cure, Heal"
+   "BP_PH": "Physician"
+   "BP_MD": "Medicine, Drug"
+   "BP_PO": "Poison"
+   "BP_TW": "Tired, Weary"
+   "BP_LZ": "Lazy"
+   "BP_BX": "Bald"
+   "BP_LM": "Lame"
+   "BP_DF": "Deaf"
+   "BP_DB": "Dumb"
+   "BP_BY": "Blind"
+   "BP_DK": "Drunk"
+   "BP_NB": "Naked, Bare"
+   "BP_OT": "Body Parts and Functions (other)"
+   "FD": "Food and Drink"
+   "FD_EA": "to Eat"
+   "FD_FD": "Food"
+   "FD_DR": "to Drink"
+   "FD_HU": "Hunger"
+   "FD_TH": "Thirst"
+   "FD_TY": "Thirsty"
+   "FD_SU": "to Suck, Suckle"
+   "FD_MX": "to Mix, Blend"
+   "FD_CO": "to Cook"
+   "FD_BO": "to Boil (trans.)"
+   "FD_RF": "to Roast, Fry"
+   "FD_BA": "to Bake"
+   "FD_OV": "Oven"
+   "FD_PO": "Pot"
+   "FD_KE": "Kettle"
+   "FD_PA": "Pan"
+   "FD_DI": "Dish"
+   "FD_PL": "Plate"
+   "FD_BW": "Bowl"
+   "FD_PJ": "Jug, Pitcher"
+   "FD_CU": "Cup"
+   "FD_SA": "Saucer"
+   "FD_SP": "Spoon"
+   "FD_KN": "Knife"
+   "FD_FO": "Fork"
+   "FD_AM": "a Meal"
+   "FD_BR": "Breakfast"
+   "FD_LU": "Lunch"
+   "FD_DN": "Dinner"
+   "FD_SR": "Supper"
+   "FD_BD": "Bread"
+   "FD_CA": "Cake"
+   "FD_DO": "Dough"
+   "FD_KD": "to Knead"
+   "FD_MF": "Meal, Flour"
+   "FD_GR": "to Grind"
+   "FD_ML": "Mill"
+   "FD_ME": "Meat"
+   "FD_BU": "Butcher"
+   "FD_FG": "Fat, Grease"
+   "FD_BE": "Beef"
+   "FD_SG": "Sausage"
+   "FD_SB": "Soup, Broth"
+   "FD_VE": "Vegetables"
+   "FD_BN": "Bean"
+   "FD_PE": "Pea"
+   "FD_ON": "Onion"
+   "FD_CB": "Cabbage"
+   "FD_PT": "Potato"
+   "FD_FR": "Fruit"
+   "FD_AP": "Apple"
+   "FD_PR": "Pear"
+   "FD_PC": "Peach"
+   "FD_FI": "Fig"
+   "FD_GP": "Grape"
+   "FD_NT": "Nut"
+   "FD_OL": "Olive"
+   "FD_OI": "Oil"
+   "FD_BY": "Berry"
+   "FD_SL": "Salt"
+   "FD_PP": "Pepper"
+   "FD_VI": "Vinegar"
+   "FD_HO": "Honey"
+   "FD_SS": "Sugar"
+   "FD_MS": "Milk"
+   "FD_MV": "to Milk"
+   "FD_CH": "Cheese"
+   "FD_BT": "Butter"
+   "FD_MD": "Mead"
+   "FD_WI": "Wine"
+   "FD_BB": "Beer"
+   "FD_JU": "Juice"
+   "FD_OT": "Food (Other)"
+   "CA": "Clothing and Adornment"
+   "CA_CD": "to Clothe, Dress"
+   "CA_CC": "Clothes, Clothing"
+   "CA_TA": "Tailor, Seamstress"
+   "CA_CL": "Cloth"
+   "CA_WO": "Wool"
+   "CA_FL": "Flax, Linen"
+   "CA_CO": "Cotton"
+   "CA_SI": "Silk"
+   "CA_LA": "Lace"
+   "CA_FE": "Felt"
+   "CA_FU": "Fur"
+   "CA_LE": "Leather"
+   "CA_SN": "to Spin"
+   "CA_SP": "Spindle"
+   "CA_WE": "to Weave"
+   "CA_LO": "Loom"
+   "CA_SE": "to Sew"
+   "CA_NE": "Needle"
+   "CA_AW": "Awl"
+   "CA_TH": "Thread"
+   "CA_DY": "to Dye"
+   "CA_CK": "Cloak"
+   "CA_OV": "Overcoat"
+   "CA_WD": "Woman’s Dress"
+   "CA_CT": "Coat"
+   "CA_SH": "Shirt"
+   "CA_CR": "Collar"
+   "CA_SK": "Skirt"
+   "CA_AP": "Apron"
+   "CA_TR": "Trousers"
+   "CA_SS": "Sock, Stocking"
+   "CA_SO": "Shoe"
+   "CA_BO": "Boot"
+   "CA_SL": "Slipper"
+   "CA_SC": "Cobbler, Shoemaker"
+   "CA_HC": "Hat, Cap"
+   "CA_BG": "Belt, Girdle"
+   "CA_GL": "Glove"
+   "CA_VE": "Veil"
+   "CA_PO": "Pocket"
+   "CA_BU": "Button"
+   "CA_PI": "Pin, Brooch"
+   "CA_AD": "Adornment (personal)"
+   "CA_JW": "Gem, Jewel"
+   "CA_FR": "Finger Ring"
+   "CA_BR": "Armband, Bracelet"
+   "CA_NC": "Necklace"
+   "CA_HF": "Handkerchief"
+   "CA_TW": "Towel"
+   "CA_NA": "Napkin"
+   "CA_CB": "Comb"
+   "CA_BH": "Brush"
+   "CA_RA": "Razor"
+   "CA_OI": "Ointment"
+   "CA_SA": "Soap"
+   "CA_MR": "Mirror"
+   "CA_O1": "Clothing (other)"
+   "CA_O2": "Adornment (other)"
+   "DF": "Dwelling and Furniture"
+   "DF_DW": "to Live, Dwell"
+   "DF_HS": "House"
+   "DF_HO": "Home"
+   "DF_HU": "Hut"
+   "DF_TE": "Tent"
+   "DF_YR": "Yard, Court"
+   "DF_RO": "Room"
+   "DF_DG": "Door, Gate"
+   "DF_LO": "Lock"
+   "DF_KY": "Key"
+   "DF_WN": "Window"
+   "DF_FL": "Floor"
+   "DF_WL": "Wall"
+   "DF_RF": "Roof"
+   "DF_HT": "House (other)"
+   "DF_FP": "Hearth, Fireplace"
+   "DF_ST": "Stove"
+   "DF_CH": "Chimney"
+   "DF_FR": "Furniture"
+   "DF_FO": "Furniture (other)"
+   "DF_BD": "Bed"
+   "DF_CR": "Chair"
+   "DF_TB": "Table"
+   "DF_LP": "Lamp"
+   "DF_CL": "Candle"
+   "AV": "Agriculture and Vegetation"
+   "AV_FA": "Farmer"
+   "AV_FC": "Field for Cultivation"
+   "AV_GA": "Garden, Orchard"
+   "AV_BA": "Barn"
+   "AV_CT": "to Tilt, Cultivate"
+   "AV_PL": "to Plow; Plow"
+   "AV_FU": "Furrow"
+   "AV_DI": "to Dig, Delve"
+   "AV_SP": "Spade"
+   "AV_SH": "Shovel"
+   "AV_HO": "Hoe"
+   "AV_FO": "Fork (tool)"
+   "AV_RA": "Rake"
+   "AV_HA": "Harrow"
+   "AV_BS": "Blade, Share"
+   "AV_PH": "Plough"
+   "AV_SS": "to Sow; Seed"
+   "AV_MR": "to Mow, Reap"
+   "AV_SI": "Scythe, Sickle"
+   "AV_TH": "to Thresh"
+   "AV_TF": "Threshing-Floor"
+   "AV_CH": "Crop, Harvest"
+   "AV_GG": "Grain (generic, British Corn)"
+   "AV_WH": "Wheat"
+   "AV_BR": "Barley"
+   "AV_RY": "Rye"
+   "AV_OA": "Oats"
+   "AV_MA": "Maize, Corn"
+   "AV_RI": "Rice"
+   "AV_GR": "Grass"
+   "AV_HY": "Hay"
+   "AV_PN": "Plant, Herb"
+   "AV_RO": "Root"
+   "AV_BN": "Branch"
+   "AV_LE": "Leaf"
+   "AV_TN": "Thorn"
+   "AV_FL": "Flower"
+   "AV_BL": "Bloom"
+   "AV_SB": "to Sprout, Bud, Blossom"
+   "AV_LY": "Lily"
+   "AV_RS": "Rose"
+   "AV_VT": "Violet"
+   "AV_FX": "Flower (other)"
+   "AV_TR": "Tree (generic)"
+   "AV_OK": "Oak"
+   "AV_BE": "Beech"
+   "AV_BI": "Birch"
+   "AV_EL": "Elm"
+   "AV_PI": "Pine"
+   "AV_FI": "Fir"
+   "AV_TX": "Tree (other)"
+   "AV_AC": "Acorn"
+   "AV_VI": "Vine"
+   "AV_TO": "Tobacco"
+   "AV_OT": "Vegetation (other)"
+   "PA": "Physical Acts and Materials"
+   "PA_MA": "to Do, Make"
+   "PA_DA": "Doer, Agent"
+   "PA_AT": "Action"
+   "PA_WS": "Work, Labor"
+   "PA_WV": "to Work, Toil"
+   "PA_BN": "to Bend"
+   "PA_FO": "to Fold"
+   "PA_BI": "to Bind"
+   "PA_BO": "Bond"
+   "PA_CH": "Chain"
+   "PA_RC": "Rope, Cord"
+   "PA_KN": "Knot"
+   "PA_SH": "to Hit, Strike, Beat"
+   "PA_CU": "to Cut"
+   "PA_KF": "Knife (tool)"
+   "PA_SS": "Shears, Scissors"
+   "PA_AX": "Ax"
+   "PA_BK": "to Break"
+   "PA_SP": "to Split"
+   "PA_TE": "to Tear"
+   "PA_FS": "to Flay, Skin"
+   "PA_RU": "to Rub"
+   "PA_SR": "to Stretch"
+   "PA_DP": "to Draw, Pull"
+   "PA_SO": "to Strew, Spread Out"
+   "PA_PR": "to Press"
+   "PA_PO": "to Pour"
+   "PA_WA": "to Wash"
+   "PA_SW": "to Sweep"
+   "PA_BM": "Broom"
+   "PA_CT": "Craft, Trade"
+   "PA_AR": "Art"
+   "PA_HO": "Horn, Trumpet"
+   "PA_AC": "Artisan, Craftsman"
+   "PA_TO": "Tool"
+   "PA_US": "to Use"
+   "PA_CA": "Carpenter"
+   "PA_BU": "to Build"
+   "PA_HE": "to Hew"
+   "PA_PK": "to Poke, Prick, Stab"
+   "PA_BR": "to Bore"
+   "PA_AU": "Auger"
+   "PA_SA": "Saw"
+   "PA_HA": "Hammer"
+   "PA_NA": "Nail, Peg"
+   "PA_BE": "Beam"
+   "PA_BD": "Board"
+   "PA_MN": "Mason"
+   "PA_BC": "Brick"
+   "PA_MO": "Mortar"
+   "PA_SM": "Smith"
+   "PA_FG": "to Forge"
+   "PA_AN": "Anvil"
+   "PA_CM": "to Cast (metals)"
+   "PA_ME": "Metal"
+   "PA_GO": "Gold"
+   "PA_SI": "Silver"
+   "PA_CO": "Copper, Bronze"
+   "PA_IR": "Iron"
+   "PA_LE": "Lead"
+   "PA_TT": "Tin, Tin-Plate"
+   "PA_PT": "Potter"
+   "PA_MD": "to Mold, Form"
+   "PA_CL": "Clay"
+   "PA_GL": "Glass"
+   "PA_PL": "to Plait"
+   "PA_BA": "Basket"
+   "PA_CV": "to Carve"
+   "PA_SC": "Sculptor"
+   "PA_ST": "Statue"
+   "PA_CS": "Chisel"
+   "PA_PA": "to Paint (as artist)"
+   "PA_PX": "Painter (as artist)"
+   "PA_PP": "Painting, Picture"
+   "PA_PN": "Paint"
+   "PA_PV": "to Paint"
+   "PA_TH": "Thing"
+   "PA_BV": "Be"
+   "PA_BX": "Become"
+   "PA_NN": "Need, Necessity"
+   "PA_OM": "Ought, Must"
+   "PA_DU": "Duty"
+   "PA_FJ": "Fitting, Suitable"
+   "PA_MV": "Can, May"
+   "PA_EA": "Easy"
+   "PA_DI": "Difficult"
+   "PA_TR": "to Try"
+   "PA_TN": "Try"
+   "PA_WM": "Way, Manner"
+   "PA_HP": "to Happen"
+   "PA_O1": "Physical Action (other)"
+   "PA_O2": "Physical Material (other)"
+   "MO": "Motion and Transportation"
+   "MO_MO": "to Move"
+   "MO_TU": "to Turn"
+   "MO_TA": "to Turn Around"
+   "MO_WW": "to Wind, Wrap"
+   "MO_RO": "to Roll"
+   "MO_RI": "to Rise"
+   "MO_RL": "to Lift, Raise"
+   "MO_HA": "to Hang, Dangle"
+   "MO_FA": "to Fall"
+   "MO_DR": "to Drop"
+   "MO_TH": "to Throw"
+   "MO_SH": "to Shake"
+   "MO_BO": "to Boil (intr.)"
+   "MO_FL": "to Flow"
+   "MO_SI": "to Sink"
+   "MO_FT": "to Float"
+   "MO_SW": "to Swim"
+   "MO_SA": "to Sail"
+   "MO_FY": "to Fly"
+   "MO_BL": "to Blow"
+   "MO_CC": "to Creep, Crawl"
+   "MO_SS": "to Slip, Slide"
+   "MO_JL": "to Jump, Leap"
+   "MO_LP": "Leaping"
+   "MO_DA": "to Dance"
+   "MO_WA": "to Walk"
+   "MO_RU": "to Run"
+   "MO_GO": "to Go"
+   "MO_CO": "to Come"
+   "MO_GA": "to Depart, Go Away"
+   "MO_FD": "to Fade"
+   "MO_FE": "to Flee"
+   "MO_FO": "to Follow"
+   "MO_PU": "to Pursue"
+   "MO_OV": "to Overtake"
+   "MO_AR": "to Reach, Arrive"
+   "MO_AP": "to Approach"
+   "MO_EN": "to Enter"
+   "MO_CA": "to Bear, Carry"
+   "MO_BG": "to Bring"
+   "MO_SE": "to Send"
+   "MO_LE": "to Lead"
+   "MO_WS": "to Wander, Stray"
+   "MO_DV": "to Drive"
+   "MO_RD": "to Ride"
+   "MO_PS": "to Push, Shove"
+   "MO_RA": "Road"
+   "MO_PA": "Path"
+   "MO_ST": "Street"
+   "MO_BR": "Bridge"
+   "MO_CW": "Cart, Wagon, Carriage"
+   "MO_WH": "Wheel"
+   "MO_AX": "Axle"
+   "MO_YO": "Yoke"
+   "MO_SP": "Ship"
+   "MO_SR": "Sailor"
+   "MO_BT": "Boat"
+   "MO_RF": "Raft"
+   "MO_OA": "Oar"
+   "MO_RW": "to Row"
+   "MO_RR": "Rudder"
+   "MO_MS": "Mast"
+   "MO_SL": "Sail"
+   "MO_AN": "Anchor"
+   "MO_HP": "Port, Harbor"
+   "MO_OT": "Motion (other)"
+   "PT": "Possession and Trade"
+   "PT_HA": "to Have"
+   "PT_OP": "to Own, Possess"
+   "PT_TA": "to Take"
+   "PT_SG": "to Grasp, Seize, Take Hold of"
+   "PT_HO": "to Hold"
+   "PT_GO": "to Get, Obtain"
+   "PT_KR": "to Keep, Retain"
+   "PT_GI": "to Give"
+   "PT_GB": "to Return, Give Back"
+   "PT_RE": "to Restore"
+   "PT_PR": "to Save, Preserve, Keep Safe"
+   "PT_SR": "to Save, Rescue"
+   "PT_SA": "Safe"
+   "PT_DE": "to Destroy"
+   "PT_HI": "to Harm, Injure, Damage"
+   "PT_SP": "to Spoil"
+   "PT_SE": "to Seek"
+   "PT_FI": "to Find"
+   "PT_LO": "to Lose"
+   "PT_RS": "to Release"
+   "PT_PY": "Property"
+   "PT_WR": "Wealth, Riches"
+   "PT_MO": "Money"
+   "PT_CO": "Coin"
+   "PT_PU": "Purse"
+   "PT_TR": "Treasure"
+   "PT_BA": "Bank"
+   "PT_HE": "Heir"
+   "PT_RC": "Rich"
+   "PT_PO": "Poor"
+   "PT_BG": "Beggar"
+   "PT_AS": "Stingy, Avaricious"
+   "PT_MS": "Miser"
+   "PT_ST": "to Steal"
+   "PT_TH": "Thief"
+   "PT_RR": "to Rob; Robber"
+   "PT_LD": "to Lend"
+   "PT_BW": "to Borrow"
+   "PT_OW": "to Owe"
+   "PT_DB": "Debt"
+   "PT_PA": "to Pay"
+   "PT_AR": "Account, Reckoning"
+   "PT_SC": "Surety, Security"
+   "PT_IT": "Interest"
+   "PT_TX": "Tax"
+   "PT_IN": "Income"
+   "PT_EC": "Cost, Expense"
+   "PT_PF": "Gain, Profit"
+   "PT_LS": "Loss"
+   "PT_LR": "to Lease, Rent (to another)"
+   "PT_RL": "to Rent, Lease (from another)"
+   "PT_HR": "to Hire"
+   "PT_WA": "Pay, Wages"
+   "PT_EA": "to Earn"
+   "PT_BU": "to Buy"
+   "PT_SL": "to Sell"
+   "PT_TD": "to Trade"
+   "PT_MT": "Merchant, Tradesman"
+   "PT_MK": "Market (place)"
+   "PT_SS": "Store, Shop"
+   "PT_PC": "Price"
+   "PT_DR": "Dear, Expensive"
+   "PT_CH": "Cheap"
+   "SR": "Spatial Relations"
+   "SR_PL": "Place"
+   "SR_PU": "to Put, Place, Set, Lay"
+   "SR_SI": "to Sit"
+   "SR_LI": "to Lie, Recline"
+   "SR_ST": "to Stand"
+   "SR_RM": "to Stay, Wait, Remain"
+   "SR_RL": "to Remain, be Left Over"
+   "SR_LE": "to Leave, Relinquish"
+   "SR_QU": "Quiet"
+   "SR_WH": "Whisper"
+   "SR_CG": "to Gather, Collect"
+   "SR_JU": "to Join, Unite"
+   "SR_TG": "Together"
+   "SR_AN": "And"
+   "SR_AL": "Also"
+   "SR_SE": "to Separate"
+   "SR_DI": "to Divide"
+   "SR_OP": "to Open"
+   "SR_SH": "to Shut, Close"
+   "SR_CO": "to Cover"
+   "SR_HC": "to Hide, Conceal"
+   "SR_HJ": "Hidden, Concealed"
+   "SR_HI": "High"
+   "SR_LO": "Low"
+   "SR_TO": "Top"
+   "SR_BO": "Bottom"
+   "SR_EN": "End"
+   "SR_PO": "Point"
+   "SR_ED": "Edge"
+   "SR_SD": "Side"
+   "SR_MI": "Middle"
+   "SR_BE": "Between"
+   "SR_CT": "Center"
+   "SR_II": "In, Inside"
+   "SR_OO": "Out, Outside"
+   "SR_AA": "Across, Athwart"
+   "SR_UA": "Up, Above, Over"
+   "SR_DB": "Down, Below, Beneath"
+   "SR_IF": "In Front"
+   "SR_BR": "Behind, At the Rear"
+   "SR_BY": "Beyond"
+   "SR_TT": "To, Towards"
+   "SR_FA": "From, Away"
+   "SR_RI": "Right (vs. Left)"
+   "SR_LF": "Left (vs. Right)"
+   "SR_NE": "Near"
+   "SR_FR": "Far"
+   "SR_EA": "East"
+   "SR_WE": "West"
+   "SR_NO": "North"
+   "SR_SO": "South"
+   "SR_FS": "Form, Shape"
+   "SR_SZ": "Size"
+   "SR_GW": "to Grow"
+   "SR_MS": "to Measure"
+   "SR_XL": "Big, Large, Great"
+   "SR_SM": "Small, Little"
+   "SR_BI": "Bit, Small Thing"
+   "SR_LG": "Long"
+   "SR_TL": "Tall"
+   "SR_SS": "Short"
+   "SR_WB": "Wide, Broad"
+   "SR_NR": "Narrow"
+   "SR_TD": "Thick (in Dimension)"
+   "SR_TS": "Thick (in Density)"
+   "SR_ND": "Thin (in Dimension)"
+   "SR_NS": "Thin (in Density)"
+   "SR_DP": "Deep"
+   "SR_SW": "Shallow"
+   "SR_FL": "Flat"
+   "SR_HW": "Hollow, Concave"
+   "SR_SG": "Straight"
+   "SR_CR": "Crooked"
+   "SR_HK": "Hook, Crook"
+   "SR_CN": "Angle, Corner"
+   "SR_CS": "Cross"
+   "SR_SQ": "Square"
+   "SR_RO": "Round"
+   "SR_CI": "Circle"
+   "SR_SP": "Sphere"
+   "SR_LN": "Line"
+   "SR_HL": "Hole"
+   "SR_EQ": "Equal, Alike"
+   "SR_LS": "Like, Similar"
+   "SR_DO": "Different, Other"
+   "SR_CE": "to Change"
+   "SR_SN": "Sign"
+   "SR_OT": "Spatial Relations (other)"
+   "QN": "Quantity and Number"
+   "QN_QN": "Amount, Quantity"
+   "QN_NU": "Number"
+   "QN_WH": "Whole"
+   "QN_EA": "All, Every"
+   "QN_MM": "Much, Many"
+   "QN_MO": "More"
+   "QN_IN": "to Add, Increase"
+   "QN_LF": "Few, Little"
+   "QN_EN": "Enough"
+   "QN_SU": "Sufficiency"
+   "QN_SV": "to Suffice"
+   "QN_MC": "Crowd, Multitude"
+   "QN_CW": "Other Collective Words"
+   "QN_FU": "Full"
+   "QN_EM": "Empty"
+   "QN_PR": "Part"
+   "QN_HA": "Half"
+   "QN_FD": "Fraction, Division"
+   "QN_NN": "Numerals"
+   "QN_ON": "One"
+   "QN_AO": "Alone, Only"
+   "QN_FI": "First"
+   "QN_LS": "Last"
+   "QN_TW": "Two"
+   "QN_SE": "Second (ordinal)"
+   "QN_DO": "Double, Twice"
+   "QN_TH": "Three"
+   "QN_TO": "Third (ordinal)"
+   "QN_TF": "a Third (fraction)"
+   "QN_TT": "Occurring Three Times"
+   "QN_TR": "Threefold, Triple"
+   "QN_TK": "Consisting of Three Kinds"
+   "QN_CT": "Consisting of Three Together"
+   "QN_GT": "Group of Three"
+   "QN_BT": "By Threes"
+   "QN_TP": "Three Apiece"
+   "QN_MI": "Miscellaneous"
+   "QN_CA": "Cardinal Number"
+   "QN_OR": "Ordinal Number"
+   "QN_OT": "Quantity and Number (other)"
+   "TM": "Time"
+   "TM_TI": "Time (period)"
+   "TM_AG": "Age"
+   "TM_NW": "New"
+   "TM_YG": "Young"
+   "TM_OL": "Old"
+   "TM_EA": "Early (adv)"
+   "TM_LT": "Late (adv)"
+   "TM_NO": "Now"
+   "TM_SI": "Soon, Immediately"
+   "TM_SW": "Fast, Swift, Quick"
+   "TM_SL": "Slow"
+   "TM_HH": "to Hurry, Hasten"
+   "TM_DE": "to Delay"
+   "TM_BB": "to Begin; Beginning"
+   "TM_LS": "to Last"
+   "TM_PE": "Patience, Endurance"
+   "TM_EN": "End (n, temporal)"
+   "TM_FI": "to Finish"
+   "TM_CE": "to Cease"
+   "TM_RE": "Ready"
+   "TM_ET": "Eternity"
+   "TM_EJ": "Eternal"
+   "TM_AL": "Always"
+   "TM_OF": "Often"
+   "TM_ST": "Sometimes"
+   "TM_NV": "Never"
+   "TM_AN": "Again"
+   "TM_PG": "Past, Ago"
+   "TM_BE": "Before (temporal)"
+   "TM_AF": "After"
+   "TM_DA": "Day"
+   "TM_DJ": "Daily"
+   "TM_NG": "Night"
+   "TM_DW": "Dawn"
+   "TM_MG": "Morning"
+   "TM_NN": "Noon"
+   "TM_EV": "Evening"
+   "TM_DU": "Dusk"
+   "TM_TD": "Today"
+   "TM_TM": "Tomorrow"
+   "TM_YD": "Yesterday"
+   "TM_HR": "Hour"
+   "TM_MS": "Minute, Second"
+   "TM_CW": "Clock, Watch"
+   "TM_WK": "Week"
+   "TM_SU": "Sunday"
+   "TM_MO": "Monday"
+   "TM_TU": "Tuesday"
+   "TM_WE": "Wednesday"
+   "TM_TH": "Thursday"
+   "TM_FR": "Friday"
+   "TM_SA": "Saturday"
+   "TM_MT": "Month"
+   "TM_NM": "Names of the Months"
+   "TM_YR": "Year"
+   "TM_WI": "Winter"
+   "TM_SP": "Spring"
+   "TM_SM": "Summer"
+   "TM_AU": "Autumn"
+   "TM_SN": "Season"
+   "TM_FH": "Festival, Holiday"
+   "TM_HS": "History"
+   "TM_OT": "Time (other)"
+   "SP": "Sense Perception"
+   "SP_PS": "to Sense, Perceive; Sense"
+   "SP_VS": "to Smell (subj)"
+   "SP_VO": "to Smell (obj)"
+   "SP_SS": "Smell (n, subj)"
+   "SP_SB": "Smell (n, obj)"
+   "SP_GS": "Fragrant, Good Smelling"
+   "SP_BD": "Stinking, Bad Smelling"
+   "SP_TJ": "to Taste (subj)"
+   "SP_TT": "to Taste (obj)"
+   "SP_TO": "Taste (n, subj)"
+   "SP_TS": "Taste (n, obj)"
+   "SP_ST": "Sweet"
+   "SP_SA": "Salty"
+   "SP_BI": "Bitter"
+   "SP_AC": "Sour, Acidic"
+   "SP_HE": "to Hear"
+   "SP_LI": "to Listen, Harken"
+   "SP_HG": "Hearing"
+   "SP_SO": "Sound"
+   "SP_EC": "Echo"
+   "SP_PH": "Phonetic"
+   "SP_LD": "Loud"
+   "SP_SE": "to See"
+   "SP_LO": "to Look"
+   "SP_SI": "Sight (subj)"
+   "SP_SG": "Sight (obj), Look (obj), Appearance"
+   "SP_SW": "to Show"
+   "SP_SH": "to Shine, Glisten"
+   "SP_BJ": "Blinking"
+   "SP_BR": "Bright"
+   "SP_CO": "Color"
+   "SP_LC": "Light in Color"
+   "SP_DC": "Dark in Color"
+   "SP_WH": "White"
+   "SP_BK": "Black"
+   "SP_RD": "Red"
+   "SP_BL": "Blue"
+   "SP_GR": "Green"
+   "SP_YL": "Yellow"
+   "SP_GY": "Grey"
+   "SP_TV": "to Touch"
+   "SP_FO": "to Feel of"
+   "SP_TC": "Touch"
+   "SP_HA": "Hard"
+   "SP_SF": "Soft"
+   "SP_RG": "Rough"
+   "SP_SM": "Smooth"
+   "SP_SP": "Sharp"
+   "SP_LL": "Dull, Blunt"
+   "SP_HV": "Heavy, Weighty"
+   "SP_LW": "Light, Nimble"
+   "SP_WD": "Wet, Damp"
+   "SP_DR": "Dry, Arid"
+   "SP_HW": "Hot, Warm"
+   "SP_HH": "to Heat, Be Hot"
+   "SP_CD": "Cold, Frigid"
+   "SP_CN": "Pure, Clean"
+   "SP_DS": "Dirty, Soiled"
+   "SP_SY": "Sticky; Gum"
+   "SP_OT": "Sense (other)"
+   "EM": "Emotion"
+   "EM_SS": "Soul, Spirit"
+   "EM_EF": "Feeling, Emotion"
+   "EM_PA": "Passion"
+   "EM_CA": "Care"
+   "EM_WA": "Wonder, Astonishment"
+   "EM_SU": "Surprise"
+   "EM_FO": "Fortune (Good or Bad)"
+   "EM_GF": "Good Fortune"
+   "EM_MF": "Misfortune"
+   "EM_PL": "to Please"
+   "EM_PP": "Please in Polite Phrases"
+   "EM_JY": "Joy"
+   "EM_JG": "Glad, Joyful"
+   "EM_HH": "Happy; Happiness"
+   "EM_LS": "to Laugh"
+   "EM_SM": "Smile"
+   "EM_PV": "to Play"
+   "EM_LO": "to Love; Love"
+   "EM_FR": "Friendship"
+   "EM_DR": "Dear"
+   "EM_KS": "to Kiss"
+   "EM_PS": "Pain, Suffering"
+   "EM_TT": "Torture, Torment"
+   "EM_GS": "Grief, Sorrow"
+   "EM_AN": "Anxiety"
+   "EM_RR": "to Regret, Repent"
+   "EM_PT": "Pity"
+   "EM_SA": "Sad"
+   "EM_CW": "to Cry, Weep"
+   "EM_TR": "Tear"
+   "EM_GR": "to Groan"
+   "EM_HT": "Hate"
+   "EM_AG": "Anger"
+   "EM_RF": "Rage, Fury"
+   "EM_EJ": "Envy, Jealousy"
+   "EM_SH": "Shame"
+   "EM_HO": "Honor"
+   "EM_GL": "Fame, Glory"
+   "EM_PD": "Proud"
+   "EM_DA": "to Dare"
+   "EM_BR": "Brave, Courageous"
+   "EM_FF": "Fear, Fright"
+   "EM_DG": "Peril, Danger"
+   "EM_TC": "Timid, Cowardly"
+   "EM_WW": "to Will, Wish"
+   "EM_DE": "to Desire"
+   "EM_DN": "Desire"
+   "EM_HP": "Hope"
+   "EM_TH": "Thanks"
+   "EM_FL": "Faithful"
+   "EM_TE": "True"
+   "EM_LI": "Lie, Falsehood"
+   "EM_DC": "Deceit"
+   "EM_FG": "to Forgive"
+   "EM_GD": "Good"
+   "EM_BD": "Bad"
+   "EM_RI": "Right"
+   "EM_WR": "Wrong"
+   "EM_SN": "Sin, Impiety"
+   "EM_FA": "Fault, Guilt"
+   "EM_ME": "Error, Mistake"
+   "EM_BL": "Blame"
+   "EM_PR": "Praise"
+   "EM_BF": "Beautiful"
+   "EM_UG": "Ugly"
+   "EM_OT": "Emotion (other)"
+   "MT": "Mind and Thought"
+   "MT_MI": "Mind"
+   "MT_IR": "Reason, Intelligence"
+   "MT_TR": "to Think, Reflect"
+   "MT_TO": "to Think, be of the Opinion"
+   "MT_BE": "to Believe"
+   "MT_GS": "Guess, Suppose"
+   "MT_UN": "to Understand"
+   "MT_KN": "to Know"
+   "MT_KS": "Knowledge, Science"
+   "MT_OM": "Omniscient"
+   "MT_SE": "to Seem"
+   "MT_IN": "Idea, Notion"
+   "MT_IG": "Imagination"
+   "MT_WI": "Wise"
+   "MT_FS": "Stupid, Foolish"
+   "MT_IM": "Mad, Crazy, Insane"
+   "MT_LE": "to Learn"
+   "MT_ST": "to Study"
+   "MT_TE": "to Teach"
+   "MT_PU": "Pupil"
+   "MT_TC": "Teacher"
+   "MT_SC": "School"
+   "MT_RM": "to Remember"
+   "MT_FR": "to Forget"
+   "MT_ME": "Meaning"
+   "MT_CP": "Clear, Plain (to the Mind)"
+   "MT_OB": "Obscure"
+   "MT_SR": "Secret"
+   "MT_SN": "Sure, Certain"
+   "MT_EX": "to Explain"
+   "MT_SV": "to Solve"
+   "MT_IP": "Purpose, Intention"
+   "MT_CA": "Cause, Reason"
+   "MT_DB": "Doubt"
+   "MT_SU": "Suspicion"
+   "MT_OT": "Mind and Thought (other)"
+   "LM": "Language and Music"
+   "LM_VO": "Voice"
+   "LM_SG": "to Sing"
+   "LM_SC": "to Shout, Cry Out"
+   "LM_VC": "Various Cries"
+   "LM_GC": "Gesture-code"
+   "LM_ST": "to Speak, Talk"
+   "LM_SY": "to Say"
+   "LM_BS": "to be Silent"
+   "LM_LG": "Language"
+   "LM_DC": "Dialect"
+   "LM_WR": "Word"
+   "LM_DI": "Glossary, Dictionary"
+   "LM_NA": "Name"
+   "LM_AQ": "to Question, Inquire"
+   "LM_AW": "to Answer"
+   "LM_AC": "to Admit, Confess"
+   "LM_DY": "to Deny"
+   "LM_AR": "to Ask, Request"
+   "LM_PR": "to Promise"
+   "LM_RF": "to Refuse"
+   "LM_FO": "to Forbid"
+   "LM_CS": "to Call, Summon"
+   "LM_CN": "to Call, Name"
+   "LM_AN": "to Announce"
+   "LM_TH": "to Threaten"
+   "LM_BO": "to Boast"
+   "LM_WE": "to Write"
+   "LM_RD": "to Read"
+   "LM_LA": "Letter of the Alphabet"
+   "LM_LE": "Letter, Epistle"
+   "LM_TB": "Tablet"
+   "LM_PP": "Paper"
+   "LM_PN": "Pen"
+   "LM_IN": "Ink"
+   "LM_PC": "Pencil"
+   "LM_BK": "Book"
+   "LM_PG": "Page"
+   "LM_LI": "Line"
+   "LM_PT": "to Print"
+   "LM_LT": "Literature"
+   "LM_AU": "Author, Writer"
+   "LM_PO": "Poet"
+   "LM_TS": "Tale, Story"
+   "LM_MU": "Music"
+   "LM_IS": "Instrument"
+   "LM_PI": "Pipe, Flute"
+   "LM_HA": "Harp, Lute"
+   "LM_BE": "Bell, Ringing"
+   "LM_DR": "Drum"
+   "SO": "Social Relations"
+   "SO_EC": "Country, Nation"
+   "SO_NA": "one’s Native Country"
+   "SO_CT": "Country (vs. Town)"
+   "SO_RT": "Region, Territory"
+   "SO_CI": "Town, City"
+   "SO_VI": "Village"
+   "SO_BO": "Boundary"
+   "SO_PP": "People, Populace"
+   "SO_PN": "a People, Nation"
+   "SO_TC": "Tribe, Clan, Family"
+   "SO_RG": "to Rule, Govern"
+   "SO_KK": "King"
+   "SO_QQ": "Queen"
+   "SO_EM": "Emperor"
+   "SO_JJ": "Prince"
+   "SO_NN": "Other Titles of Nobility"
+   "SO_NO": "Noble, Nobleman"
+   "SO_CZ": "Citizen"
+   "SO_SU": "Subject"
+   "SO_MA": "Master"
+   "SO_LA": "Lady"
+   "SO_SL": "Slave"
+   "SO_ST": "Servant"
+   "SO_FE": "Free"
+   "SO_CR": "to Order, Command"
+   "SO_OB": "to Obey"
+   "SO_LT": "to Let, Permit"
+   "SO_CO": "to Compel"
+   "SO_FR": "Friend"
+   "SO_EN": "Foe, Enemy"
+   "SO_CM": "Companion"
+   "SO_NE": "Neighbor"
+   "SO_SG": "Stranger"
+   "SO_GU": "Guest"
+   "SO_HO": "Host"
+   "SO_HA": "to Help, Aid"
+   "SO_HP": "to Hinder, Prevent"
+   "SO_CU": "Custom, Usage"
+   "SO_SQ": "Strife, Quarrel"
+   "SO_PL": "Plot, Conspiracy"
+   "SO_CN": "Common"
+   "SO_ME": "to Meet"
+   "SO_NT": "Members of a Trade or Profession"
+   "SO_WP": "Whore, Prostitute"
+   "SO_OT": "Social (Other)"
+   "WH": "Warfare and Hunting"
+   "WH_FI": "to Fight"
+   "WH_BT": "Battle"
+   "WH_WR": "War"
+   "WH_EN": "Enemy (in War)"
+   "WH_PC": "Peace"
+   "WH_AR": "Army"
+   "WH_FL": "Fleet"
+   "WH_SO": "Soldier"
+   "WH_GN": "General"
+   "WH_AD": "Admiral"
+   "WH_CA": "Captain"
+   "WH_WA": "Arms, Weapons"
+   "WH_CL": "Club"
+   "WH_BA": "Battle-Ax"
+   "WH_SL": "Sling"
+   "WH_BW": "Bow"
+   "WH_AW": "Arrow"
+   "WH_SP": "Spear"
+   "WH_SW": "Sword"
+   "WH_GC": "Gun, Cannon"
+   "WH_GP": "Gunpowder"
+   "WH_AM": "Armor"
+   "WH_BC": "Corslet, Breastplate"
+   "WH_HM": "Helmet"
+   "WH_SH": "Shield"
+   "WH_FT": "Fortress"
+   "WH_TW": "Tower"
+   "WH_VI": "Victory"
+   "WH_DF": "Defeat"
+   "WH_AT": "Attack"
+   "WH_DS": "Defense"
+   "WH_RT": "Retreat"
+   "WH_SU": "to Surrender"
+   "WH_CP": "Captive, Prisoner"
+   "WH_BS": "Spoils, Booty"
+   "WH_AB": "Ambush"
+   "LJ": "Law and Judgment"
+   "LJ_SL": "Special Law"
+   "LJ_GL": "General Law"
+   "LJ_LS": "Lawsuit"
+   "LJ_LW": "Lawyer"
+   "LJ_CO": "Court"
+   "LJ_JG": "to Judge"
+   "LJ_DE": "to Decide"
+   "LJ_JM": "Judgment"
+   "LJ_JD": "Judge"
+   "LJ_PL": "Plaintiff"
+   "LJ_DF": "Defendant"
+   "LJ_WT": "Witness"
+   "LJ_SW": "to Swear"
+   "LJ_OA": "Oath"
+   "LJ_AC": "to Accuse"
+   "LJ_CN": "to Condemn"
+   "LJ_CV": "to Convict"
+   "LJ_AQ": "to Acquit"
+   "LJ_GU": "Guilty"
+   "LJ_IN": "Innocent"
+   "LJ_PN": "Penalty, Punishment"
+   "LJ_FI": "Fine, Settlement"
+   "LJ_PJ": "Jail, Prison"
+   "LJ_EO": "Exile, Outlaw"
+   "LJ_CR": "Crime, Misdeed"
+   "LJ_MR": "Murder, Homicide"
+   "LJ_AD": "Adultery"
+   "LJ_RP": "Rape, Violation"
+   "LJ_TH": "Theft"
+   "LJ_AR": "Arson"
+   "LJ_PY": "Perjury"
+   "LJ_OT": "Law (other)"
+   "RB": "Religion and Beliefs"
+   "RB_RE": "Religion"
+   "RB_GD": "God"
+   "RB_TM": "Temple"
+   "RB_AL": "Altar"
+   "RB_SO": "Sacrifice, Offering"
+   "RB_WO": "to Worship"
+   "RB_PY": "to Pray"
+   "RB_PR": "Priest"
+   "RB_CL": "Parson, Minister, Clergyman etc."
+   "RB_MO": "Monk"
+   "RB_NU": "Nun"
+   "RB_HS": "Holy, Sacred"
+   "RB_CH": "Church"
+   "RB_PC": "to Preach"
+   "RB_BL": "to Bless"
+   "RB_CU": "to Curse"
+   "RB_BP": "to Baptize"
+   "RB_FA": "to Fast"
+   "RB_HE": "Heaven"
+   "RB_HL": "Hell"
+   "RB_AN": "Angel"
+   "RB_DE": "Devil"
+   "RB_DM": "Demon, Evil Spirit"
+   "RB_PH": "Pagan, Heathen"
+   "RB_ID": "Idol"
+   "RB_SS": "Superstition"
+   "RB_MW": "Magic, Witchcraft, Sorcery"
+   "RB_WS": "Witch, Sorceress"
+   "RB_SW": "Sorcerer, Wizard"
+   "RB_EF": "Elf, Fairy"
+   "RB_DN": "Dryad, Nymph"
+   "RB_DW": "Dwarf"
+   "RB_MN": "Goblin, Monster"
+   "RB_OG": "Orc, Goblin"
+   "RB_DR": "Dragon"
+   "RB_GP": "Ghost, Specter, Phantom"
+   "RB_GS": "Guardian Spirit"
+   "RB_OM": "Omen"
+   "RB_OT": "Religion and Belief (other)"
+   "GR": "Grammar"
+   "GR_AR": "Article"
+   "GR_NE": "Negation"
+   "GR_PP": "Preposition"
+   "GR_PN": "Pronoun"
+   "GR_NI": "Noun Inflection"
+   "GR_VI": "Verb Inflection"
+   "GR_CI": "Comparative, Intensive"
+   "GR_CJ": "Conjunction"
+   "GR_AF": "Affix"
+   "GR_OT": "Grammar (other)"
+
+word_marks:
+   "*": "Reconstructed word but reasonably deduced by comparison"
+   "#": "Derived from attested words via grammatical rules or as elements of compounds"
+   "?": "Speculative, but still deduced from original source material"
+   "-": "Deleted by Tolkien from the original text"
+   "**": "Reconstructed but incorrected form"
+   "†": "Archaic or poetic word"
+   "‽": "Tolkien himself wrote a ? in the source material"
+   "|": "Words appearing in a deleted section, where the word itself was not specifically rejected"
+   "!": "Fabrications and inventions by authors other than Tolkien"
+   "^": "Reformulated from early versions of the languages to fit the structure of later languages"
+
+words:
+   caras:
+      s:
+         - {word: "caras", grammar: "n", gloss: "circular earthwall with dike, fort surrounded by bulwarks", category: "DF_WL", mark: "", deprecated: False, page: "739916641", referencies: [{source: "PE17/060", word: "Caras"},{source: "PE17/084", word: "Caras"},{source: "RC/311", word: "caras"}]}
+   loegningloron:
+      s:
+         - {word: "Loeg Ningloron", grammar: "place-name", gloss: "Gladden Fields", category: "", mark: "", deprecated: False, page: "3108000919", referencies: []}
+   a:
+      q:
+         - {word: "-a", grammar: "suf", gloss: "adjectival suffix", category: "GR_AF", mark: "#", deprecated: False, page: "1770267447", referencies: [{source: "LotR/1116", word: "-a"},{source: "MC/223", word: "-a"},{source: "PE16/096", word: "-a"},{source: "PE17/115", word: "-a"},{source: "PE17/149", word: "-a"},{source: "VT39/20", word: "-a"}]}
+         - {word: "a-", grammar: "pref", gloss: "infinitive prefix", category: "GR_VI", mark: "#", deprecated: False, page: "3482070047", referencies: [{source: "MC/223.2208", word: "na-"}]}
+         - {word: "á", grammar: "particle", gloss: "imperative particle", category: "GR_VI", mark: "", deprecated: False, page: "3322232159", referencies: [{source: "Let/448", word: "A"},{source: "Let/448", word: "a"},{source: "LotR/0953", word: "A"},{source: "LotR/0953", word: "a"},{source: "PE17/040", word: "ā"},{source: "PE17/093", word: "ā"},{source: "PE17/093", word: "ā"},{source: "PE17/102", word: "A"},{source: "PE17/162", word: "á"},{source: "PE17/167", word: "á"},{source: "PE22/140", word: "á"},{source: "PE22/166", word: "á"},{source: "VT43/14", word: "á"},{source: "VT43/15", word: "á"},{source: "VT43/15", word: "á"},{source: "VT43/17", word: "A"},{source: "VT43/17", word: "Alye"},{source: "VT43/17", word: "ā̆"},{source: "VT43/18", word: "á"},{source: "VT43/19", word: "á-"},{source: "VT43/23", word: "á"},{source: "VT43/23", word: "aly’"},{source: "VT43/32", word: "á"},{source: "VT43/32", word: "alye"},{source: "VT43/33", word: "aly’"},{source: "VT43/33", word: "alya"},{source: "VT44/09", word: "alye"},{source: "WJ/404", word: "Ā"}]}
+         - {word: "a", grammar: "interj", gloss: "O, Oh", category: "LM_VC", mark: "", deprecated: False, page: "3204020863", referencies: [{source: "Let/448", word: "A"},{source: "LotR/0981", word: "A"},{source: "S/223", word: "A"},{source: "UT/138", word: "A"},{source: "VT43/13", word: "A"},{source: "VT43/13", word: "Ai"},{source: "VT44/07", word: "á"},{source: "VT44/15", word: "A"}]}
+         - {word: "a", grammar: "article", gloss: "accusative definite article", category: "GR_AR", mark: "-", deprecated: False, page: "3006823647", referencies: [{source: "PE21/76.0717", word: "a"}]}
+      s:
+         - {word: "-a", grammar: "suf", gloss: "[old] genitive suffix", category: "GR_NI", mark: "†", deprecated: False, page: "1377240439", referencies: [{source: "NM/355", word: "a"},{source: "NM/355", word: "-on"},{source: "NM/355", word: "-a"},{source: "NM/355", word: "-on"},{source: "PE17/097", word: "-a"},{source: "PE17/097", word: "-on"},{source: "PE17/097", word: "-uin"},{source: "PE17/097", word: "-a"},{source: "PE17/097", word: "ion"},{source: "VT42/04", word: "-a"}]}
+         - {word: "a", grammar: "conj", gloss: "and; †by, near, beside", category: "SR_AN", mark: "", deprecated: False, page: "2814200763", referencies: [{source: "LB/354", word: "a"},{source: "Let/448", word: "a"},{source: "LotR/0305", word: "a"},{source: "LotR/0953", word: "a"},{source: "MR/329", word: "ah"},{source: "MR/373", word: "ar"},{source: "PE17/041", word: "a"},{source: "PE17/041", word: "a"},{source: "PE17/041", word: "a"},{source: "PE17/041", word: "að"},{source: "PE17/041", word: "a"},{source: "PE17/041", word: "ath"},{source: "PE17/041", word: "a"},{source: "PE17/041", word: "að"},{source: "PE17/041", word: "a"},{source: "PE17/102", word: "a"},{source: "PE17/102", word: "a(ð)"},{source: "PE17/145", word: "að"},{source: "PE17/145", word: "a"},{source: "PE17/145", word: "að-"},{source: "SA/ar", word: "a"},{source: "SD/129", word: "ar"},{source: "SD/129", word: "Ar"},{source: "SD/129", word: "ar"},{source: "SD/129", word: "ar"},{source: "SD/129", word: "ar"},{source: "SD/129", word: "ar"},{source: "SD/129", word: "ar"},{source: "SD/129", word: "ar"},{source: "VT43/30", word: "ah"},{source: "VT44/28", word: "ar"},{source: "VT47/31", word: "a"},{source: "VT50/18", word: "ar"},{source: "VT50/19", word: "ar"},{source: "VT50/20", word: "A"},{source: "VT50/20", word: "Ar"}]}
+         - {word: "a", grammar: "interj", gloss: "O!", category: "LM_VC", mark: "", deprecated: False, page: "2613796699", referencies: [{source: "LB/354", word: "A"},{source: "Let/279", word: "a"},{source: "LotR/0238", word: "A"},{source: "LotR/0729", word: "A"},{source: "LotR/0729", word: "A"},{source: "RGEO/63", word: "A"},{source: "RGEO/64", word: "A"},{source: "RGEO/64", word: "A"},{source: "RGEO/64", word: "A"},{source: "VT44/22", word: "Ae"}]}
+   na:
+      q:
+         - {word: "na-", grammar: "pref", gloss: "infinitive prefix", category: "", mark: "", deprecated: True, page: "1501503729", referencies: []}
+         - {word: "na", grammar: "prep", gloss: "to, towards", category: "", mark: "", deprecated: False, page: "3635475519", referencies: []}
+         - {word: "ná", grammar: "interj", gloss: "yes, it is so, it is a fact", category: "EM_TE", mark: "", deprecated: False, page: "3005052249", referencies: [{source: "PE22/166", word: "ná"},{source: "PE22/166", word: "nása"},{source: "PE22/166", word: "ná"},{source: "PE22/166", word: "nása"},{source: "VT49/28", word: "ná"}]}
+         - {word: "ná-", grammar: "vb", gloss: "to be", category: "PA_BV", mark: "", deprecated: False, page: "2562596025", referencies: [{source: "LotR/0377", word: "ná"},{source: "Minor-Doc/1955-CT", word: "na"},{source: "PE17/057", word: "na"},{source: "PE17/058", word: "nā"},{source: "PE17/058", word: "á na"},{source: "PE17/059", word: "na"},{source: "PE17/059", word: "na"},{source: "PE17/074", word: "na"},{source: "PE17/074", word: "na"},{source: "PE17/090", word: "na"},{source: "PE17/090", word: "ná"},{source: "PE17/093", word: "ná"},{source: "PE17/126", word: "nas"},{source: "PE17/162", word: "na"},{source: "PE22/154", word: "ná"},{source: "PE22/154", word: "nauva"},{source: "PE22/158", word: "náne"},{source: "PE22/158", word: "náne"},{source: "PE22/166", word: "nár"},{source: "PE22/166", word: "nā-"},{source: "PE22/167", word: "ná"},{source: "PE22/168", word: "nauva"},{source: "RGEO/58", word: "nā̀"},{source: "RGEO/59", word: "nā"},{source: "RGEO/60", word: "Nā"},{source: "VT42/33", word: "ná"},{source: "VT42/34", word: "nauva"},{source: "VT43/13", word: "na"},{source: "VT43/14", word: "na"},{source: "VT43/14", word: "na"},{source: "VT43/14", word: "nā"},{source: "VT43/14", word: "na"},{source: "VT43/15", word: "na"},{source: "VT43/16", word: "na"},{source: "VT43/23", word: "na"},{source: "VT43/30", word: "na"},{source: "VT43/30", word: "na"},{source: "VT43/30", word: "nalye"},{source: "VT43/34", word: "nar"},{source: "VT44/34", word: "na"},{source: "VT49/09", word: "nāner"},{source: "VT49/09", word: "nār"},{source: "VT49/09", word: "nā"},{source: "VT49/09", word: "nár"},{source: "VT49/09", word: "ná"},{source: "VT49/10", word: "náner"},{source: "VT49/19", word: "nauvan"},{source: "VT49/19", word: "nauva"},{source: "VT49/23", word: "ná"},{source: "VT49/27", word: "nain"},{source: "VT49/27", word: "naitye"},{source: "VT49/27", word: "nailye"},{source: "VT49/27", word: "na"},{source: "VT49/27", word: "nánye"},{source: "VT49/27", word: "na-lye"},{source: "VT49/27", word: "na-tye"},{source: "VT49/27", word: "nā"},{source: "VT49/27", word: "nās(e)"},{source: "VT49/27", word: "(nalme?)"},{source: "VT49/27", word: "nāne"},{source: "VT49/27", word: "anaie"},{source: "VT49/27", word: "nauva"},{source: "VT49/27", word: "anáye"},{source: "VT49/27", word: "nā-"},{source: "VT49/27", word: "nāne"},{source: "VT49/27", word: "anaie"},{source: "VT49/27", word: "náne"},{source: "VT49/28", word: "nā-"},{source: "VT49/28", word: "nā"},{source: "VT49/28", word: "nā"},{source: "VT49/28", word: "nē"},{source: "VT49/28", word: "anen"},{source: "VT49/28", word: "anel"},{source: "VT49/28", word: "nēse"},{source: "VT49/28", word: "anes"},{source: "VT49/29", word: "nése"},{source: "VT49/30", word: "nā"},{source: "VT49/30", word: "nár"},{source: "VT49/30", word: "nát"},{source: "VT49/30", word: "nē"},{source: "VT49/30", word: "nēr"},{source: "VT49/30", word: "nēt"},{source: "VT49/30", word: "nās"},{source: "VT49/30", word: "nā̆"},{source: "VT49/30", word: "nanye"},{source: "VT49/30", word: "nalye"},{source: "VT49/30", word: "nā"},{source: "VT49/30", word: "nasse"},{source: "VT49/30", word: "nalme"},{source: "VT49/30", word: "nār"},{source: "VT49/30", word: "năr"},{source: "VT49/30", word: "nē"},{source: "VT49/30", word: "uva"}]}
+         - {word: "na-", grammar: "pref", gloss: "plu-", category: "GR_CI", mark: "", deprecated: False, page: "2186733265", referencies: [{source: "PE17/146", word: "ana"},{source: "PE17/146", word: "na-"}]}
+      s:
+         - {word: "na-", grammar: "vb", gloss: "to be", category: "PA_BV", mark: "#", deprecated: False, page: "3079325279", referencies: [{source: "VT44/22", word: "dôd"},{source: "VT44/22", word: "dád"},{source: "VT44/22", word: "hae"},{source: "VT44/24", word: "no"},{source: "VT50/23", word: "natho"}]}
+         - {word: "na", grammar: "prep", gloss: "to, towards, at", category: "SR_TT", mark: "", deprecated: False, page: "3149142565", referencies: [{source: "LotR/0209", word: "na"},{source: "LotR/0238", word: "Na"},{source: "PE17/016", word: "na"},{source: "PE17/025", word: "na"},{source: "PE17/025", word: "na"},{source: "PE17/147", word: "na"},{source: "PE17/147", word: "na"},{source: "PE17/147", word: "na"},{source: "RGEO/63", word: "Na"},{source: "RGEO/64", word: "Na"},{source: "VT50/21", word: "-na"}]}
+         - {word: "na(n)", grammar: "prep", gloss: "of; with, along with, accompanied by, provided with or by, associated with, marked with", category: "GR_PP", mark: "", deprecated: False, page: "3619674927", referencies: [{source: "LotR/0469", word: "na"},{source: "LotR/0469", word: "na"},{source: "PE17/028", word: "na"},{source: "PE17/028", word: "na"},{source: "PE17/082", word: "na"},{source: "PE17/097", word: "na"},{source: "PE17/097", word: "na"},{source: "PE17/147", word: "na"},{source: "PE17/147", word: "nan"},{source: "PE17/147", word: "na"},{source: "PE17/147", word: "nan"},{source: "PE17/147", word: "na"},{source: "PE17/147", word: "na"},{source: "PE21/79", word: "na"},{source: "PM/348", word: "n’"},{source: "UT/140", word: "nia"},{source: "VT50/23", word: "na"},{source: "WJ/160", word: "nia"},{source: "WJ/187", word: "na"},{source: "WJI/Taur-na-Chardhîn", word: "na"}]}
+         - {word: "na", grammar: "prep", gloss: "of; with, along with, accompanied by, provided with or by, associated with, marked with", category: "GR_PP", mark: "", deprecated: False, page: "1231584087", referencies: []}
+   aha:
+      q:
+         - {word: "aha", grammar: "n", gloss: "rage", category: "EM_RF", mark: "", deprecated: False, page: "3436893617", referencies: [{source: "LotR/1123.0110", word: "aha"}]}
+   ahtar:
+      q:
+         - {word: "ahtar-", grammar: "vb", gloss: "to do back, react; to requite, avenge", category: "PA_AT", mark: "|", deprecated: False, page: "4040996631", referencies: [{source: "PE17/166", word: "akkar"},{source: "PE17/166", word: "ahtar"}]}
+   accar:
+      q:
+         - {word: "accar-", grammar: "vb", gloss: "to do back, react; to requite, avenge", category: "PA_AT", mark: "|", deprecated: True, page: "2966543841", referencies: []}
+   ahto:
+      q:
+         - {word: "ahto", grammar: "n", gloss: "wright, maker", category: "PA_AC", mark: "|", deprecated: False, page: "1101119191", referencies: [{source: "PE18/085.4115", word: "ahto"}]}
+   ahya:
+      q:
+         - {word: "ahya-", grammar: "vb", gloss: "to change", category: "SR_CE", mark: "#", deprecated: False, page: "3227069231", referencies: [{source: "PM/395.1303", word: "ahyanë"}]}
+   ai:
+      q:
+         - {word: "ai", grammar: "interj", gloss: "ah, alas", category: "LM_VC", mark: "", deprecated: False, page: "1675657295", referencies: [{source: "LotR/0377", word: "Ai!"},{source: "PE17/061", word: "ai!"},{source: "RGEO/58", word: "Ai!"},{source: "RGEO/58", word: "Ai!"}]}
+         - {word: "ai", grammar: "adv", gloss: "supposing, suppose, maybe", category: "MT_GS", mark: "", deprecated: False, page: "4053066113", referencies: [{source: "PE22/138.3310-1", word: "ai"}]}
+      s:
+         - {word: "ai", grammar: "interj", gloss: "hail!", category: "LM_VC", mark: "", deprecated: False, page: "1933822795", referencies: [{source: "LotR/0209", word: "Ai"},{source: "PE17/016", word: "ai"}]}
+         - {word: "ai", grammar: "pron", gloss: "*those who", category: "GR_PN", mark: "", deprecated: False, page: "16264317", referencies: [{source: "VT44/22", word: "ayath"},{source: "VT44/22", word: "ay"},{source: "VT44/30", word: "ai"}]}
+   aian:
+      q:
+         - {word: "aian", grammar: "n", gloss: "holy thing or object or place", category: "RB_ID", mark: "", deprecated: False, page: "3438444677", referencies: [{source: "PE17/149.0903", word: "aian"}]}
+   aica:
+      q:
+         - {word: "aica", grammar: "adj", gloss: "fell, terrible, dire", category: "SP_SP", mark: "", deprecated: False, page: "2936799251", referencies: [{source: "PM/347", word: "aika"},{source: "PM/363", word: "aika"},{source: "PM/363", word: "aika"}]}
+   aicanaro:
+      q:
+         - {word: "Aicanáro", grammar: "masc-name", gloss: "Fell Fire; Sharp Flame", category: "", mark: "", deprecated: False, page: "2845564209", referencies: [{source: "MR/323", word: "Aikanár"},{source: "MRI/Aikanár", word: "Aikanár"},{source: "PM/346", word: "Aikanáro"},{source: "PM/347", word: "Aikanáro"},{source: "PMI/Aegnor", word: "Aikanáro"},{source: "SA/nár", word: "Aikanáro"},{source: "VT41/14", word: "Ekyanāro"},{source: "VT41/19", word: "Ekyanāro"},{source: "VT41/19", word: "Ekynāro"},{source: "WJI/Aikanáro", word: "Aikanáro"}]}
+   ailin:
+      q:
+         - {word: "ailin", grammar: "n", gloss: "a large lake", category: "PW_LA", mark: "", deprecated: False, page: "160049701", referencies: [{source: "PE17/160.1414", word: "ailin"}]}
+   aina:
+      q:
+         - {word: "aina", grammar: "adj", gloss: "holy, revered, numinous", category: "RB_HS", mark: "", deprecated: False, page: "234675263", referencies: [{source: "PE17/149", word: "aina"},{source: "PE17/149", word: "aina"},{source: "SA/aina", word: "aina"},{source: "VT43/14", word: "aina"},{source: "VT43/32", word: "aina"},{source: "VT43/32", word: "Aini"},{source: "VT44/05", word: "Aini"},{source: "VT44/07", word: "Aina"},{source: "VT44/17", word: "Aina"},{source: "WJ/399", word: "aina"}]}
+         - {word: "aina-", grammar: "vb", gloss: "to hallow, bless, treat as holy", category: "RB_BL", mark: "", deprecated: False, page: "1647781279", referencies: [{source: "PE17/149.0805", word: "aina"}]}
+   ainas:
+      q:
+         - {word: "ainas", grammar: "n", gloss: "hallow, fane", category: "RB_TM", mark: "", deprecated: False, page: "1978498445", referencies: [{source: "PE17/149.0911", word: "ainas"}]}
+   ainima:
+      q:
+         - {word: "ainima", grammar: "adj", gloss: "blessed, holy (of things)", category: "RB_HS", mark: "", deprecated: False, page: "3332819975", referencies: [{source: "PE17/149.0813", word: "ainima"}]}
+   ainu:
+      q:
+         - {word: "Ainu", grammar: "n", gloss: "holy one, spirit", category: "RB_AN", mark: "", deprecated: False, page: "2369702793", referencies: [{source: "Let/284", word: "Ainur"},{source: "MRI/Ainur", word: "Ainur"},{source: "MRI/Ainur", word: "Ainu"},{source: "PE17/146", word: "ainu"},{source: "PE17/149", word: "ainur"},{source: "PE17/149", word: "ainu"},{source: "PMI/Ainur", word: "Ainur"},{source: "S/015", word: "Ainu"},{source: "S/015", word: "Ainur"},{source: "SA/aina", word: "Ainur"},{source: "SI/Ainur", word: "Ainur"},{source: "SI/Ainur", word: "Ainu"},{source: "WJ/399", word: "Ainu"},{source: "WJI/Ainur", word: "Ainur"},{source: "WJI/Ainur", word: "Ainu"}]}
+   ainulindale:
+      q:
+         - {word: "Ainulindalë", grammar: "proper-name", gloss: "Music of the Ainur", category: "", mark: "", deprecated: False, page: "2854057487", referencies: [{source: "LT1I/Ainulindalë", word: "Ainulindalë"},{source: "LT2I/Ainulindalë", word: "Ainulindalë"},{source: "MRI/Ainulindalë", word: "Ainulindalë"},{source: "S/015", word: "Ainulindalë"},{source: "SA/aina", word: "Ainulindalë"},{source: "SA/lin²", word: "Ainulindalë"},{source: "SI/Ainulindalë", word: "Ainulindalë"},{source: "SI/Music of the Ainur", word: "Ainulindalë"},{source: "SMI/Ainulindalë", word: "Ainulindalë"},{source: "WJI/Ainulindalë", word: "Ainulindalë"}]}
+   aiquen:
+      q:
+         - {word: "aiquen", grammar: "pron", gloss: "if anybody, whoever", category: "GR_PN", mark: "", deprecated: False, page: "3052306501", referencies: [{source: "WJ/372", word: "aiquen"},{source: "WJ/375", word: "aiquen"}]}
+   aira:
+      q:
+         - {word: "aira", grammar: "adj", gloss: "holy, sanctified", category: "RB_HS", mark: "", deprecated: False, page: "1594792097", referencies: [{source: "PE17/027", word: "airă"},{source: "PM/363", word: "aira"},{source: "VT43/14", word: "aira"}]}
+   aire:
+      q:
+         - {word: "airë", grammar: "adj n", gloss: "holy; sanctity, holiness", category: "RB_HS", mark: "", deprecated: False, page: "71439553", referencies: [{source: "LotR/0377", word: "aire"},{source: "PE17/027", word: "aire"},{source: "PE17/067", word: "aire"},{source: "PE17/067", word: "airë"},{source: "PE17/067", word: "aire-"},{source: "PE17/076", word: "aire"},{source: "PE17/076", word: "aire"},{source: "PE17/146", word: "aire"},{source: "PE17/149", word: "aire"},{source: "PE17/149", word: "airi-"},{source: "PM/363", word: "airë"},{source: "PM/363", word: "Airë"},{source: "PM/364", word: "Airë"},{source: "RGEO/58", word: "aíre"},{source: "RGEO/59", word: "aire"},{source: "VT43/14", word: "aire"},{source: "VT43/14", word: "aire"},{source: "VT43/32", word: "Aire"}]}
+         - {word: "airë", grammar: "n", gloss: "sea", category: "PW_SE", mark: "†", deprecated: False, page: "4133685985", referencies: [{source: "PE17/027.2316", word: "aire"}]}
+   airea:
+      q:
+         - {word: "airëa", grammar: "adj", gloss: "holy (applied to persons)", category: "RB_HS", mark: "", deprecated: False, page: "206012687", referencies: [{source: "Minor-Doc/1963-12-18", word: "airea"},{source: "PE17/149", word: "airëa"},{source: "VT43/14", word: "airëa"}]}
+   airefea:
+      q:
+         - {word: "Airefëa", grammar: "proper-name", gloss: "Holy Spirit", category: "", mark: "", deprecated: False, page: "2431074897", referencies: [{source: "VT43/37.1502", word: "airefean"}]}
+   airetari:
+      q:
+         - {word: "Airë Tári", grammar: "proper-name", gloss: "Holy Queen", category: "", mark: "", deprecated: False, page: "4020349113", referencies: [{source: "PM/363", word: "Airë Tári"},{source: "PMI/Varda", word: "Airë Tári"}]}
+   airita:
+      q:
+         - {word: "airita-", grammar: "vb", gloss: "to hallow", category: "RB_HS", mark: "#", deprecated: False, page: "2399206005", referencies: [{source: "VT32/07.1106", word: "airitáne"}]}
+   airon:
+      q:
+         - {word: "airon", grammar: "n", gloss: "ocean", category: "PW_SE", mark: "†", deprecated: False, page: "1084314337", referencies: [{source: "PE17/027", word: "airon"},{source: "PE17/149", word: "airon"}]}
+   aista:
+      q:
+         - {word: "aista", grammar: "adj", gloss: "*holy", category: "RB_HS", mark: "-", deprecated: True, page: "319331855", referencies: [{source: "VT43/37.3705", word: "aistan"}]}
+   aistana:
+      q:
+         - {word: "aistana", grammar: "adj", gloss: "*blessed", category: "RB_BL", mark: "", deprecated: True, page: "3341755013", referencies: [{source: "VT43/28", word: "aistan’"},{source: "VT43/30", word: "aistana"},{source: "VT43/31", word: "aistana"}]}
+   manna:
+      q:
+         - {word: "manna", grammar: "adj", gloss: "*blessed", category: "RB_BL", mark: "", deprecated: True, page: "1634820671", referencies: [{source: "VT43/30.2206", word: "manna"}]}
+   aiwe:
+      q:
+         - {word: "aiwë", grammar: "n", gloss: "(small) bird", category: "AN_BI", mark: "", deprecated: False, page: "1137358351", referencies: [{source: "SA/lin¹", word: "aiwë"},{source: "UT/401", word: "Aiwe"}]}
+   aiwendil:
+      q:
+         - {word: "Aiwendil", grammar: "masc-name", gloss: "Lover of Birds", category: "", mark: "", deprecated: False, page: "1532309033", referencies: [{source: "UT/401", word: "Aiwendil"},{source: "UTI/Aiwendil", word: "Aiwendil"}]}
+   aiya:
+      q:
+         - {word: "aiya", grammar: "interj", gloss: "hail; behold, lo", category: "LM_VC", mark: "", deprecated: False, page: "1827512751", referencies: [{source: "Let/385", word: "Aiya"},{source: "LotR/0720", word: "Aiya"},{source: "LotR/0915", word: "Aiya"},{source: "PE17/089", word: "aiya!"},{source: "PE17/090", word: "aiya!"},{source: "PE17/101", word: "aiya"},{source: "PE17/146", word: "Aiya"},{source: "PE17/149", word: "aia"},{source: "S/190", word: "Aiya"},{source: "SD/030", word: "Aiya"},{source: "VT43/28", word: "Aiya"},{source: "VT43/28", word: "Aia"},{source: "WJ/166", word: "Aiya"}]}
+   aia:
+      q:
+         - {word: "aia", grammar: "interj", gloss: "hail", category: "LM_VC", mark: "", deprecated: False, page: "884736687", referencies: []}
+   la:
+      q:
+         - {word: "(a)lá", grammar: "interj", gloss: "yes", category: "EM_TE", mark: "", deprecated: True, page: "441051823", referencies: [{source: "PE17/158", word: "lá"},{source: "PE17/158", word: "alá"},{source: "PE17/158", word: "lá/alá"},{source: "PE17/158", word: "ála"},{source: "VT42/33", word: "lá"}]}
+         - {word: "lá", grammar: "interj", gloss: "yes", category: "EM_TE", mark: "", deprecated: False, page: "922620063", referencies: []}
+         - {word: "-(i)la", grammar: "suf", gloss: "active participle", category: "GR_VI", mark: "", deprecated: False, page: "2889418039", referencies: [{source: "PE22/154", word: "-(i)lā"},{source: "PE22/154", word: "-la"},{source: "PE22/155", word: "-ila"},{source: "PE22/155", word: "-la"}]}
+         - {word: "-la", grammar: "suf", gloss: "active participle", category: "GR_VI", mark: "", deprecated: False, page: "943211241", referencies: []}
+         - {word: "la-", grammar: "pref", gloss: "not, in-, un-", category: "GR_NE", mark: "", deprecated: False, page: "2141101407", referencies: [{source: "PE22/153", word: "la"},{source: "PE22/153", word: "la"},{source: "PE22/155", word: "la-"},{source: "PE22/156", word: "la-"},{source: "PE22/156", word: "lă"}]}
+         - {word: "lá-", grammar: "vb", gloss: "to not be", category: "GR_NE", mark: "", deprecated: False, page: "1882535733", referencies: [{source: "PE22/153", word: "lanye"},{source: "PE22/153", word: "laia"},{source: "PE22/153", word: "lāne"},{source: "PE22/153", word: "alaie"},{source: "PE22/153", word: "lauva"},{source: "PE22/153", word: "ala"},{source: "PE22/153", word: "alā"},{source: "PE22/154", word: "la"},{source: "PE22/156", word: "lā-"},{source: "PE22/156", word: "lain"},{source: "PE22/156", word: "lanye"},{source: "PE22/156", word: "lail"},{source: "PE22/156", word: "lalye"},{source: "PE22/156", word: "laia"},{source: "PE22/156", word: "lauva"},{source: "PE22/156", word: "lāne"},{source: "PE22/156", word: "alaie"},{source: "PE22/160", word: "lanye"},{source: "VT42/33", word: "lanye"},{source: "VT42/33", word: "lá"},{source: "VT43/22", word: "la"},{source: "VT49/13", word: "láne"},{source: "VT49/13", word: "lā"},{source: "VT49/13", word: "lamin"},{source: "VT49/13", word: "lanye"},{source: "VT49/13", word: "laia"},{source: "VT49/13", word: "lāne"},{source: "VT49/13", word: "alaie"},{source: "VT49/13", word: "lauva"},{source: "VT49/13", word: "lá"},{source: "VT49/13", word: "lá"},{source: "VT49/15", word: "la"},{source: "VT49/15", word: "lanye"}]}
+         - {word: "lá", grammar: "adv", gloss: "no, not", category: "GR_NE", mark: "", deprecated: False, page: "1952675039", referencies: [{source: "PE22/153", word: "lā"},{source: "PE22/153", word: "lanye"},{source: "PE22/154", word: "la"},{source: "PE22/154", word: "lá"},{source: "PE22/158", word: "la"},{source: "PE22/158", word: "lá"},{source: "PE22/160", word: "lá"},{source: "PE22/160", word: "la"},{source: "PE22/161", word: "lá"},{source: "PE22/162", word: "la"},{source: "PE22/166", word: "lá"},{source: "PE22/166", word: "lánye"},{source: "PE22/166", word: "lá"},{source: "VT42/33", word: "lá"},{source: "VT42/33", word: "la"},{source: "VT42/33", word: "lá"},{source: "VT49/13", word: "lā"},{source: "VT49/18", word: "la"}]}
+         - {word: "lá", grammar: "prep", gloss: "beyond, over, across, athwart", category: "SR_BY", mark: "", deprecated: False, page: "35116351", referencies: [{source: "PE17/065", word: "lá"},{source: "PE17/065", word: "lá"},{source: "PE17/065", word: "lā"},{source: "PE17/065", word: "lā"},{source: "PE17/065", word: "lá"},{source: "PE17/065", word: "la"},{source: "PE17/090", word: "lá"},{source: "PE17/090", word: "lá"},{source: "PE17/091", word: "lá"},{source: "VT42/32", word: "lá"},{source: "VT44/04", word: "lá"}]}
+   ala:
+      q:
+         - {word: "(a)lá", grammar: "interj", gloss: "yes", category: "EM_TE", mark: "", deprecated: True, page: "441051823", referencies: [{source: "PE17/158", word: "lá"},{source: "PE17/158", word: "alá"},{source: "PE17/158", word: "lá/alá"},{source: "PE17/158", word: "ála"},{source: "VT42/33", word: "lá"}]}
+         - {word: "ála", grammar: "particle", gloss: "do not", category: "GR_NE", mark: "", deprecated: False, page: "2392274047", referencies: [{source: "VT43/22", word: "alalye"},{source: "VT43/22", word: "Álalye"},{source: "VT43/22", word: "ala"},{source: "VT43/22", word: "Ála-"},{source: "VT44/08", word: "alalye"},{source: "VT49/13", word: "ala"},{source: "VT49/13", word: "alā"}]}
+         - {word: "al(a)-", grammar: "pref", gloss: "in-, un-, not; †-less, without", category: "GR_NE", mark: "", deprecated: False, page: "4051074567", referencies: [{source: "PE22/153", word: "al"},{source: "PE22/153", word: "ala-"},{source: "PE22/153", word: "al"},{source: "PE22/153", word: "ala"},{source: "PE22/153", word: "al"},{source: "PE22/156", word: "ala"},{source: "PE22/160", word: "ala"},{source: "PE22/160", word: "ala"},{source: "VT42/33", word: "ala"},{source: "VT42/33", word: "al-"}]}
+         - {word: "ala-", grammar: "vb", gloss: "to plant, grow", category: "AV_SS", mark: "", deprecated: False, page: "1613809687", referencies: [{source: "PE17/100", word: "ala-"},{source: "PE17/132", word: "alanye"},{source: "PE17/132", word: "alalye"},{source: "PE17/132", word: "alatar"},{source: "PE17/132", word: "alas/alasse"},{source: "PE17/132", word: "ala"},{source: "PE17/132", word: "alambe"},{source: "PE17/132", word: "alalme"},{source: "PE17/132", word: "alalle"},{source: "PE17/132", word: "alaltar"},{source: "PE17/132", word: "alante"},{source: "PE17/132", word: "alar"},{source: "PE17/132", word: "alammo"},{source: "PE17/132", word: "alalmo"},{source: "PE17/132", word: "alallo"},{source: "PE17/132", word: "alastar"},{source: "PE17/132", word: "alasto"},{source: "PE17/132", word: "alat"},{source: "PE22/164", word: "alan"},{source: "PE22/164", word: "alean"},{source: "PE22/164", word: "ālan"},{source: "PE22/164", word: "aluva"},{source: "PE22/164", word: "alane"},{source: "PE22/164", word: "alde"},{source: "PE22/164", word: "ālie"},{source: "PE22/164", word: "alālie"},{source: "PE22/164", word: "alan"},{source: "PE22/164", word: "ālan"},{source: "PE22/164", word: "ālean"},{source: "PE22/164", word: "aluvan"},{source: "PE22/164", word: "alanen"},{source: "PE22/164", word: "alden"},{source: "PE22/164", word: "alālien"},{source: "PE22/164", word: "ālien"}]}
+         - {word: "al(a)-", grammar: "pref", gloss: "well, happily", category: "EM_HH", mark: "", deprecated: True, page: "3744832185", referencies: [{source: "PE17/146", word: "ala-"},{source: "PE17/146", word: "al-"},{source: "PE17/172", word: "ala-"},{source: "PE17/172", word: "al-"}]}
+         - {word: "ala-", grammar: "vb", gloss: "to deny", category: "LM_DY", mark: "", deprecated: False, page: "1381089033", referencies: [{source: "PE22/167.3411", word: "ala-"}]}
+   al:
+      q:
+         - {word: "al(a)-", grammar: "pref", gloss: "in-, un-, not; †-less, without", category: "GR_NE", mark: "", deprecated: False, page: "4051074567", referencies: [{source: "PE22/153", word: "al"},{source: "PE22/153", word: "ala-"},{source: "PE22/153", word: "al"},{source: "PE22/153", word: "ala"},{source: "PE22/153", word: "al"},{source: "PE22/156", word: "ala"},{source: "PE22/160", word: "ala"},{source: "PE22/160", word: "ala"},{source: "VT42/33", word: "ala"},{source: "VT42/33", word: "al-"}]}
+         - {word: "al(a)-", grammar: "pref", gloss: "well, happily", category: "EM_HH", mark: "", deprecated: True, page: "3744832185", referencies: [{source: "PE17/146", word: "ala-"},{source: "PE17/146", word: "al-"},{source: "PE17/172", word: "ala-"},{source: "PE17/172", word: "al-"}]}
+      s:
+         - {word: "al-", grammar: "pref", gloss: "no, not", category: "GR_NE", mark: "", deprecated: False, page: "214267251", referencies: [{source: "PE17/101.0101", word: "al-"}]}
+         - {word: "al-", grammar: "pref", gloss: "well, happily", category: "EM_HH", mark: "", deprecated: True, page: "899496787", referencies: [{source: "PE17/146", word: "al-"},{source: "PE17/172", word: "al-"}]}
+   alacarna:
+      q:
+         - {word: "alacarna", grammar: "adj", gloss: "well-done, well-made", category: "EM_GD", mark: "|", deprecated: False, page: "970587683", referencies: [{source: "PE17/172.2109", word: "alacarna"}]}
+   alahasta:
+      q:
+         - {word: "alahasta", grammar: "adj", gloss: "unmarred", category: "PT_HI", mark: "", deprecated: False, page: "451527979", referencies: [{source: "MR/254.4004", word: "Alahasta"}]}
+   alahen:
+      q:
+         - {word: "alahen", grammar: "adj", gloss: "eyeless", category: "BP_EY", mark: "", deprecated: False, page: "138641759", referencies: [{source: "PE22/153", word: "alahen"},{source: "PE22/153", word: "alahendi"}]}
+   alalme:
+      q:
+         - {word: "alalmë", grammar: "n", gloss: "inflorescence", category: "AV_BL", mark: "", deprecated: False, page: "376464289", referencies: [{source: "PE17/153.1715", word: "alalme"}]}
+   alalbe:
+      q:
+         - {word: "alalbë", grammar: "n", gloss: "inflorescence", category: "AV_BL", mark: "-", deprecated: True, page: "2953823883", referencies: [{source: "PE17/153.2207", word: "alalbe"}]}
+   alalvea:
+      q:
+         - {word: "alalvëa", grammar: "adj", gloss: "having many elms", category: "AV_EL", mark: "", deprecated: False, page: "1580178729", referencies: [{source: "PE17/146.3410", word: "alalvea"}]}
+   alalvinore:
+      q:
+         - {word: "Alalvinórë", grammar: "place-name", gloss: "Land of Many Elms", category: "", mark: "", deprecated: False, page: "3669988095", referencies: [{source: "PE17/153", word: "alalbinóre"},{source: "PE17/153", word: "alalvinore"},{source: "PE17/153", word: "alalmi-nóre"},{source: "PE17/153", word: "alalbinore"}]}
+   alamen:
+      q:
+         - {word: "alamen", grammar: "n", gloss: "good omen on departure", category: "EM_GD", mark: "", deprecated: False, page: "784175479", referencies: [{source: "PE17/162", word: "alámen(e)"},{source: "PE17/162", word: "alamen"}]}
+   alanesse:
+      q:
+         - {word: "alanessë", grammar: "n", gloss: "nicotiana, pipeweed", category: "AV_TO", mark: "", deprecated: False, page: "3921139409", referencies: [{source: "PE17/100", word: "alenesse"},{source: "PE17/100", word: "alanesse"}]}
+   alenesse:
+      q:
+         - {word: "alenessë", grammar: "n", gloss: "nicotiana, pipeweed", category: "AV_TO", mark: "", deprecated: False, page: "3420717649", referencies: []}
+   alaquenta:
+      q:
+         - {word: "alaquenta", grammar: "adj", gloss: "well (happily) said", category: "EM_HH", mark: "", deprecated: False, page: "2559291621", referencies: [{source: "PE17/146.1606", word: "alaquenta"}]}
+   alasaila:
+      q:
+         - {word: "alasaila", grammar: "adj", gloss: "unwise", category: "MT_FS", mark: "", deprecated: False, page: "2239380991", referencies: [{source: "PE22/154", word: "alasaila"},{source: "VT41/13", word: "alasaila"},{source: "VT41/18", word: "alasaila"},{source: "VT42/33", word: "alasaila"}]}
+   alasse:
+      q:
+         - {word: "alassë", grammar: "n", gloss: "happiness", category: "EM_HH", mark: "", deprecated: False, page: "3383391839", referencies: [{source: "MS/01.04", word: "alasse"}]}
+   haimenar:
+      q:
+         - {word: "Haimenar", grammar: "masc-name", gloss: "*Far-farer", category: "", mark: "", deprecated: False, page: "3649571781", referencies: [{source: "NM/095.2907", word: "Haimenar"}]}
+   alca:
+      q:
+         - {word: "alca-", grammar: "vb", gloss: "to glitter", category: "PW_LI", mark: "", deprecated: False, page: "326652077", referencies: [{source: "PE18/087.1808", word: "alka-"}]}
+   alcar:
+      q:
+         - {word: "alcar", grammar: "n", gloss: "glory, splendour, radiance, brilliance", category: "EM_GL", mark: "", deprecated: False, page: "2464648865", referencies: [{source: "PE17/024", word: "alkar"},{source: "PE17/105", word: "alkar"},{source: "PE17/124", word: "alkar"},{source: "PE18/085", word: "alkar"},{source: "PE18/087", word: "alkar"},{source: "RGEO/65", word: "alcar"},{source: "SA/aglar", word: "alkar"},{source: "UT/305", word: "alcar"},{source: "UT/317", word: "alcar"},{source: "VT43/37", word: "Alcar"},{source: "VT44/10", word: "alcare"},{source: "VT44/34", word: "alcar"},{source: "VT44/34", word: "alkar"},{source: "VT47/13", word: "alkar"},{source: "WJ/369", word: "alkar"},{source: "WJ/369", word: "alkar"}]}
+   alcarin:
+      q:
+         - {word: "Alcarin", grammar: "proper-name", gloss: "Glorious", category: "", mark: "", deprecated: False, page: "1016580549", referencies: [{source: "LotR/1038", word: "Alcarin"},{source: "LotRI/Atanatar II", word: "Alcarin"},{source: "LotRI/Tar-Alcarin", word: "Alcarin"},{source: "PE17/024", word: "Alcarin"},{source: "PE17/114", word: "Alcarin"},{source: "PMI/Alkarin", word: "Alkarin"},{source: "UTI/Atanatar", word: "Alcarin"},{source: "UTI/Tar-Alcarin", word: "Alcarin"}]}
+         - {word: "alcarin(qua)", grammar: "adj", gloss: "glorious, brilliant", category: "EM_GL", mark: "", deprecated: False, page: "3088983891", referencies: [{source: "PE17/024", word: "alcarin"},{source: "PE17/024", word: "alcarinqua"},{source: "RGEO/65", word: "alcarin"},{source: "VT44/10", word: "alcarin"},{source: "VT44/10", word: "alcarinqua"},{source: "VT44/10", word: "alcare"},{source: "WJ/412", word: "alkarinqua"}]}
+   alcarinqua:
+      q:
+         - {word: "alcarin(qua)", grammar: "adj", gloss: "glorious, brilliant", category: "EM_GL", mark: "", deprecated: False, page: "3088983891", referencies: [{source: "PE17/024", word: "alcarin"},{source: "PE17/024", word: "alcarinqua"},{source: "RGEO/65", word: "alcarin"},{source: "VT44/10", word: "alcarin"},{source: "VT44/10", word: "alcarinqua"},{source: "VT44/10", word: "alcare"},{source: "WJ/412", word: "alkarinqua"}]}
+   alcarinque:
+      q:
+         - {word: "Alcarinquë", grammar: "proper-name", gloss: "Glorious", category: "", mark: "", deprecated: False, page: "2576654869", referencies: [{source: "MR/435", word: "Alkarinque"},{source: "MRI/Alkarinquë", word: "Alkarinquë"},{source: "SA/aglar", word: "Alkarinquë"},{source: "SI/Alcarinquë", word: "Alcarinquë"}]}
+   alcarondas:
+      q:
+         - {word: "Alcarondas", grammar: "proper-name", gloss: "Castle of the Sea", category: "", mark: "", deprecated: False, page: "2565222535", referencies: [{source: "PM/156", word: "Alkarondas"},{source: "PMI/Aglarrâma", word: "Alkarondas"},{source: "S/278", word: "Alcarondas"},{source: "SDI2/Aglarrâma", word: "Alcarondas"},{source: "SDI2/Alcarondas", word: "Alcarondas"},{source: "SI/Alcarondas", word: "Alcarondas"}]}
+   alda:
+      q:
+         - {word: "alda", grammar: "n", gloss: "tree", category: "AV_TR", mark: "", deprecated: False, page: "539805327", referencies: [{source: "Let/426", word: "alda"},{source: "LotR/0377", word: "aldaron"},{source: "LotR/1113", word: "alda"},{source: "LotR/1123", word: "alda"},{source: "MR/100", word: "Aldu"},{source: "NM/352", word: "alda"},{source: "PE17/025", word: "alda"},{source: "PE17/050", word: "alda"},{source: "PE17/063", word: "alda"},{source: "PE17/063", word: "aldăron"},{source: "PE17/063", word: "aldali"},{source: "PE17/063", word: "aldalion"},{source: "PE17/126", word: "alda"},{source: "PE17/135", word: "alda"},{source: "PE17/136", word: "aldaron"},{source: "PE17/153", word: "alda"},{source: "PE17/153", word: "alda"},{source: "PE22/160", word: "alda"},{source: "RC/385", word: "Alda"},{source: "RGEO/58", word: "áldaròn"},{source: "RGEO/58", word: "aldaron"},{source: "RGEO/65", word: "alda"},{source: "RGEO/65", word: "aldaron"},{source: "SA/alda", word: "alda"},{source: "UT/167", word: "aldar"},{source: "VT39/07", word: "alda"}]}
+   aldalome:
+      q:
+         - {word: "Aldalómë", grammar: "place-name", gloss: "Tree-twilight", category: "", mark: "", deprecated: False, page: "3242291153", referencies: [{source: "LotR/0469", word: "Aldalómë"},{source: "LotRI/Aldalómë", word: "Aldalómë"},{source: "PE17/082", word: "Aldalóme"},{source: "RC/385", word: "Aldalómë"},{source: "TII/Aldalómë", word: "Aldalómë"}]}
+   aldamir:
+      q:
+         - {word: "Aldamir", grammar: "masc-name", gloss: "*Tree Jewel", category: "", mark: "", deprecated: False, page: "1126937443", referencies: [{source: "LotRI/Aldamir", word: "Aldamir"},{source: "PMI/Aldamir", word: "Aldamir"}]}
+   aldanil:
+      q:
+         - {word: "Aldanil", grammar: "masc-name", gloss: "Lover of Trees", category: "", mark: "", deprecated: False, page: "3025306943", referencies: [{source: "PE21/83", word: "Aldanil"},{source: "PE21/83", word: "Alandil"}]}
+   aldarembina:
+      q:
+         - {word: "aldarembina", grammar: "adj", gloss: "tree-meshed", category: "AV_TR", mark: "", deprecated: False, page: "1992388353", referencies: [{source: "PE17/026", word: "aldarembina"},{source: "PE17/026", word: "aldarembine"},{source: "PE17/127", word: "aldarembina"},{source: "PE17/136", word: "aldarembina"}]}
+   aldarion:
+      q:
+         - {word: "Aldarion", grammar: "masc-name", gloss: "*Son of Trees", category: "", mark: "", deprecated: False, page: "822173433", referencies: [{source: "LotRI/Tar-Aldarion", word: "Aldarion"},{source: "PMI/Aldarion", word: "Aldarion"},{source: "PMI/Tar-Aldarion", word: "Aldarion"},{source: "SDI2/Aldarion", word: "Aldarion"},{source: "UT/210", word: "Aldarion"},{source: "UTI/Aldarion", word: "Aldarion"},{source: "UTI/Tar-Aldarion", word: "Aldarion"},{source: "WJI/Aldarion", word: "Aldarion"}]}
+   aldaron:
+      q:
+         - {word: "Aldaron", grammar: "masc-name", gloss: "Lord of Forests, (lit.) Of Trees", category: "", mark: "", deprecated: False, page: "3330088929", referencies: [{source: "MRI/Aldaron", word: "Aldaron"},{source: "PE21/86", word: "Aldar"},{source: "S/029", word: "Aldaron"},{source: "SA/alda", word: "Aldaron"},{source: "SI/Aldaron", word: "Aldaron"}]}
+   aldea:
+      q:
+         - {word: "Aldëa", grammar: "n", gloss: "*Tuesday, Tree-day (Númenórean)", category: "TM_TU", mark: "", deprecated: False, page: "4158418399", referencies: [{source: "LotR/1110.3204", word: "Aldëa"}]}
+   aldinga:
+      q:
+         - {word: "aldinga", grammar: "n", gloss: "tree-top", category: "AV_TR", mark: "", deprecated: False, page: "1598925071", referencies: [{source: "VT47/28.2704", word: "aldinga"}]}
+   aldudenie:
+      q:
+         - {word: "Aldudénië", grammar: "proper-name", gloss: "Lament for the Two Trees", category: "", mark: "", deprecated: False, page: "2442652045", referencies: [{source: "MR/100", word: "Aldudénië"},{source: "MR/288", word: "Aldudénië"},{source: "MRI/Aldudénië", word: "Aldudénië"},{source: "S/076", word: "Aldudénië"},{source: "SA/alda", word: "Aldudenië"},{source: "SI/Aldudénië", word: "Aldudénië"},{source: "SI/Elemmírë²", word: "Aldudénië"}]}
+   alduya:
+      q:
+         - {word: "Aldúya", grammar: "n", gloss: "*Tuesday, Day of the Two Trees", category: "TM_TU", mark: "", deprecated: False, page: "2566863855", referencies: [{source: "Let/427", word: "Aldūya"},{source: "LotR/1110", word: "Aldúya"},{source: "PM/138", word: "Aldauya"}]}
+   aldauya:
+      q:
+         - {word: "Aldauya", grammar: "n", gloss: "*Tuesday, Day of the Two Trees", category: "TM_TU", mark: "", deprecated: True, page: "1237937839", referencies: []}
+   aleldarin:
+      q:
+         - {word: "aleldarin", grammar: "adj", gloss: "unelvish", category: "RB_EF", mark: "", deprecated: False, page: "415262653", referencies: [{source: "PE22/156.3201", word: "aleldarin"}]}
+   aleldarinwa:
+      q:
+         - {word: "aleldarinwa", grammar: "adj", gloss: "unElvish", category: "RB_EF", mark: "-", deprecated: False, page: "2293400207", referencies: [{source: "PE22/156.4008", word: "aleldarinwa"}]}
+   ezel:
+      q:
+         - {word: "ezel(la)", grammar: "adj", gloss: "green", category: "SP_GR", mark: "", deprecated: False, page: "888470127", referencies: []}
+   ezella:
+      q:
+         - {word: "ezel(la)", grammar: "adj", gloss: "green", category: "SP_GR", mark: "", deprecated: False, page: "888470127", referencies: []}
+dictionaries:
+   s:
+      caras:
+         - {word: "caras", grammar: "n", gloss: "circular earthwall with dike, fort surrounded by bulwarks", category: "DF_WL", mark: "", deprecated: False, page: "739916641"}
+      loegningloron:
+         - {word: "Loeg Ningloron", grammar: "place-name", gloss: "Gladden Fields", category: "", mark: "", deprecated: False, page: "3108000919"}
+      a:
+         - {word: "-a", grammar: "suf", gloss: "[old] genitive suffix", category: "GR_NI", mark: "†", deprecated: False, page: "1377240439"}
+         - {word: "a", grammar: "conj", gloss: "and; †by, near, beside", category: "SR_AN", mark: "", deprecated: False, page: "2814200763"}
+         - {word: "a", grammar: "interj", gloss: "O!", category: "LM_VC", mark: "", deprecated: False, page: "2613796699"}
+      adh:
+         - {word: "adh", grammar: "conj", gloss: "and", category: "", mark: "", deprecated: False, page: "2936346367"}
+      ah:
+         - {word: "ah", grammar: "conj", gloss: "and", category: "", mark: "", deprecated: False, page: "495239121"}
+      ar:
+         - {word: "ar", grammar: "conj", gloss: "and", category: "SR_AN", mark: "", deprecated: True, page: "781530941"}
+         - {word: "ar-", grammar: "pref", gloss: "without; by; **beside", category: "SR_NE", mark: "", deprecated: False, page: "369434269"}
+         - {word: "ar(a)-", grammar: "pref", gloss: "noble, royal, high", category: "SO_NO", mark: "", deprecated: False, page: "1222397067"}
+      ae:
+         - {word: "ae", grammar: "interj", gloss: "O!", category: "", mark: "", deprecated: False, page: "409351575"}
+      ab:
+         - {word: "ab", grammar: "prep", gloss: "after", category: "TM_AF", mark: "#", deprecated: False, page: "323464029"}
+      eb:
+         - {word: "eb", grammar: "prep", gloss: "?before", category: "TM_BE", mark: "#", deprecated: True, page: "3873479807"}
+         - {word: "-eb", grammar: "suf", gloss: "adjective suffix", category: "GR_AF", mark: "", deprecated: False, page: "2774110649"}
+      ablad:
+         - {word: "ablad", grammar: "n", gloss: "prohibition, refusal", category: "LM_FO", mark: "", deprecated: False, page: "694581347"}
+      abonnen:
+         - {word: "Abonnen", grammar: "proper-name", gloss: "After-born", category: "", mark: "", deprecated: False, page: "1249484529"}
+      ach:
+         - {word: "ach", grammar: "n", gloss: "neck", category: "BP_NK", mark: "", deprecated: False, page: "1405976901"}
+         - {word: "ach", grammar: "conj", gloss: "*but", category: "GR_CJ", mark: "", deprecated: False, page: "2091206437"}
+      achad:
+         - {word: "achad", grammar: "n", gloss: "rock ridge, neck (geographically)", category: "PW_HW", mark: "", deprecated: False, page: "3716531873"}
+      achadtarlang:
+         - {word: "Achad Tarlang", grammar: "place-name", gloss: "Tarlang’s Neck", category: "", mark: "", deprecated: False, page: "1355307995"}
+      achar:
+         - {word: "achar-", grammar: "vb", gloss: "to avenge, do back, react, requite", category: "LJ_PN", mark: "#", deprecated: False, page: "3800356233"}
+      achared:
+         - {word: "achared", grammar: "n", gloss: "vengeance", category: "LJ_PN", mark: "", deprecated: False, page: "6671719"}
+      acharn:
+         - {word: "acharn", grammar: "n", gloss: "vengeance, (an act of) revenge", category: "LJ_PN", mark: "", deprecated: False, page: "2144715711"}
+      ad:
+         - {word: "-ad", grammar: "suf", gloss: "dual", category: "GR_NI", mark: "†", deprecated: False, page: "1463127985"}
+         - {word: "ad-", grammar: "pref", gloss: "back, again, re-", category: "TM_AN", mark: "#", deprecated: False, page: "1739892921"}
+         - {word: "-ad", grammar: "suf", gloss: "noun-suffix", category: "GR_NI", mark: "#", deprecated: False, page: "702350617"}
+         - {word: "-ad", grammar: "suf", gloss: "gerund", category: "", mark: "", deprecated: False, page: "1387580153"}
+      adan:
+         - {word: "Adan", grammar: "n", gloss: "Man (as a species)", category: "MK_HB", mark: "", deprecated: False, page: "753238821"}
+      adanedhel:
+         - {word: "Adanedhel", grammar: "masc-name", gloss: "Elf-man", category: "", mark: "", deprecated: False, page: "3692314037"}
+      adaneth:
+         - {word: "adaneth", grammar: "n", gloss: "(mortal) woman", category: "MK_WO", mark: "", deprecated: False, page: "2438171517"}
+      adar:
+         - {word: "adar", grammar: "n", gloss: "father", category: "MK_FA", mark: "", deprecated: False, page: "1791197021"}
+      adbed:
+         - {word: "adbed-", grammar: "vb", gloss: "to rephrase", category: "LM_SY", mark: "", deprecated: False, page: "665043545"}
+      adertha:
+         - {word: "adertha-", grammar: "vb", gloss: "to reunite", category: "SR_JU", mark: "#", deprecated: False, page: "2811947765"}
+      aderthad:
+         - {word: "aderthad", grammar: "n", gloss: "reuniting", category: "SR_JU", mark: "", deprecated: False, page: "327295253"}
+      adu:
+         - {word: "adu", grammar: "adj", gloss: "double", category: "QN_DO", mark: "", deprecated: False, page: "1588992675"}
+      aduial:
+         - {word: "aduial", grammar: "n", gloss: "(evening) twilight", category: "TM_DU", mark: "", deprecated: False, page: "4029927507"}
+      adurant:
+         - {word: "Adurant", grammar: "place-name", gloss: "Double Stream", category: "", mark: "", deprecated: False, page: "529759231"}
+      advir:
+         - {word: "advir", grammar: "n", gloss: "heirloom", category: "PT_HE", mark: "", deprecated: False, page: "3354395703"}
+      aeg:
+         - {word: "aeg", grammar: "adj", gloss: "sharp", category: "SP_SP", mark: "#", deprecated: False, page: "3791653951"}
+      aeglir:
+         - {word: "aeglir", grammar: "n", gloss: "line of peaks", category: "PW_PS", mark: "#", deprecated: False, page: "1171788961"}
+      aeglos:
+         - {word: "Aeglos", grammar: "proper-name", gloss: "Snow-point", category: "", mark: "", deprecated: False, page: "3746197125"}
+         - {word: "aeglos", grammar: "n", gloss: "icicle, (lit.) snow-point; snowthorn (a plant)", category: "PW_IC", mark: "", deprecated: False, page: "3078561477"}
+      aegnor:
+         - {word: "Aegnor", grammar: "masc-name", gloss: "Fell Fire, Sharp Flame", category: "", mark: "", deprecated: False, page: "4200935619"}
+      ael:
+         - {word: "ael", grammar: "n", gloss: "lake, pool", category: "PW_LA", mark: "#", deprecated: False, page: "3934205215"}
+      aelin:
+         - {word: "aelin", grammar: "n", gloss: "lake, pool", category: "", mark: "", deprecated: True, page: "2913923685"}
+      aelinuial:
+         - {word: "Aelin-uial", grammar: "place-name", gloss: "Meres of Twilight", category: "", mark: "", deprecated: False, page: "1131882277"}
+      aeluin:
+         - {word: "Aeluin", grammar: "place-name", gloss: "*Blue Lake", category: "", mark: "", deprecated: False, page: "2322146435"}
+      aen:
+         - {word: "aen", grammar: "adv", gloss: "should be; ?may it be that", category: "MT_GS", mark: "", deprecated: False, page: "1414245343"}
+      aer:
+         - {word: "aer", grammar: "adj", gloss: "*hallowed, holy", category: "RB_HS", mark: "", deprecated: False, page: "669292895"}
+      aerandir:
+         - {word: "Aerandir", grammar: "masc-name", gloss: "Sea-wanderer", category: "", mark: "", deprecated: False, page: "4149084455"}
+      aerlinn:
+         - {word: "aerlinn", grammar: "n", gloss: "*hymn, (lit.) holy song", category: "RB_HS", mark: "", deprecated: False, page: "2357253503"}
+      aew:
+         - {word: "aew", grammar: "n", gloss: "(small) bird", category: "AN_BI", mark: "", deprecated: False, page: "811844039"}
+      aewen:
+         - {word: "aewen", grammar: "adj", gloss: "of birds", category: "AN_BI", mark: "#", deprecated: False, page: "1113264857"}
+      agar:
+         - {word: "agar", grammar: "n", gloss: "blood", category: "BP_BL", mark: "#", deprecated: True, page: "1201659389"}
+      agarwaen:
+         - {word: "Agarwaen", grammar: "masc-name", gloss: "Blood-stained", category: "", mark: "", deprecated: False, page: "727028333"}
+      aglar:
+         - {word: "aglar", grammar: "n", gloss: "glory, brilliance, splendour, radiance", category: "EM_GL", mark: "", deprecated: False, page: "1805593065"}
+      aglareb:
+         - {word: "aglareb", grammar: "adj", gloss: "glorious, brilliant", category: "EM_GL", mark: "", deprecated: False, page: "3266035465"}
+      aglarond:
+         - {word: "Aglarond", grammar: "place-name", gloss: "Glittering Cavern", category: "", mark: "", deprecated: False, page: "4174898697"}
+      aglon:
+         - {word: "Aglon", grammar: "place-name", gloss: "Narrow Pass", category: "", mark: "", deprecated: False, page: "1877775261"}
+      aglor:
+         - {word: "aglor", grammar: "adj", gloss: "brilliant, glorious", category: "EM_GL", mark: "", deprecated: True, page: "3355064255"}
+      ai:
+         - {word: "ai", grammar: "interj", gloss: "hail!", category: "LM_VC", mark: "", deprecated: False, page: "1933822795"}
+         - {word: "ai", grammar: "pron", gloss: "*those who", category: "GR_PN", mark: "", deprecated: False, page: "16264317"}
+      air:
+         - {word: "air", grammar: "adj", gloss: "lonely", category: "QN_AO", mark: "", deprecated: False, page: "3345570783"}
+      ir:
+         - {word: "îr", grammar: "adj", gloss: "*alone", category: "", mark: "", deprecated: True, page: "1365514869"}
+         - {word: "-ir", grammar: "suf", gloss: "past of intransitive verbs", category: "GR_VI", mark: "", deprecated: False, page: "2470581535"}
+         - {word: "ir", grammar: "conj", gloss: "?when, while", category: "GR_CJ", mark: "", deprecated: False, page: "3586600781"}
+         - {word: "î(r)", grammar: "pron", gloss: "impersonal plural pronoun", category: "GR_PN", mark: "", deprecated: False, page: "2372885703"}
+      al:
+         - {word: "al-", grammar: "pref", gloss: "no, not", category: "GR_NE", mark: "", deprecated: False, page: "214267251"}
+         - {word: "al-", grammar: "pref", gloss: "well, happily", category: "EM_HH", mark: "", deprecated: True, page: "899496787"}
+      alae:
+         - {word: "alae", grammar: "interj", gloss: "?behold", category: "SP_SE", mark: "", deprecated: False, page: "3332359177"}
+      yneb:
+         - {word: "yneb", grammar: "cardinal", gloss: "*twelve", category: "QN_CA", mark: "", deprecated: True, page: "3189877099"}
+      inib:
+         - {word: "inib", grammar: "cardinal", gloss: "*twelve", category: "", mark: "", deprecated: False, page: "3236558709"}
+   q:
+      a:
+         - {word: "-a", grammar: "suf", gloss: "adjectival suffix", category: "GR_AF", mark: "#", deprecated: False, page: "1770267447"}
+         - {word: "a-", grammar: "pref", gloss: "infinitive prefix", category: "GR_VI", mark: "#", deprecated: False, page: "3482070047"}
+         - {word: "á", grammar: "particle", gloss: "imperative particle", category: "GR_VI", mark: "", deprecated: False, page: "3322232159"}
+         - {word: "a", grammar: "interj", gloss: "O, Oh", category: "LM_VC", mark: "", deprecated: False, page: "3204020863"}
+         - {word: "a", grammar: "article", gloss: "accusative definite article", category: "GR_AR", mark: "-", deprecated: False, page: "3006823647"}
+      na:
+         - {word: "na-", grammar: "pref", gloss: "infinitive prefix", category: "", mark: "", deprecated: True, page: "1501503729"}
+         - {word: "na", grammar: "prep", gloss: "to, towards", category: "", mark: "", deprecated: False, page: "3635475519"}
+         - {word: "ná", grammar: "interj", gloss: "yes, it is so, it is a fact", category: "EM_TE", mark: "", deprecated: False, page: "3005052249"}
+         - {word: "ná-", grammar: "vb", gloss: "to be", category: "PA_BV", mark: "", deprecated: False, page: "2562596025"}
+         - {word: "na-", grammar: "pref", gloss: "plu-", category: "GR_CI", mark: "", deprecated: False, page: "2186733265"}
+      aha:
+         - {word: "aha", grammar: "n", gloss: "rage", category: "EM_RF", mark: "", deprecated: False, page: "3436893617"}
+      ahtar:
+         - {word: "ahtar-", grammar: "vb", gloss: "to do back, react; to requite, avenge", category: "PA_AT", mark: "|", deprecated: False, page: "4040996631"}
+      accar:
+         - {word: "accar-", grammar: "vb", gloss: "to do back, react; to requite, avenge", category: "PA_AT", mark: "|", deprecated: True, page: "2966543841"}
+      ahto:
+         - {word: "ahto", grammar: "n", gloss: "wright, maker", category: "PA_AC", mark: "|", deprecated: False, page: "1101119191"}
+      ahya:
+         - {word: "ahya-", grammar: "vb", gloss: "to change", category: "SR_CE", mark: "#", deprecated: False, page: "3227069231"}
+      ai:
+         - {word: "ai", grammar: "interj", gloss: "ah, alas", category: "LM_VC", mark: "", deprecated: False, page: "1675657295"}
+         - {word: "ai", grammar: "adv", gloss: "supposing, suppose, maybe", category: "MT_GS", mark: "", deprecated: False, page: "4053066113"}
+      aian:
+         - {word: "aian", grammar: "n", gloss: "holy thing or object or place", category: "RB_ID", mark: "", deprecated: False, page: "3438444677"}
+      aica:
+         - {word: "aica", grammar: "adj", gloss: "fell, terrible, dire", category: "SP_SP", mark: "", deprecated: False, page: "2936799251"}
+      aicanaro:
+         - {word: "Aicanáro", grammar: "masc-name", gloss: "Fell Fire; Sharp Flame", category: "", mark: "", deprecated: False, page: "2845564209"}
+      ailin:
+         - {word: "ailin", grammar: "n", gloss: "a large lake", category: "PW_LA", mark: "", deprecated: False, page: "160049701"}
+      aina:
+         - {word: "aina", grammar: "adj", gloss: "holy, revered, numinous", category: "RB_HS", mark: "", deprecated: False, page: "234675263"}
+         - {word: "aina-", grammar: "vb", gloss: "to hallow, bless, treat as holy", category: "RB_BL", mark: "", deprecated: False, page: "1647781279"}
+      ainas:
+         - {word: "ainas", grammar: "n", gloss: "hallow, fane", category: "RB_TM", mark: "", deprecated: False, page: "1978498445"}
+      ainima:
+         - {word: "ainima", grammar: "adj", gloss: "blessed, holy (of things)", category: "RB_HS", mark: "", deprecated: False, page: "3332819975"}
+      ainu:
+         - {word: "Ainu", grammar: "n", gloss: "holy one, spirit", category: "RB_AN", mark: "", deprecated: False, page: "2369702793"}
+      ainulindale:
+         - {word: "Ainulindalë", grammar: "proper-name", gloss: "Music of the Ainur", category: "", mark: "", deprecated: False, page: "2854057487"}
+      aiquen:
+         - {word: "aiquen", grammar: "pron", gloss: "if anybody, whoever", category: "GR_PN", mark: "", deprecated: False, page: "3052306501"}
+      aira:
+         - {word: "aira", grammar: "adj", gloss: "holy, sanctified", category: "RB_HS", mark: "", deprecated: False, page: "1594792097"}
+      aire:
+         - {word: "airë", grammar: "adj n", gloss: "holy; sanctity, holiness", category: "RB_HS", mark: "", deprecated: False, page: "71439553"}
+         - {word: "airë", grammar: "n", gloss: "sea", category: "PW_SE", mark: "†", deprecated: False, page: "4133685985"}
+      airea:
+         - {word: "airëa", grammar: "adj", gloss: "holy (applied to persons)", category: "RB_HS", mark: "", deprecated: False, page: "206012687"}
+      airefea:
+         - {word: "Airefëa", grammar: "proper-name", gloss: "Holy Spirit", category: "", mark: "", deprecated: False, page: "2431074897"}
+      airetari:
+         - {word: "Airë Tári", grammar: "proper-name", gloss: "Holy Queen", category: "", mark: "", deprecated: False, page: "4020349113"}
+      airita:
+         - {word: "airita-", grammar: "vb", gloss: "to hallow", category: "RB_HS", mark: "#", deprecated: False, page: "2399206005"}
+      airon:
+         - {word: "airon", grammar: "n", gloss: "ocean", category: "PW_SE", mark: "†", deprecated: False, page: "1084314337"}
+      aista:
+         - {word: "aista", grammar: "adj", gloss: "*holy", category: "RB_HS", mark: "-", deprecated: True, page: "319331855"}
+      aistana:
+         - {word: "aistana", grammar: "adj", gloss: "*blessed", category: "RB_BL", mark: "", deprecated: True, page: "3341755013"}
+      manna:
+         - {word: "manna", grammar: "adj", gloss: "*blessed", category: "RB_BL", mark: "", deprecated: True, page: "1634820671"}
+      aiwe:
+         - {word: "aiwë", grammar: "n", gloss: "(small) bird", category: "AN_BI", mark: "", deprecated: False, page: "1137358351"}
+      aiwendil:
+         - {word: "Aiwendil", grammar: "masc-name", gloss: "Lover of Birds", category: "", mark: "", deprecated: False, page: "1532309033"}
+      aiya:
+         - {word: "aiya", grammar: "interj", gloss: "hail; behold, lo", category: "LM_VC", mark: "", deprecated: False, page: "1827512751"}
+      aia:
+         - {word: "aia", grammar: "interj", gloss: "hail", category: "LM_VC", mark: "", deprecated: False, page: "884736687"}
+      la:
+         - {word: "(a)lá", grammar: "interj", gloss: "yes", category: "EM_TE", mark: "", deprecated: True, page: "441051823"}
+         - {word: "lá", grammar: "interj", gloss: "yes", category: "EM_TE", mark: "", deprecated: False, page: "922620063"}
+         - {word: "-(i)la", grammar: "suf", gloss: "active participle", category: "GR_VI", mark: "", deprecated: False, page: "2889418039"}
+         - {word: "-la", grammar: "suf", gloss: "active participle", category: "GR_VI", mark: "", deprecated: False, page: "943211241"}
+         - {word: "la-", grammar: "pref", gloss: "not, in-, un-", category: "GR_NE", mark: "", deprecated: False, page: "2141101407"}
+         - {word: "lá-", grammar: "vb", gloss: "to not be", category: "GR_NE", mark: "", deprecated: False, page: "1882535733"}
+         - {word: "lá", grammar: "adv", gloss: "no, not", category: "GR_NE", mark: "", deprecated: False, page: "1952675039"}
+         - {word: "lá", grammar: "prep", gloss: "beyond, over, across, athwart", category: "SR_BY", mark: "", deprecated: False, page: "35116351"}
+      ala:
+         - {word: "(a)lá", grammar: "interj", gloss: "yes", category: "EM_TE", mark: "", deprecated: True, page: "441051823"}
+         - {word: "ála", grammar: "particle", gloss: "do not", category: "GR_NE", mark: "", deprecated: False, page: "2392274047"}
+         - {word: "al(a)-", grammar: "pref", gloss: "in-, un-, not; †-less, without", category: "GR_NE", mark: "", deprecated: False, page: "4051074567"}
+         - {word: "ala-", grammar: "vb", gloss: "to plant, grow", category: "AV_SS", mark: "", deprecated: False, page: "1613809687"}
+         - {word: "al(a)-", grammar: "pref", gloss: "well, happily", category: "EM_HH", mark: "", deprecated: True, page: "3744832185"}
+         - {word: "ala-", grammar: "vb", gloss: "to deny", category: "LM_DY", mark: "", deprecated: False, page: "1381089033"}
+      al:
+         - {word: "al(a)-", grammar: "pref", gloss: "in-, un-, not; †-less, without", category: "GR_NE", mark: "", deprecated: False, page: "4051074567"}
+         - {word: "al(a)-", grammar: "pref", gloss: "well, happily", category: "EM_HH", mark: "", deprecated: True, page: "3744832185"}
+      alacarna:
+         - {word: "alacarna", grammar: "adj", gloss: "well-done, well-made", category: "EM_GD", mark: "|", deprecated: False, page: "970587683"}
+      alahasta:
+         - {word: "alahasta", grammar: "adj", gloss: "unmarred", category: "PT_HI", mark: "", deprecated: False, page: "451527979"}
+      alahen:
+         - {word: "alahen", grammar: "adj", gloss: "eyeless", category: "BP_EY", mark: "", deprecated: False, page: "138641759"}
+      alalme:
+         - {word: "alalmë", grammar: "n", gloss: "inflorescence", category: "AV_BL", mark: "", deprecated: False, page: "376464289"}
+      alalbe:
+         - {word: "alalbë", grammar: "n", gloss: "inflorescence", category: "AV_BL", mark: "-", deprecated: True, page: "2953823883"}
+      alalvea:
+         - {word: "alalvëa", grammar: "adj", gloss: "having many elms", category: "AV_EL", mark: "", deprecated: False, page: "1580178729"}
+      alalvinore:
+         - {word: "Alalvinórë", grammar: "place-name", gloss: "Land of Many Elms", category: "", mark: "", deprecated: False, page: "3669988095"}
+      alamen:
+         - {word: "alamen", grammar: "n", gloss: "good omen on departure", category: "EM_GD", mark: "", deprecated: False, page: "784175479"}
+      alanesse:
+         - {word: "alanessë", grammar: "n", gloss: "nicotiana, pipeweed", category: "AV_TO", mark: "", deprecated: False, page: "3921139409"}
+      alenesse:
+         - {word: "alenessë", grammar: "n", gloss: "nicotiana, pipeweed", category: "AV_TO", mark: "", deprecated: False, page: "3420717649"}
+      alaquenta:
+         - {word: "alaquenta", grammar: "adj", gloss: "well (happily) said", category: "EM_HH", mark: "", deprecated: False, page: "2559291621"}
+      alasaila:
+         - {word: "alasaila", grammar: "adj", gloss: "unwise", category: "MT_FS", mark: "", deprecated: False, page: "2239380991"}
+      alasse:
+         - {word: "alassë", grammar: "n", gloss: "happiness", category: "EM_HH", mark: "", deprecated: False, page: "3383391839"}
+      haimenar:
+         - {word: "Haimenar", grammar: "masc-name", gloss: "*Far-farer", category: "", mark: "", deprecated: False, page: "3649571781"}
+      alca:
+         - {word: "alca-", grammar: "vb", gloss: "to glitter", category: "PW_LI", mark: "", deprecated: False, page: "326652077"}
+      alcar:
+         - {word: "alcar", grammar: "n", gloss: "glory, splendour, radiance, brilliance", category: "EM_GL", mark: "", deprecated: False, page: "2464648865"}
+      alcarin:
+         - {word: "Alcarin", grammar: "proper-name", gloss: "Glorious", category: "", mark: "", deprecated: False, page: "1016580549"}
+         - {word: "alcarin(qua)", grammar: "adj", gloss: "glorious, brilliant", category: "EM_GL", mark: "", deprecated: False, page: "3088983891"}
+      alcarinqua:
+         - {word: "alcarin(qua)", grammar: "adj", gloss: "glorious, brilliant", category: "EM_GL", mark: "", deprecated: False, page: "3088983891"}
+      alcarinque:
+         - {word: "Alcarinquë", grammar: "proper-name", gloss: "Glorious", category: "", mark: "", deprecated: False, page: "2576654869"}
+      alcarondas:
+         - {word: "Alcarondas", grammar: "proper-name", gloss: "Castle of the Sea", category: "", mark: "", deprecated: False, page: "2565222535"}
+      alda:
+         - {word: "alda", grammar: "n", gloss: "tree", category: "AV_TR", mark: "", deprecated: False, page: "539805327"}
+      aldalome:
+         - {word: "Aldalómë", grammar: "place-name", gloss: "Tree-twilight", category: "", mark: "", deprecated: False, page: "3242291153"}
+      aldamir:
+         - {word: "Aldamir", grammar: "masc-name", gloss: "*Tree Jewel", category: "", mark: "", deprecated: False, page: "1126937443"}
+      aldanil:
+         - {word: "Aldanil", grammar: "masc-name", gloss: "Lover of Trees", category: "", mark: "", deprecated: False, page: "3025306943"}
+      aldarembina:
+         - {word: "aldarembina", grammar: "adj", gloss: "tree-meshed", category: "AV_TR", mark: "", deprecated: False, page: "1992388353"}
+      aldarion:
+         - {word: "Aldarion", grammar: "masc-name", gloss: "*Son of Trees", category: "", mark: "", deprecated: False, page: "822173433"}
+      aldaron:
+         - {word: "Aldaron", grammar: "masc-name", gloss: "Lord of Forests, (lit.) Of Trees", category: "", mark: "", deprecated: False, page: "3330088929"}
+      aldea:
+         - {word: "Aldëa", grammar: "n", gloss: "*Tuesday, Tree-day (Númenórean)", category: "TM_TU", mark: "", deprecated: False, page: "4158418399"}
+      aldinga:
+         - {word: "aldinga", grammar: "n", gloss: "tree-top", category: "AV_TR", mark: "", deprecated: False, page: "1598925071"}
+      aldudenie:
+         - {word: "Aldudénië", grammar: "proper-name", gloss: "Lament for the Two Trees", category: "", mark: "", deprecated: False, page: "2442652045"}
+      alduya:
+         - {word: "Aldúya", grammar: "n", gloss: "*Tuesday, Day of the Two Trees", category: "TM_TU", mark: "", deprecated: False, page: "2566863855"}
+      aldauya:
+         - {word: "Aldauya", grammar: "n", gloss: "*Tuesday, Day of the Two Trees", category: "TM_TU", mark: "", deprecated: True, page: "1237937839"}
+      aleldarin:
+         - {word: "aleldarin", grammar: "adj", gloss: "unelvish", category: "RB_EF", mark: "", deprecated: False, page: "415262653"}
+      aleldarinwa:
+         - {word: "aleldarinwa", grammar: "adj", gloss: "unElvish", category: "RB_EF", mark: "-", deprecated: False, page: "2293400207"}
+      alima:
+         - {word: "alima", grammar: "adj", gloss: "fair, good", category: "EM_GD", mark: "", deprecated: False, page: "2871813959"}
+      alla:
+         - {word: "alla", grammar: "interj", gloss: "welcome, hail", category: "LM_VC", mark: "", deprecated: False, page: "3260046495"}
+      alma:
+         - {word: "alma", grammar: "n", gloss: "flower", category: "AV_FL", mark: "", deprecated: False, page: "1452592063"}
+      alba:
+         - {word: "alba", grammar: "n", gloss: "flower", category: "AV_FL", mark: "-", deprecated: True, page: "4154712331"}
+      alme:
+         - {word: "almë", grammar: "n", gloss: "good (or blessed) thing, blessing, piece of good fortune", category: "EM_GF", mark: "", deprecated: False, page: "1442578625"}
+      almiel:
+         - {word: "Almiel", grammar: "fem-name", gloss: "?Blessed Daughter", category: "", mark: "", deprecated: False, page: "2220848169"}
+      alqua:
+         - {word: "alqua", grammar: "n", gloss: "swan", category: "AN_SX", mark: "", deprecated: False, page: "4104058537"}
+      alqualonde:
+         - {word: "Alqualondë", grammar: "place-name", gloss: "Haven of the Swans", category: "", mark: "", deprecated: False, page: "2284449801"}
+      altariel:
+         - {word: "Altáriel", grammar: "fem-name", gloss: "Galadriel", category: "", mark: "", deprecated: False, page: "1362129291"}
+      caltariel:
+         - {word: "Caltáriel", grammar: "fem-name", gloss: "woman crowned with glory, radiance", category: "", mark: "-", deprecated: False, page: "3749975063"}
+      naltariel:
+         - {word: "Naltariel", grammar: "fem-name", gloss: "Galadriel", category: "", mark: "", deprecated: False, page: "470878163"}
+      alve:
+         - {word: "alvë", grammar: "n", gloss: "elm", category: "AV_EL", mark: "", deprecated: False, page: "2355361641"}
+      albe:
+         - {word: "albë", grammar: "n", gloss: "elm", category: "AV_EL", mark: "", deprecated: False, page: "4144409663"}
+      alya:
+         - {word: "alya", grammar: "adj", gloss: "fair, good", category: "EM_GF", mark: "", deprecated: False, page: "1237975119"}
+         - {word: "alya-", grammar: "vb", gloss: "to cause to prosper, bless (a work), help one", category: "SO_HA", mark: "", deprecated: False, page: "3743403951"}
+      am:
+         - {word: "am-", grammar: "pref", gloss: "up", category: "SR_UA", mark: "#", deprecated: False, page: "4282118887"}
+         - {word: "am(a)-", grammar: "pref", gloss: "intensive prefix", category: "GR_CI", mark: "†", deprecated: False, page: "1449367445"}
+      ama:
+         - {word: "ama-", grammar: "pref", gloss: "*well, happily", category: "EM_HH", mark: "-", deprecated: False, page: "2350197575"}
+         - {word: "am(a)-", grammar: "pref", gloss: "intensive prefix", category: "GR_CI", mark: "†", deprecated: False, page: "1449367445"}
+      yuyo:
+         - {word: "yúyo", grammar: "adj", gloss: "both", category: "QN_TW", mark: "", deprecated: False, page: "1863628559"}
+      ezel:
+         - {word: "ezel(la)", grammar: "adj", gloss: "green", category: "SP_GR", mark: "", deprecated: False, page: "888470127"}
+      ezella:
+         - {word: "ezel(la)", grammar: "adj", gloss: "green", category: "SP_GR", mark: "", deprecated: False, page: "888470127"}

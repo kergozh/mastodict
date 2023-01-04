@@ -5,14 +5,10 @@
 # En https://git.mastodont.cat/spla/info
 ###  
 
-from mastobot import Mastobot
-from pybot.programmer import Programmer
-from pybot.config import Config
-from pybot.translator import Translator
-from pybot.logger import Logger
-
 import random
-import datetime
+import re
+
+from mastobot import Mastobot
 
 BOT_NAME = "Lambebot"
 
@@ -26,71 +22,177 @@ class Bot(Mastobot):
         self.init_publish_bot()
         self.init_translator()
         self.init_programmer()
+        self.init_input_data()
 
 
     def run(self, botname: str = BOT_NAME) -> None:
 
-        action   = self._actions["post"]   
-        if self.check_programmer(action["hours"], True):
-
-            for i in range(29):
-                word, language = self.find_random_word(self._actions["data"]["dictionaries"])
-                print ("word: " + word["word"])
-
-            #self.post_toot (self.find_text(None, word), "en", 0)
+        if self.check_programmer(self._actions.get("post.hours"), True):
+            self.post_toot (self.find_random_text(None), "en")
      
-        #action   = self._actions["replay_status"]   
-        #notifications = self.mastodon.notifications()
-        #for notif in notifications:
-        #    replay, dismiss = self.process_notif(notif, "mention", action["keyword"])
-        #    if replay:
-        #        self.replay_toot(self.find_text(notif, action), notif)
-        #    if dismiss:
-        #        self.mastodon.notifications_dismiss(notif.id)
+        notifications = self.mastodon.notifications()
+        for notif in notifications:
+            content = self.check_notif(notif, "mention")
+
+            if content != "":
+                if re.search(self._actions.get("help.regex"), content) != None: 
+                    self.replay_toot (self.find_help_text(notif), notif)
+        
+                elif re.search(self._actions.get("languages.regex"), content) != None:
+                    self.replay_toot (self.find_languages_text(notif), notif)
+
+                elif re.search(self._actions.get("random.regex"), content) != None:
+                    self.replay_toot (self.find_random_text(notif), notif)
+
+                elif re.search(self._actions.get("search.regex"), content) != None:
+                    self.replay_toot (self.find_search_text(notif), notif)
+
+                elif re.search(self._actions.get("filtered_random.regex"), content) != None:
+                    self.replay_toot (self.find_filtered_random_text(notif), notif)
+
+                elif re.search(self._actions.get("filtered_search.regex"), content) != None:
+                    self.replay_toot (self.find_filtered_search_text(notif), notif)
+    
+                else: 
+                    self.replay_toot (self.find_error_text(notif), notif)
+    
 
         super().run(botname = botname)
 
 
-    def find_random_word(self, dictionaries):
-
-        language   = random.choice(list(dictionaries.keys()))
-        dictionary = dictionaries[language] 
-        word_list  = random.choice(list(dictionary.values()))
-
-        # en este punto tenemos un diccionario con un lenguage y un valor
-        if isinstance(word_list, list):
-            word = random.choice(word_list) 
-        else: 
-            word = word_list
-
-        return word, language
-
-
-    def find_text(self, notif, word):        
-
-        self._logger.debug("notif language: " + language)                    
-
-        if notif == None:
-            language = "en" 
-            post_text  = ""
-        else:
-            language = notif.status.language
-            post_text  = "@" + notif.account.acct + ":\n\n"
-                
+    def find_error_text(self, notif):
+            
+        language = notif.status.language
+        username = notif.account.acct
+        post_texts = []
+        
+        self._logger.debug("notif language: %s", language)
+        
         self._translator.fix_language (language)
         _text     = self._translator.get_text
-        
-        print ("word: " + word )
 
-
-        #post_text += _text("registrados") + ": " + registers + "\n"
-        #post_text += _text("activos") + ": " + mau + "\n"
-        # post_text = (post_text[:400] + '... ') if len(post_text) > 400 else post_text
-
+        post_text  = "@" + username + ", " + _text("error")
+        post_text = (post_text[:400] + '... ') if len(post_text) > 400 else post_text
         self._logger.debug ("answer text\n" + post_text)
+        post_texts.append(post_text)
+        
+        return post_texts
 
-        return post_text
 
+    def find_help_text(self, notif):
+            
+        username = notif.account.acct
+        language = notif.status.language
+        post_texts = []
+        
+        self._logger.debug("notif language: %s", language)
+        
+        self._translator.fix_language (language)
+        _text     = self._translator.get_text
+
+        post_text  = "@" + username + ":\n\n" + _text("intro") + _text("opcions1")
+        post_text = (post_text[:400] + '... ') if len(post_text) > 400 else post_text
+        self._logger.debug ("answer text\n" + post_text)
+        post_texts.append(post_text)
+
+        post_text  = "@" + username + ":\n\n" + _text("opcions2")
+        post_text = (post_text[:400] + '... ') if len(post_text) > 400 else post_text
+        self._logger.debug ("answer text\n" + post_text)
+        post_texts.append(post_text)
+
+        return post_texts
+
+
+    def find_languages_text(self, notif):
+            
+        post_texts = []    
+        language  = notif.status.language
+
+        self._logger.debug("notif language: %s", language)
+
+        self._translator.fix_language (language)
+        _text     = self._translator.get_text
+
+        post_text = "@" + notif.account.acct + ":\n\n" 
+
+        for lang in self._data.get("languages"):
+            post_text += _text("idioma") + ": " + self._data.get("languages")[lang] + ", " + _text("codi") + ": " + lang + "\n" 
+            
+        post_text = (post_text[:400] + '... ') if len(post_text) > 400 else post_text
+        self._logger.debug ("answer text\n" + post_text)
+        post_texts.append(post_text)
+
+        return post_texts
+
+
+    def find_random_text(self, notif):
+
+        post_texts = []    
+        word_dict, language = self.find_random_word()
+
+        if notif == None:
+            post_text = ""        
+        else:
+            post_text  = "@" + notif.account.acct + ":\n\n" 
+        
+        post_text += "\"" + word_dict["mark"] + word_dict["word"] + "\", "
+        post_text += self._data.get("languages")[language] + " " + word_dict["grammar"] + "\n"
+        post_text += "\"" + word_dict["gloss"] + "\""
+        if word_dict["category"] != "":
+            post_text += " (category: " +  self._data.get("word_categories")[word_dict["category"]]  + ")"
+        post_text += "\n\n"
+
+        for i in word_dict["mark"]:
+            post_text += self._data.get("word_marks")[i] + "\n"
+
+        if word_dict["deprecated"]:
+            post_text += "Most likely it is a deprecated word" + "\n"
+
+        if len(word_dict["referencies"]) > 0:
+            post_text += "Referencies:\n"
+            for ref in word_dict["referencies"]:
+                if len(post_text) < 300:
+                    if "." in ref["source"]:
+                        ref_text = ref["source"][:ref["source"].index(".")]
+                    else:
+                        ref_text = ref["source"]
+                    post_text += "- " + ref_text
+                    if "word" in ref:
+                        post_text += ": \"" + ref["word"] + "\"\n"
+                    else:
+                        post_text += "\n"
+        
+        if "page" in word_dict:
+            post_text += "\nhttps://eldamo.org/content/words/word-" + word_dict["page"] +".html"
+             
+        post_text = (post_text[:400] + '... ') if len(post_text) > 400 else post_text
+        self._logger.debug ("answer text\n" + post_text)
+        post_texts.append(post_text)
+        
+        return post_texts
+
+
+    def find_random_word(self):
+            
+        words     = self._data.get("words")
+        lang_aux  = random.choice(list(words.values()))
+
+        # en este punto tenemos una lista de lenguajes o un diccionario 
+        if isinstance(lang_aux, list):
+            lang_dict = random.choice(lang_aux) 
+        else: 
+            lang_dict = lang_aux
+
+        language = random.choice(list(lang_dict.keys()))
+        word_aux = lang_dict[language]
+
+        # en este punto tenemos una lista de lenguajes o un diccionario 
+        if isinstance(word_aux, list):
+            word_dict = random.choice(word_aux) 
+        else: 
+            word_dict = word_aux
+
+        return word_dict, language
 
 # main
 

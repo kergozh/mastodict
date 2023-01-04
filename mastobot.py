@@ -7,8 +7,8 @@
 from pybot.logger import Logger
 from pybot.translator import Translator
 from pybot.programmer import Programmer
-from pybot.config import Config
-from pybot.storage import Storage
+from config import Config
+from storage import Storage
 
 import logging
 from mastodon import Mastodon
@@ -19,7 +19,6 @@ import fileinput,re
 import os
 import sys
 import os.path
-import yaml
 
 
 class Mastobot:
@@ -33,6 +32,9 @@ class Mastobot:
 
         self.init_app_options()
         self.init_bot_connection()
+        
+        self._me = "@" + self.mastodon.me()["username"].strip()
+        self._logger.debug("me: " + self._me)
 
 
     def run(self, botname):
@@ -42,12 +44,13 @@ class Mastobot:
 
     def init_app_options(self):
 
-        self._hostname    = self._config.get("bot.hostname")   
-        self._access_type = self._config.get("bot.access_type")  
+        self._hostname      = self._config.get("bot.hostname")   
+        self._access_type   = self._config.get("bot.access_type")  
 
-        actions_file_name = self._config.get("app.actions_file_name") 
-        with open(actions_file_name, 'r', encoding='utf-8') as stream:
-            self._actions  = yaml.safe_load(stream)
+        self._actions       = Config(self._config.get("app.actions_file_name"))
+        self._post_disabled = self._config.get("testing.disable_post")
+
+        self._logger.debug("post disabled: "    + str(self._post_disabled))
 
 
     def init_bot_connection(self):
@@ -65,11 +68,9 @@ class Mastobot:
 
     def init_publish_bot(self):
 
-        self._post_disabled = self._config.get("testing.disable_post")
         self._user_mention  = self._config.get("testing.user_mention")
         force_mention       = self._config.get("testing.force_mention")
 
-        self._logger.debug("post disabled: " + str(self._post_disabled))
         self._logger.debug("user_mention: "  + self._user_mention)
         self._logger.debug("force_mention: " + str(force_mention))
 
@@ -81,12 +82,10 @@ class Mastobot:
 
     def init_replay_bot(self):
 
-        self._post_disabled    = self._config.get("testing.disable_post")
         self._dismiss_disabled = self._config.get("testing.disable_dismiss")
-        self._test_word        = self._config.get("testing.text_word")
+        self._test_word        = self._config.get("testing.text_word").lower()
         ignore_test_toot       = self._config.get("testing.ignore_test_toot")
 
-        self._logger.debug("post disabled: "    + str(self._post_disabled))
         self._logger.debug("dismiss disabled: " + str(self._dismiss_disabled))
         self._logger.debug("test_word: "        + self._test_word)
         self._logger.debug("ignore test: "      + str(ignore_test_toot))
@@ -114,6 +113,11 @@ class Mastobot:
         filename  = self._config.get("app.output_file_name")
         self._output_file = Storage(filename, directory)
         self._disable_write = self._config.get("testing.disable_write")
+
+
+    def init_input_data(self):
+
+        self._data = Config(self._config.get("app.data_file_name"))
 
 
     def access_token_access(self):
@@ -301,10 +305,10 @@ class Mastobot:
         fh.close()
 
 
-    def post_toot(self, text, language, id : int = 0): 
+    def post_toot(self, text, language): 
 
         if self._post_disabled:
-            self._logger.info("posting disabled with id " + str(id))                    
+            self._logger.info("posting disabled")                    
 
         else:
             if self._force_mention:
@@ -314,7 +318,7 @@ class Mastobot:
             else:
                 visibility = "public" 
 
-            self._logger.info("posting toot with id " + str(id))
+            self._logger.info("posting toot")
             self.mastodon.status_post(text, language = language, visibility = visibility)
 
 
@@ -335,7 +339,7 @@ class Mastobot:
                 dismiss = False
             
             else:
-                if keyword.lower() in notif_word_list:
+                if (notif_word_list[0].strip() == self._me) and (keyword.lower() in notif_word_list or keyword == ""):
                     self._logger.info("replaying notification id " + str(notif.id))                    
                     replay = True
 
@@ -348,9 +352,45 @@ class Mastobot:
         return replay, dismiss
 
 
-    def find_notif_word_list(self, notif):
+    def check_notif(self, notif, notif_type):
 
-        text = notif.status.content
+        self._logger.debug("process notif type: " + notif_type)
+
+        dismiss = True
+        content = ""
+
+        if notif.type == notif_type:
+
+            content = self.clean_content(notif.status.content)
+
+            # sólo si la notificacions va dirigida al bot
+            if content.find(self._me) == 0:
+
+                if self._ignore_test and content.find(self._test_word) != -1:
+                    self._logger.debug("ignoring test notification id " + str(notif.id))
+                    dismiss = False
+                    content = ""            
+
+                else:
+                    content = self.clean_content(notif.status.content)
+                    content = content.replace(self._me, "")
+                    content = content.replace(self._test_word, "")
+                    content = content.strip()
+                    
+                    if self._dismiss_disabled:
+                        self._logger.debug("notification replayed but dismiss disabled in id " + str(notif.id))               
+                        dismiss = False    
+
+        if dismiss:
+            self._logger.debug("dismissing notification id " + str(notif.id))              
+            self.mastodon.notifications_dismiss(notif.id)
+
+        self._logger.debug("content: " + content)
+
+        return content
+
+
+    def clean_content(self, text):
 
         self._logger.debug("Original content: " + text)
         
@@ -360,6 +400,13 @@ class Mastobot:
             
         self._logger.debug("Checking content: " + text)
 
+        return text 
+
+
+    def find_notif_word_list(self, text):
+
+        text = self.clean_content(text)
+            
         return text.split()
 
 
@@ -380,6 +427,7 @@ class Mastobot:
 
     def replay_toot(self, text, notif): 
 
+        list       = []
         status_id  = notif.status.id
         visibility = notif.status.visibility
         language   = notif.status.language
@@ -388,7 +436,11 @@ class Mastobot:
             self._logger.info("posting answer disabled")                    
 
         else:
-            self.mastodon.status_post(text, in_reply_to_id=status_id, visibility=visibility, language=language)
+            if isinstance(text, str):
+                list.append(str)
+            
+            for text in list:
+                self.mastodon.status_post(text, in_reply_to_id=status_id, visibility=visibility, language=language)
 
 
     def check_programmer (self, hours, restore):

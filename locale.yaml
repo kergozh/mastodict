@@ -2,9 +2,35 @@
 #    Locale for mastodon dictionary bot   #
 ###########################################
 
-abierto:
-  es: "abierto"
-  ca: "obert"
-  en: "opened"  
-  gl: "aberto"
+error:
+  es: "lo siento pero no te he entendido, por favor consulta la ayuda con \"@lambebot -h\""
+  ca: "ho sento però no t'he entès, si us plau consulta l'ajuda amb \"@lambebot -h\""
+  en: "I'm sorry, but I didn't understand you, please see the help with \"@lambebot -h\"" 
+
+intro:
+  es: "Este bot publica una palabra aleatoria de los idiomas de J. R. R. Tolkien cada día.\n"
+  ca: "Aquest bot publica una paraula aleatòria dels idiomes de J. R. R. Tolkien cada día.\n"
+  en: "This bot posts a random word form the J. R. R. Tolkien languages ​​every day.\n"  
   
+opcions1:
+  es: "Además, si es mencionado con \"-h\" o \"--help\" contesta con estas instrucciones: \"@lambebot -h\".\nCon \"-r\" o \"--random\" contesta con una palabra aleatoria: \"@lambebot -r\".\nCon \"-s\" o \"--search\" y una palabra, la busca en los diccionarios y contesta con sus datos: \"@lambebot -s lambe\"."
+  ca: "Amés, si es mencionat amb \"-h\" o \"--help\" contesta amb aquestes instruccions: \"@lambebot -h\".\nAmb \"-r\" o \"--random\" contesta amb una paraula aleatòria: \"@lambebot -r\".\nAmb \"-s\" o \"--search\" i una paraula, la busca als diccionaris i contesta amb les seves dades: \"@lambebot -s lambe\"."
+  en: "Also, if mentioned with \"-h\" or \"--help\" it replies with these instructions: \"@lambebot -h\".\nWith \"-r\" or \"--random\" it replies with a random word: \"@lambebot -r\".\nWith \"-s\" or \"--search\" and a word, it searches the dictionaries and answers with the word data: \"@lambebot -s lambe\"."
+
+opcions2:
+  es: "En las opciones anteriores se puede filtrar por idioma añadiendo \"-d\" o \"--dict\": \"@lambenor -s lambe -d q\" o \"@lambenor -r -d s\".\nCon \"-l\" o \"--langs\" contesta con la lista de idiomas soportados y el código para filtrar en las opciones previas: \"@lambebot -l\".\n"
+  ca: "En las opcions anteriors es pot filtrar per idioma afegint-hi \"-d\" o \"--dict\": \"@lambenor -s lambe -d q\" o \"@lambenor -r -d s\".\nAmb \"-l\" o \"--langs\" contesta amb la llista d'idiomes soportats i el codi per filtrar en las opcions prèvies: \"@lambebot -l\".\n"
+  en: "In the above options you can filter by language by adding \"-d\" or \"--dict\": \"@lambenor -s lambe -d q\" or \"@lambenor -r -d s\".\nWith \"-l\" or \"--langs\" it replies with the list of supported languages ​​and the code to filter on the previous options: \"@lambebot -l\".\n"
+
+idioma:
+  es: "Idioma"
+  ca: "Idioma"
+  en: "Languange" 
+
+codi:
+  es: "código"
+  ca: "codi"
+  en: "code" 
+
+
+

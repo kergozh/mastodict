@@ -8,6 +8,8 @@ app:
   name: "lambebot"
   # [String] Name of the actions file 
   actions_file_name: "actions.yaml" 
+  # [String] Name of the data file 
+  data_file_name: "data2.yaml" 
 
 # Mastobot config
 bot:
@@ -16,7 +18,7 @@ bot:
   # [String]  Instance hostname 
   hostname: "frikiverse.zone"
   # [String] Access type: Access Token = "AT" | Credentials = "CR" 
-  access_type: "AT"
+  access_type: "CR"
 
 # Mastobot access token configuration
 access_token:
