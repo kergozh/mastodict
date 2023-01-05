@@ -5,7 +5,7 @@
 ###  
 
 from pybot.logger import Logger
-from pybot.translator import Translator
+from translator import Translator
 from pybot.programmer import Programmer
 from config import Config
 from storage import Storage
@@ -307,19 +307,35 @@ class Mastobot:
 
     def post_toot(self, text, language): 
 
+        list      = []
+        status_id = None
+
         if self._post_disabled:
-            self._logger.info("posting disabled")                    
+            self._logger.info("posting answer disabled")                    
 
         else:
+            if isinstance(text, str):
+                list.append(text)
+            else:
+                list = text
+
             if self._force_mention:
                 visibility = "direct"
-                text = "@" + self._user_mention + "\n\n" + text
-                text = (text[:400] + '... ') if len(text) > 400 else text
+                add_text = "@" + self._user_mention + "\n\n"
             else:
                 visibility = "public" 
+                add_text = ""
 
-            self._logger.info("posting toot")
-            self.mastodon.status_post(text, language = language, visibility = visibility)
+            for text in list:
+ 
+                if add_text != "":
+                    text = "@" + self._user_mention + "\n\n" + text
+                    text = (text[:400] + '... ') if len(text) > 400 else text
+
+                self._logger.info("posting toot")
+                status = self.mastodon.status_post(text, in_reply_to_id=status_id, visibility=visibility, language=language)
+                status_id = status["id"] 
+
 
 
     def process_notif(self, notif, notif_type, keyword):
@@ -437,10 +453,14 @@ class Mastobot:
 
         else:
             if isinstance(text, str):
-                list.append(str)
+                list.append(text)
+            else:
+                list = text
             
             for text in list:
-                self.mastodon.status_post(text, in_reply_to_id=status_id, visibility=visibility, language=language)
+                self._logger.debug("posting answer ")                    
+                status = self.mastodon.status_post(text, in_reply_to_id=status_id, visibility=visibility, language=language)
+                status_id = status["id"] 
 
 
     def check_programmer (self, hours, restore):

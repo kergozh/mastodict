@@ -48,7 +48,7 @@ class Bot(Mastobot):
                     self.replay_toot (self.find_search_text(notif), notif)
 
                 elif re.search(self._actions.get("filtered_random.regex"), content) != None:
-                    self.replay_toot (self.find_filtered_random_text(notif), notif)
+                    self.replay_toot (self.find_filtered_random_text(notif, content), notif)
 
                 elif re.search(self._actions.get("filtered_search.regex"), content) != None:
                     self.replay_toot (self.find_filtered_search_text(notif), notif)
@@ -135,7 +135,48 @@ class Bot(Mastobot):
         else:
             post_text  = "@" + notif.account.acct + ":\n\n" 
         
-        post_text += "\"" + word_dict["mark"] + word_dict["word"] + "\", "
+        post_text += self.find_word_text(word_dict, language)
+             
+        post_text = (post_text[:400] + '... ') if len(post_text) > 400 else post_text
+        self._logger.debug ("answer text\n" + post_text)
+        post_texts.append(post_text)
+        
+        return post_texts
+
+
+    def find_filtered_random_text(self, notif, content):
+
+        post_texts = []
+        language   = notif.status.language
+        word_lang  = (re.sub(r'((-|--)\s*\w+)', '', content)).strip()
+
+        self._logger.debug("word language: %s", word_lang)
+
+        self._translator.fix_language (language)
+        _text     = self._translator.get_text
+
+
+        if notif == None:
+            post_text = ""        
+        else:
+            post_text  = "@" + notif.account.acct + ":\n\n" 
+
+        if self.check_language(word_lang):
+            word_dict = self.find_filtered_random_word(word_lang)
+            post_text += self.find_word_text(word_dict, word_lang)
+        else:
+            post_text += _text("error_idioma")
+
+        post_text = (post_text[:400] + '... ') if len(post_text) > 400 else post_text
+        self._logger.debug ("answer text\n" + post_text)
+        post_texts.append(post_text)
+        
+        return post_texts
+
+
+    def find_word_text(self, word_dict, language):
+
+        post_text = "\"" + word_dict["mark"] + word_dict["word"] + "\", "
         post_text += self._data.get("languages")[language] + " " + word_dict["grammar"] + "\n"
         post_text += "\"" + word_dict["gloss"] + "\""
         if word_dict["category"] != "":
@@ -148,28 +189,25 @@ class Bot(Mastobot):
         if word_dict["deprecated"]:
             post_text += "Most likely it is a deprecated word" + "\n"
 
-        if len(word_dict["referencies"]) > 0:
-            post_text += "Referencies:\n"
-            for ref in word_dict["referencies"]:
-                if len(post_text) < 300:
-                    if "." in ref["source"]:
-                        ref_text = ref["source"][:ref["source"].index(".")]
-                    else:
-                        ref_text = ref["source"]
-                    post_text += "- " + ref_text
-                    if "word" in ref:
-                        post_text += ": \"" + ref["word"] + "\"\n"
-                    else:
-                        post_text += "\n"
-        
+        if "referencies" in word_dict:
+            if len(word_dict["referencies"]) > 0:
+                post_text += "Referencies:\n"
+                for ref in word_dict["referencies"]:
+                    if len(post_text) < 300:
+                        if "." in ref["source"]:
+                            ref_text = ref["source"][:ref["source"].index(".")]
+                        else:
+                            ref_text = ref["source"]
+                        post_text += "- " + ref_text
+                        if "word" in ref:
+                            post_text += ": \"" + ref["word"] + "\"\n"
+                        else:
+                            post_text += "\n"
+            
         if "page" in word_dict:
             post_text += "\nhttps://eldamo.org/content/words/word-" + word_dict["page"] +".html"
              
-        post_text = (post_text[:400] + '... ') if len(post_text) > 400 else post_text
-        self._logger.debug ("answer text\n" + post_text)
-        post_texts.append(post_text)
-        
-        return post_texts
+        return post_text
 
 
     def find_random_word(self):
@@ -186,13 +224,28 @@ class Bot(Mastobot):
         language = random.choice(list(lang_dict.keys()))
         word_aux = lang_dict[language]
 
-        # en este punto tenemos una lista de lenguajes o un diccionario 
+        # en este punto tenemos una lista de acepciones o un diccionario 
         if isinstance(word_aux, list):
             word_dict = random.choice(word_aux) 
         else: 
             word_dict = word_aux
 
         return word_dict, language
+
+
+    def find_filtered_random_word(self, language):
+            
+        words     = self._data.get("dictionaries")[language]
+        word_aux  = random.choice(list(words.values()))
+
+        # en este punto tenemos una lista de acepciones o un diccionario 
+        if isinstance(word_aux, list):
+            word_dict = random.choice(word_aux) 
+        else: 
+            word_dict = word_aux
+
+        return word_dict
+
 
 # main
 

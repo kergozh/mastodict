@@ -18,9 +18,9 @@ opcions1:
   en: "Also, if mentioned with \"-h\" or \"--help\" it replies with these instructions: \"@lambebot -h\".\nWith \"-r\" or \"--random\" it replies with a random word: \"@lambebot -r\".\nWith \"-s\" or \"--search\" and a word, it searches the dictionaries and answers with the word data: \"@lambebot -s lambe\"."
 
 opcions2:
-  es: "En las opciones anteriores se puede filtrar por idioma añadiendo \"-d\" o \"--dict\": \"@lambenor -s lambe -d q\" o \"@lambenor -r -d s\".\nCon \"-l\" o \"--langs\" contesta con la lista de idiomas soportados y el código para filtrar en las opciones previas: \"@lambebot -l\".\n"
-  ca: "En las opcions anteriors es pot filtrar per idioma afegint-hi \"-d\" o \"--dict\": \"@lambenor -s lambe -d q\" o \"@lambenor -r -d s\".\nAmb \"-l\" o \"--langs\" contesta amb la llista d'idiomes soportats i el codi per filtrar en las opcions prèvies: \"@lambebot -l\".\n"
-  en: "In the above options you can filter by language by adding \"-d\" or \"--dict\": \"@lambenor -s lambe -d q\" or \"@lambenor -r -d s\".\nWith \"-l\" or \"--langs\" it replies with the list of supported languages ​​and the code to filter on the previous options: \"@lambebot -l\".\n"
+  es: "En las opciones anteriores se puede filtrar por idioma añadiendo \"-l\" o \"--lang\": \"@lambenor -s lambe -l q\" o \"@lambenor -r -l s\".\nCon \"-d\" o \"--dicts\" contesta con la lista de diccionarios disponibles y el código para filtrar por idioma en las opciones previas: \"@lambebot -d\". Los diccionarios provienen de https://eldamo.org/ y están en inglés.\n"
+  ca: "En las opcions anteriors es pot filtrar per idioma afegint-hi \"-l\" o \"--lang\": \"@lambenor -s lambe -l q\" o \"@lambenor -r -l s\".\nAmb \"-d\" o \"--dicts\" contesta amb la llista de diccionaris disponibles i el codi per filtrar per idioma en les opcions prèvies: \"@lambebot -d\". Els diccionaris provenen de https://eldamo.org/ i estan en anglès.\n"
+  en: "In the above options you can filter by language by adding \"-l\" o \"--lang\": \"@lambenor -s lambe -l q\" or \"@lambenor -r -l s\".\nWith \"-d\" or \"--dicts\" it replies with the list of available dictionaries and the code to filter by language in the previous options: \"@lambebot -d\". Dictionaries from https://eldamo.org/ .\n"
 
 idioma:
   es: "Idioma"
@@ -32,5 +32,9 @@ codi:
   ca: "codi"
   en: "code" 
 
+error_idioma:
+  es: "no está disponible el diccionario para este idioma, por favor consulta los diccionarios con \"@lambebot -d\"."
+  ca: "no está disponible el diccionario para este idioma, por favor consulta los diccionarios con \"@lambebot -d\"."
+  en: "no está disponible el diccionario para este idioma, por favor consulta los diccionarios con \"@lambebot -d\"." 
 
 

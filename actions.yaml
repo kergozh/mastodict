@@ -6,19 +6,19 @@ post:
    hours: ["05"] 
 
 help:
-   regex: "^(-\\s?h|--\\s?help)$"
+   regex: "^(-\\s*h|--\\s*help)$"
 
 languages:
-   regex: "^(-\\s?l|--\\s?langs)$"
+   regex: "^(-\\d*l|--\\s*dicts)$"
 
 random:
-   regex: "^(-\\s?r|--\\s?random)$"
+   regex: "^(-\\s*r|--\\s*random)$"
 
 search:
-   regex: "^((-\\s?s|--\\s?search)\\s+\\S+)$"
+   regex: "^((-\\s*s|--\\s*search)\\s+\\S+)$"
 
 filtered_random:
-   regex: "^((-\\s?r|--\\s?random)\\s+(-\\s?d|--\\s?dict)\\s+\\S+)$"
+   regex: "^((-\\s*r|--\\s*random)\\s+(-\\s*l|--\\s*lang)\\s+\\S+)$"
 
 filtered_search:
-   regex: "^((-\\s?s|--\\s?search)\\s+\\S+\\s+(-\\s?d|--\\s?dict)\\s+\\S+)$"
+   regex: "^((-\\s*s|--\\s*search)\\s+\\S+\\s+(-\\s*l|--\\s*lang)\\s+\\S+)$"
