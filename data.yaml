@@ -1471,8 +1471,8 @@ word_marks:
    "**": "Reconstructed but incorrected form"
    "†": "Archaic or poetic word"
    "‽": "Tolkien himself wrote a ? in the source material"
-   "|": "Words appearing in a deleted section, where the word itself was not specifically rejected"
-   "!": "Fabrications and inventions by authors other than Tolkien"
+   "|": "Word appearing in a deleted section, where the word itself was not specifically rejected"
+   "!": "Fabrication or invention by authors other than Tolkien"
    "^": "Reformulated from early versions of the languages to fit the structure of later languages"
 
 words:

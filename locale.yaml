@@ -22,19 +22,28 @@ opcions2:
   ca: "En las opcions anteriors es pot filtrar per idioma afegint-hi \"-l\" o \"--lang\": \"@lambenor -s lambe -l q\" o \"@lambenor -r -l s\".\nAmb \"-d\" o \"--dicts\" contesta amb la llista de diccionaris disponibles i el codi per filtrar per idioma en les opcions prèvies: \"@lambebot -d\". Els diccionaris provenen de https://eldamo.org/ i estan en anglès.\n"
   en: "In the above options you can filter by language by adding \"-l\" o \"--lang\": \"@lambenor -s lambe -l q\" or \"@lambenor -r -l s\".\nWith \"-d\" or \"--dicts\" it replies with the list of available dictionaries and the code to filter by language in the previous options: \"@lambebot -d\". Dictionaries from https://eldamo.org/ .\n"
 
+opcions3:
+  es: "Con \"-m\" o \"--marks\" contesta con el signifacado de las marcas de fiabilidad que aparecen en palabras y definiciones: \"@lambebot -m\"." 
+  ca: "Amb \"-m\" o \"--marks\" contesta amb el signifacat de les marques de fiabilitat que apareixen en paraules i definicions: \"@lambebot -m\"." 
+  en: "With \"-m\" o \"--marks\" it replais answer with an explanation of the reliability marks that appear on words and definitions: \"@lambebot -m\"."
+
 idioma:
   es: "Idioma"
   ca: "Idioma"
   en: "Languange" 
 
-codi:
+codigo:
   es: "código"
   ca: "codi"
   en: "code" 
 
 error_idioma:
-  es: "no está disponible el diccionario para este idioma, por favor consulta los diccionarios con \"@lambebot -d\"."
-  ca: "no está disponible el diccionario para este idioma, por favor consulta los diccionarios con \"@lambebot -d\"."
-  en: "no está disponible el diccionario para este idioma, por favor consulta los diccionarios con \"@lambebot -d\"." 
+  es: "el diccionario del idioma solicitado no está disponible, por favor consulta las opciones con \"@lambebot -d\"."
+  ca: "el diccionario de l'idioma sol·licitat no està disponible, si us plau consulta les opcions con \"@lambebot -d\"."
+  en: "the dictionary of the requested language is not available, please consult the options with \"@lambebot -d\"." 
 
+not_found:
+  es: "palabra no encontrada, por favor consulta los diccionarios disponebles con \"@lambebot -d\"."
+  ca: "paraula no trobada, si us plau consulta els diccionaris disponibles conn \"@lambebot -d\"."
+  en: "word not found, please consult the available dictionaries with \"@lambebot -d\"." 
 

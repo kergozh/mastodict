@@ -12,13 +12,16 @@ languages:
    regex: "^(-\\d*l|--\\s*dicts)$"
 
 random:
-   regex: "^(-\\s*r|--\\s*random)$"
+   regex: "^(-\\s*r|--\\s*rand|--\\s*random)$"
+
+marks:
+   regex: "^(-\\s*m|--\\s*marks)$"
 
 search:
    regex: "^((-\\s*s|--\\s*search)\\s+\\S+)$"
 
 filtered_random:
-   regex: "^((-\\s*r|--\\s*random)\\s+(-\\s*l|--\\s*lang)\\s+\\S+)$"
+   regex: "^((-\\s*r|--\\s*rand|--\\s*random)\\s+(-\\s*l|--\\s*lang)\\s+\\S+)$"
 
 filtered_search:
    regex: "^((-\\s*s|--\\s*search)\\s+\\S+\\s+(-\\s*l|--\\s*lang)\\s+\\S+)$"

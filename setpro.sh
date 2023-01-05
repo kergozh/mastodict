@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd /home/mastodict/mastodict/
+cd /home/user_name/mastodict/
 
 sed -i 's/ignore_test_toot: False/ignore_test_toot: True/g' config.yaml
 sed -i 's/disable_post: True/disable_post: False/g' config.yaml

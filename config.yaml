@@ -9,7 +9,7 @@ app:
   # [String] Name of the actions file 
   actions_file_name: "actions.yaml" 
   # [String] Name of the data file 
-  data_file_name: "data2.yaml" 
+  data_file_name: "data.yaml" 
 
 # Mastobot config
 bot:
@@ -51,7 +51,7 @@ testing:
   # [Bool] Force programmer
   force_programmer: True
   # [Bool] force private mention when post
-  force_mention: True
+  force_mention: False
   # [String] user to mention when force private
   user_mention: "kergozh"
 
