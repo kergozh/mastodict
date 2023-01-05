@@ -142,7 +142,8 @@ class Bot(Mastobot):
         self._translator.fix_language (language)
         _text     = self._translator.get_text
 
-        post_text = "@" + notif.account.acct + ":\n\n" 
+        init_text = "@" + notif.account.acct + ":\n\n" 
+        post_text = init_text
 
         for mark in self._data.get("word_marks"):
             post_text += "\"" + mark + "\": " + self._data.get("word_marks")[mark] + "\n" 
@@ -150,7 +151,7 @@ class Bot(Mastobot):
                 post_text = (post_text[:400] + '... ') if len(post_text) > 400 else post_text
                 self._logger.debug ("answer text\n" + post_text)
                 post_texts.append(post_text)
-                post_text = ""
+                post_text = init_text
             
         post_text = (post_text[:400] + '... ') if len(post_text) > 400 else post_text
         self._logger.debug ("answer text\n" + post_text)
