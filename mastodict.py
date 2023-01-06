@@ -329,12 +329,8 @@ class Bot(Mastobot):
             if len(word_dict["referencies"]) > 0:
                 post_text += "Referencies:\n"
                 for ref in word_dict["referencies"]:
-                    if len(post_text) < 300:
-                        if "." in ref["source"]:
-                            ref_text = ref["source"][:ref["source"].index(".")]
-                        else:
-                            ref_text = ref["source"]
-                        post_text += "- " + ref_text
+                    if len(post_text) < 350:
+                        post_text += "- " + ref["source"]
                         if "word" in ref:
                             post_text += ": \"" + ref["word"] + "\"\n"
                         else:
