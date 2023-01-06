@@ -10,5 +10,6 @@ sed -i 's/force_mention: False/force_mention: True/g' config.yaml
 sed -i 's/user_mention: \"none\"/user_mention: \"kergozh\"/g' config.yaml
 
 sed -i 's/loglevel: 20/loglevel: 10/g' config.yaml
+sed -i 's/loglevel: 20/loglevel: 10/g' confserver.yaml
           
 

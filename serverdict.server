@@ -1,0 +1,12 @@
+[Unit]
+Description=Dictionary Server
+After=default.target
+[Service]
+Type=simple
+User=mastodict
+Restart=always
+ExecStart=/bin/bash -c 'cd /home/mastodict/mastodict/ && source env/bin/activate && python3 serverdict.py'
+WorkingDirectory=/home/mastodict/mastodict
+Environment=PYTHONUNBUFFERED=1
+[Install]
+WantedBy=default.target

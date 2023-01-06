@@ -23,7 +23,7 @@ opcions2:
   en: "In the above options you can filter by language by adding \"-l\" o \"--lang\": \"@lambenor -s lambe -l q\" or \"@lambenor -r -l s\".\nWith \"-d\" or \"--dicts\" it replies with the list of available dictionaries and the code to filter by language in the previous options: \"@lambebot -d\". Dictionaries from https://eldamo.org/ .\n"
 
 opcions3:
-  es: "Con \"-m\" o \"--marks\" contesta con el signifacado de las marcas de fiabilidad que aparecen en palabras y definiciones: \"@lambebot -m\"." 
+  es: "Con \"-m\" o \"--marks\" contesta con el significado de las marcas de fiabilidad que aparecen en palabras y definiciones: \"@lambebot -m\"." 
   ca: "Amb \"-m\" o \"--marks\" contesta amb el signifacat de les marques de fiabilitat que apareixen en paraules i definicions: \"@lambebot -m\"." 
   en: "With \"-m\" o \"--marks\" it replais answer with an explanation of the reliability marks that appear on words and definitions: \"@lambebot -m\"."
 

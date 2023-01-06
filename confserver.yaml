@@ -1,0 +1,30 @@
+################################
+#    Mastodon dictionaty bot   #
+################################
+
+# App Info
+app:
+  # [String] Name of the app
+  name: "lambeserver"
+  # [String] Name of the data file 
+  data_file_name: "dicts.yaml" 
+
+# Testing options
+testing: "none"
+
+# Logging config
+logger:
+  # [Integer] Log level: NOTSET=0 | DEBUG=10 | INFO=20 | WARN=30 | ERROR=40 | CRITICAL=50
+  loglevel: 10
+  # [String] Name of the logger
+  name: "dictserver_bot"
+  # [Bool] Dump the log into a file
+  to_file: False
+  # [String] Directory of the logger
+  directory: "log"
+  # [String] Filename of the log file
+  filename: "dictserver_bot.log"
+  # [Bool] Dump the log into a stdout
+  to_stdout: True
+  # [String] Format of the log
+  format: "[%(asctime)s] %(levelname)-8s %(name)-12s %(message)s"

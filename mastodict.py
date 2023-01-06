@@ -7,6 +7,7 @@
 
 import random
 import re
+import xmlrpc.client
 
 from pybot.mastobot import Mastobot
 
@@ -23,6 +24,8 @@ class Bot(Mastobot):
         self.init_translator()
         self.init_programmer()
         self.init_input_data()
+
+        self._proxy = xmlrpc.client.ServerProxy('http://localhost:8002')
 
 
     def run(self, botname: str = BOT_NAME) -> None:
@@ -346,30 +349,38 @@ class Bot(Mastobot):
 
     def find_random_word(self):
             
-        words     = self._data.get("words")
-        lang_dict = random.choice(list(words.values()))
-        word_lang  = random.choice(list(lang_dict.keys()))
-        word_aux  = lang_dict[word_lang]
+        if self._config.get("app.remote_calls"):
+            word_dict, word_lang = self._proxy.find_random_word()
+        
+        else:
+            words     = self._data.get("words")
+            lang_dict = random.choice(list(words.values()))
+            word_lang  = random.choice(list(lang_dict.keys()))
+            word_aux  = lang_dict[word_lang]
 
-        # en este punto tenemos una lista de acepciones o un diccionario 
-        if isinstance(word_aux, list):
-            word_dict = random.choice(word_aux) 
-        else: 
-            word_dict = word_aux
+            # en este punto tenemos una lista de acepciones o un diccionario 
+            if isinstance(word_aux, list):
+                word_dict = random.choice(word_aux) 
+            else: 
+                word_dict = word_aux
 
         return word_dict, word_lang
 
 
     def find_filtered_random_word(self, word_lang):
-            
-        words     = self._data.get("dictionaries")[word_lang]
-        word_aux  = random.choice(list(words.values()))
 
-        # en este punto tenemos una lista de acepciones o un diccionario 
-        if isinstance(word_aux, list):
-            word_dict = random.choice(word_aux) 
-        else: 
-            word_dict = word_aux
+        if self._config.get("app.remote_calls"):
+            word_dict = self._proxy.find_filtered_random_word(word_lang)
+
+        else:
+            words     = self._data.get("dictionaries")[word_lang]
+            word_aux  = random.choice(list(words.values()))
+
+            # en este punto tenemos una lista de acepciones o un diccionario 
+            if isinstance(word_aux, list):
+                word_dict = random.choice(word_aux) 
+            else: 
+                word_dict = word_aux
 
         return word_dict
 
@@ -379,9 +390,13 @@ class Bot(Mastobot):
         found     = False
         lang_dict = None
         
-        if word_query in self._data.get("words"):
-            found    = True
-            lang_dict = self._data.get("words")[word_query]
+        if self._config.get("app.remote_calls"):
+            found, lang_dict = self._proxy.find_word(word_query)
+
+        else:
+            if word_query in self._data.get("words"):
+                found    = True
+                lang_dict = self._data.get("words")[word_query]
 
         return found, lang_dict
 
@@ -391,15 +406,19 @@ class Bot(Mastobot):
         found     = False
         word_list = [] 
         
-        words     = self._data.get("dictionaries")[word_lang]
-        if word_query in words: 
-            found    = True
-            word_aux = words[word_query]
-            # en este punto tenemos una lista de acepciones o un diccionario 
-            if isinstance(word_aux, list):
-                word_list = word_aux 
-            else: 
-                word_list.append(word_aux)
+        if self._config.get("app.remote_calls"):
+            found, word_list = self._proxy.find_filtered_word(word_query, word_lang)
+
+        else:
+            words     = self._data.get("dictionaries")[word_lang]
+            if word_query in words: 
+                found    = True
+                word_aux = words[word_query]
+                # en este punto tenemos una lista de acepciones o un diccionario 
+                if isinstance(word_aux, list):
+                    word_list = word_aux 
+                else: 
+                    word_list.append(word_aux)
 
         return found, word_list
 
