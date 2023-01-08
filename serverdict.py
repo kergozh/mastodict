@@ -37,7 +37,7 @@ with SimpleXMLRPCServer(('localhost', 8002), logRequests=True, allow_none=True) 
     @server.register_function
     def find_filtered_random_word(word_lang):
 
-        word_aux  = random.choice(list(self._data.get("dictionaries")[word_lang].values()))
+        word_aux  = random.choice(list(data.get("dictionaries")[word_lang].values()))
 
         # en este punto tenemos una tuple de acepciones o una tuple-paraula  
         if isinstance(word_aux[0], tuple):
