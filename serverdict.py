@@ -63,6 +63,10 @@ with SimpleXMLRPCServer(('localhost', 8002), logRequests=True, allow_none=True) 
                 lang_dict[word_lang] = word_tuple
                 found = found_aux
 
+        #al xml-rpc no le gustan los objetos nulos
+        if len(lang_dict) == 0:
+            lang_dict["error"] = "not found"
+
         return found, lang_dict
 
 
@@ -77,7 +81,7 @@ with SimpleXMLRPCServer(('localhost', 8002), logRequests=True, allow_none=True) 
             # en este punto tenemos una tuple de acepciones  
 
         if not found:
-            word_tuple = ()
+            word_tuple = ("error", "not found")
 
         return found, word_tuple
 

@@ -421,8 +421,8 @@ class Bot(Mastobot):
 
     def find_word(self, word_query):
             
-        found     = False
-        lang_dict = {}
+        found      = False
+        lang_dict  = {}
         
         if self._config.get("app.remote_calls"):
             found, lang_dict = self._proxy.find_word(self, word_query)
@@ -437,6 +437,9 @@ class Bot(Mastobot):
                 if found_aux:
                     lang_dict[word_lang] = word_tuple
                     found = found_aux
+
+            if len(lang_dict) == 0:
+                lang_dict["error"] = "not found"
 
         return found, lang_dict
 
@@ -455,7 +458,7 @@ class Bot(Mastobot):
                 # en este punto tenemos una tuple de acepciones  
 
         if not found:
-            word_tuple = ()
+            word_tuple = ("error", "not found")
 
         return found, word_tuple
 
