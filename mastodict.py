@@ -1,9 +1,8 @@
-###
-# Mastosdict, bot que gestiona uno o más diccionarios. 
-# Publica una palabra aleatoria una vez l dia y responde a diferentes kewwords
-# Fork (cada vez más lejano) del bot "info" original de @spla@mastodont.cat
-# En https://git.mastodont.cat/spla/info
-###  
+"""
+Mastosdict, bot que gestiona uno o más diccionarios. 
+Publica una palabra aleatoria una vez l dia y responde a diferentes kewwords
+Fork (cada vez más lejano) del bot "info" original de @spla@mastodont.cat en https://git.mastodont.cat/spla/info
+"""  
 
 import random
 import re
@@ -425,7 +424,7 @@ class Bot(Mastobot):
         lang_dict  = {}
         
         if self._config.get("app.remote_calls"):
-            found, lang_dict = self._proxy.find_word(self, word_query)
+            found, lang_dict = self._proxy.find_word(word_query)
 
         else:
             for word_lang in self._data.get("dictionaries").keys():
@@ -438,7 +437,7 @@ class Bot(Mastobot):
                     lang_dict[word_lang] = word_tuple
                     found = found_aux
 
-            if len(lang_dict) == 0:
+            if not found:
                 lang_dict["error"] = "not found"
 
         return found, lang_dict

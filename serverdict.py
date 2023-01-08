@@ -64,7 +64,7 @@ with SimpleXMLRPCServer(('localhost', 8002), logRequests=True, allow_none=True) 
                 found = found_aux
 
         #al xml-rpc no le gustan los objetos nulos
-        if len(lang_dict) == 0:
+        if not found:
             lang_dict["error"] = "not found"
 
         return found, lang_dict
