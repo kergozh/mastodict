@@ -9,9 +9,9 @@ app:
   # [String] Name of the actions file 
   actions_file_name: "actions.yaml" 
   # [String] Name of the data file 
-  data_file_name: "data.yaml" 
+  data_file_name: "data_all_r.yaml" 
   # [Bool] Remote calls. 
-  remote_calls: True 
+  remote_calls: False 
 
 # Mastobot config
 bot:
@@ -51,9 +51,9 @@ testing:
   # [Bool] Disable dismiss de the notification
   disable_dismiss: True
   # [Bool] Force programmer
-  force_programmer: False
+  force_programmer: True
   # [Bool] force private mention when post
-  force_mention: False
+  force_mention: True
   # [String] user to mention when force private
   user_mention: "kergozh"
 

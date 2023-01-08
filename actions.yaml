@@ -17,11 +17,14 @@ random:
 marks:
    regex: "^(-\\s*m|--\\s*marks)$"
 
+bibliografy:
+   regex: "^(-\\s*b|--\\s*biblio|--\\s*bibliografy)$"
+
 search:
-   regex: "^((-\\s*s|--\\s*search)\\s+\\S+)$"
+   regex: "^(([^\\s-]+)|((-\\s*s|--\\s*search)\\s+\\S+))$"
 
 filtered_random:
    regex: "^((-\\s*r|--\\s*rand|--\\s*random)\\s+(-\\s*l|--\\s*lang)\\s+\\S+)$"
 
 filtered_search:
-   regex: "^((-\\s*s|--\\s*search)\\s+\\S+\\s+(-\\s*l|--\\s*lang)\\s+\\S+)$"
+   regex: "^((([^\\s-]+)|((|-\\s*s|--\\s*search)\\s+\\S+))\\s+(-\\s*l|--\\s*lang)\\s+\\S+)$"

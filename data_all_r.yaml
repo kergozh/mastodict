@@ -1,0 +1,636 @@
+
+languages:
+   "q": "Quenya"
+   "s": "Sindarin"
+
+sources: !!python/tuple
+   - '"1000W": 1000 Words'
+   - '"AAD": An Adunaic Dictionary'
+   - '"AAQ": Agreement of Adjectives in Quenya'
+   - '"ABNW": Ales Bican’s New Words'
+   - '"AESED": Ambar Eldaron’s Sindarin English Dictionary'
+   - '"AF": Atalante Fragments'
+   - '"AL": Ardalambion Website'
+   - '"AL-Doriathrin": Ardalambion — Doriathrin'
+   - '"AL-Ilkorin": Ardalambion — Ilkorin'
+   - '"AL-Nandorin": Ardalambion — Nandorin'
+   - '"ANQP": Atanquesta: a NeoQuenya Primer'
+   - '"AT": Amanye Tenceli'
+   - '"ATD": A Tolkien Dictionary'
+   - '"CH": The Children of Húrin'
+   - '"DEANS": On the Diphthongs ei, ai in Noldorin and Sindarin'
+   - '"DTS": Mellonath Daeron Index of Tengwa Specimina'
+   - '"EA": Encyclopedia of Arda'
+   - '"EE": Essekenta Endamarwa'
+   - '"EIP": Early Ilkorin Phonology'
+   - '"Elfling": Elfling Mailing List'
+   - '"ENPP": Early Noldorin Plural Patterns'
+   - '"EotAL": Etymologies of the Atani Languages'
+   - '"Ety": Etymologies'
+   - '"EtyAC": Etymologies, Addenda and Corrigenda'
+   - '"FJNQ": Fiona Jallings’s Neo-Quenya Wordlist'
+   - '"FJNS": Fiona Jallings’s Neo-Sindarin Wordlist'
+   - '"GG": Gnomish Grammar'
+   - '"GGAI": The Goldogrin Grammar — An Introduction'
+   - '"GL": Gnomish Lexicon'
+   - '"GP": Goldogrin Pronouns '
+   - '"GPT": The Goldogrin Past Tense'
+   - '"GS": Gateway to Sindarin'
+   - '"GTLC": Glǽmscrafu — Tolkien’s Linguistic Cellar'
+   - '"HFQC": Helge Fauskanger’s Quenya Course'
+   - '"HH": History of the Hobbit'
+   - '"HPG": Historical Phonology of Goldogrin'
+   - '"HPITN": Historical Phonologies of Ilkorin, Telerin and Noldorin around 1923'
+   - '"HSD": Hiswelókë’s Sindarin Dictionary'
+   - '"LA": I Lam Arth'
+   - '"Lambengolmor": Lambengolmor Mailing List'
+   - '"LB": Lays of Beleriand'
+   - '"LBI": Lays of Beleriand — Index'
+   - '"Let": Letters of J.R.R. Tolkien'
+   - '"LFC": Letters from Father Christmas'
+   - '"LGtAG": Lalaith’s Guide to Adûnaic Grammar'
+   - '"LotR": Lord of the Rings, 50th Anniversary One-Volume Edition'
+   - '"LotRI": Lord of the Rings — Index'
+   - '"LP-AM": Lord’s Prayer and Ave Maria'
+   - '"LR": Lost Road and Other Writings'
+   - '"LRI": Lost Road and Other Writings — Index'
+   - '"LT1": Book of Lost Tales Part One'
+   - '"LT1A": Book of Lost Tales Part One — Appendix'
+   - '"LT1I": Book of Lost Tales Part One — Index'
+   - '"LT2": Book of Lost Tales Part Two'
+   - '"LT2A": Book of Lost Tales Part Two — Appendix'
+   - '"LT2I": Book of Lost Tales Part Two — Index'
+   - '"MC": Monsters and the Critics'
+   - '"Minor-Doc": Minor Documents'
+   - '"MR": Morgoth’s Ring'
+   - '"MRI": Morgoth’s Ring — Index'
+   - '"MS": Merin Sentence'
+   - '"NBA": Ni-bitha Adûnâyê'
+   - '"NM": The Nature of Middle-Earth'
+   - '"NPE": Noldorin Plurals in the Etymologies'
+   - '"NQNT": Neo-Quenya New Testament'
+   - '"NQW": Neo-Quenya Wiki'
+   - '"NTTLS": Notes Towards a Translation of Lúthien’s Song'
+   - '"OT": On Telerin'
+   - '"PE": Parma Eldalamberon'
+   - '"PED-TAI": Une Phrase Elfique Dans « J. R. R. Tolkien, Artist & Illustrator »'
+   - '"PEE": Parma Eldalamberon Errata'
+   - '"PESC": Pedin Edhellen: a Sindarin Course'
+   - '"Plotz": Plotz Letter'
+   - '"PM": Peoples of Middle-Earth'
+   - '"PMCH": Parma Mittarion - Calma Hendas'
+   - '"PME": Poetic and Mythological Words of Eldarissa'
+   - '"PMI": Peoples of Middle-Earth — Index'
+   - '"PPQ": Parma Penyanë Quettaron'
+   - '"PPW": Parf Pith ’Wain'
+   - '"QL": Qenya Lexicon'
+   - '"QLE": Quetin i Lambë Eldaiva'
+   - '"QPT": Quenya Past Tense'
+   - '"QPW": Quenya Psalmist Wordlist'
+   - '"QQ": Quettaparma Quenyallo'
+   - '"RC": The Lord of the Rings: a Reader’s Companion'
+   - '"RGEO": The Road Goes Ever On'
+   - '"RS": Return of the Shadow'
+   - '"RSI": Return of the Shadow — Index'
+   - '"S": Silmarillion'
+   - '"SA": Silmarillion Appendix'
+   - '"SD": Sauron Defeated'
+   - '"SDI1": Sauron Defeated — Index 1'
+   - '"SDI2": Sauron Defeated — Index 2'
+   - '"SI": Silmarillion — Index'
+   - '"SM": Shaping of Middle-Earth'
+   - '"SMI": Shaping of Middle-Earth — Index'
+   - '"TAI": J.R.R. Tolkien: Artist and Illustrator'
+   - '"TFC": Tamas Ferencz’s Coinages'
+   - '"TG": Tolkien Gateway'
+   - '"TI": Treason of Isengard'
+   - '"TII": Treason of Isengard — Index'
+   - '"TLM": Teleri Lambëo Minaþurië'
+   - '"TMME": Tolkien, Maker of Middle-earth'
+   - '"Tolklang": Tolklang Mailing List'
+   - '"TR": Tolkien Reader'
+   - '"TT17": Tyalië Tyelelliéva #17'
+   - '"UT": Unfinished Tales of Númenor and Middle-earth'
+   - '"UTI": Unfinished Tales — Index'
+   - '"VASN": Vowel Affection in Sindarin and Noldorin'
+   - '"VLDS": Vinyë Lambengolmor Discord Server'
+   - '"VQP": VinQuettaParma Wiki'
+   - '"VSH": Verbs, Syntax, Hooray!'
+   - '"VT": Vinyar Tengwar'
+   - '"VTE": Vinyar Tengwar Errata'
+   - '"WGHC": A Welsh Grammar, Historical and Comparative'
+   - '"WJ": War of the Jewels'
+   - '"WJI": War of the Jewels — Index'
+   - '"WR": War of the Ring'
+   - '"WRI": War of the Ring — Index'
+
+word_marks:
+   "*": "Reconstructed word but reasonably deduced by comparison"
+   "#": "Derived from attested words via grammatical rules or as elements of compounds"
+   "?": "Speculative, but still deduced from original source material"
+   "-": "Deleted by Tolkien from the original text"
+   "**": "Reconstructed but incorrected form"
+   "†": "Archaic or poetic word"
+   "‽": "Tolkien himself wrote a ? in the source material"
+   "|": "Word appearing in a deleted section, where the word itself was not specifically rejected"
+   "!": "Fabrication or invention by authors other than Tolkien"
+   "^": "Reformulated from early versions of the languages to fit the structure of later languages"
+   
+dictionaries:
+   s:
+      caras: !!python/tuple 
+         - !!python/tuple ["caras", "n", "circular earthwall with dike, fort surrounded by bulwarks", "", False, "739916641",  !!python/tuple ['"PE17/060": Caras','"PE17/084": Caras','"RC/311": caras']]
+      loegningloron: !!python/tuple 
+         - !!python/tuple ["Loeg Ningloron", "place-name", "Gladden Fields", "", False, "3108000919",  !!python/tuple []]
+      a: !!python/tuple 
+         - !!python/tuple ["-a", "suf", "[old] genitive suffix", "†", False, "1377240439",  !!python/tuple ['"NM/355": a','"NM/355": -on','"NM/355": -a','"PE17/097": -a','"PE17/097": -on','"PE17/097": -uin','"PE17/097": ion','"VT42/04": -a']]
+         - !!python/tuple ["a", "conj", "and; †by, near, beside", "", False, "2814200763",  !!python/tuple ['"LB/354": a','"Let/448": a','"LotR/0305": a','"LotR/0953": a','"MR/329": ah','"MR/373": ar','"PE17/041": a','"PE17/041": að','"PE17/041": ath','"PE17/102": a','"PE17/102": a(ð)','"PE17/145": að','"PE17/145": a','"PE17/145": að-','"SA/ar": a','"SD/129": ar','"SD/129": Ar','"VT43/30": ah','"VT44/28": ar','"VT47/31": a','"VT50/18": ar','"VT50/19": ar','"VT50/20": A','"VT50/20": Ar']]
+         - !!python/tuple ["a", "interj", "O!", "", False, "2613796699",  !!python/tuple ['"LB/354": A','"Let/279": a','"LotR/0238": A','"LotR/0729": A','"RGEO/63": A','"RGEO/64": A','"VT44/22": Ae']]
+      adh: !!python/tuple 
+         - !!python/tuple ["adh", "conj", "and", "", False, "2936346367",  !!python/tuple []]
+      ah: !!python/tuple 
+         - !!python/tuple ["ah", "conj", "and", "", False, "495239121",  !!python/tuple []]
+      ar: !!python/tuple 
+         - !!python/tuple ["ar", "conj", "and", "", True, "781530941",  !!python/tuple []]
+         - !!python/tuple ["ar-", "pref", "without; by; **beside", "", False, "369434269",  !!python/tuple ['"PE17/169": ar-','"VT42/17": ar-']]
+         - !!python/tuple ["ar(a)-", "pref", "noble, royal, high", "", False, "1222397067",  !!python/tuple ['"Let/426": ara','"LotR/1038": ar(a)','"PE17/113": ara-','"PE17/139": ar-','"PE22/148": ara','"PM/193": aran/ar(a)','"RC/347": Ar(a)-']]
+      ae: !!python/tuple 
+         - !!python/tuple ["ae", "interj", "O!", "", False, "409351575",  !!python/tuple []]
+      ab: !!python/tuple 
+         - !!python/tuple ["ab", "prep", "after", "#", False, "323464029",  !!python/tuple ['"WJ/387": Ab']]
+      eb: !!python/tuple 
+         - !!python/tuple ["eb", "prep", "?before", "#", True, "3873479807",  !!python/tuple ['"PM/136": Eb']]
+         - !!python/tuple ["-eb", "suf", "adjective suffix", "", False, "2774110649",  !!python/tuple ['"WJ/337": -eb','"WJ/412": -eb']]
+      ablad: !!python/tuple 
+         - !!python/tuple ["ablad", "n", "prohibition, refusal", "", False, "694581347",  !!python/tuple ['"VT47/13": ablad']]
+      abonnen: !!python/tuple 
+         - !!python/tuple ["Abonnen", "proper-name", "After-born", "", False, "1249484529",  !!python/tuple ['"WJ/387": Abonnen','"WJ/387": Eboennin','"WJI/Abonnen": Abonnen','"WJI/Apanónar": Abonnen','"WJI/Apanónar": Eboennin']]
+      ach: !!python/tuple 
+         - !!python/tuple ["ach", "n", "neck", "", False, "1405976901",  !!python/tuple ['"PE17/092": ach']]
+         - !!python/tuple ["ach", "conj", "*but", "", False, "2091206437",  !!python/tuple ['"VT50/15": ach']]
+      achad: !!python/tuple 
+         - !!python/tuple ["achad", "n", "rock ridge, neck (geographically)", "", False, "3716531873",  !!python/tuple ['"PE17/092": achad','"PE17/146": achad','"PE17/146": achas','"RC/537": Achad']]
+      achadtarlang: !!python/tuple 
+         - !!python/tuple ["Achad Tarlang", "place-name", "Tarlang’s Neck", "", False, "1355307995",  !!python/tuple ['"PE17/092": Achad Tarlang','"RC/537": Achad Tarlang']]
+      achar: !!python/tuple 
+         - !!python/tuple ["achar-", "vb", "to avenge, do back, react, requite", "#", False, "3800356233",  !!python/tuple ['"PE17/166": achar-','"PE17/167": achared']]
+      achared: !!python/tuple 
+         - !!python/tuple ["achared", "n", "vengeance", "", False, "6671719",  !!python/tuple ['"PE17/167": achared']]
+      acharn: !!python/tuple 
+         - !!python/tuple ["acharn", "n", "vengeance, (an act of) revenge", "", False, "2144715711",  !!python/tuple ['"PE17/166": achar','"PE17/167": acharn','"WJ/254": acharn']]
+      ad: !!python/tuple 
+         - !!python/tuple ["-ad", "suf", "dual", "†", False, "1463127985",  !!python/tuple ['"Let/427": -d']]
+         - !!python/tuple ["ad-", "pref", "back, again, re-", "#", False, "1739892921",  !!python/tuple ['"PE17/167": ad-']]
+         - !!python/tuple ["-ad", "suf", "noun-suffix", "#", False, "702350617",  !!python/tuple ['"PE17/092": -ad','"PE17/183": -ad']]
+         - !!python/tuple ["-ad", "suf", "gerund", "", False, "1387580153",  !!python/tuple []]
+      adan: !!python/tuple 
+         - !!python/tuple ["Adan", "n", "Man (as a species)", "", False, "753238821",  !!python/tuple ['"Let/282": Adan','"Let/282": Edain','"LotR/1034": Edain','"LotR/1061": Edain','"LotR/1128": Edain','"LotRI/Atani": Edain','"LotRI/Edain": Edain','"LRI/Atani": Edain','"LRI/Edain": Edain','"LT1I/Edain": Edain','"LT2I/Edain": Edain','"MR/007": Edain','"MR/373": Adanath','"MRI/Edain": Edain','"PE17/018": adan','"PE17/089": Edain','"PE17/117": Edain','"PE17/127": adan','"PE17/127": edain','"PM/324": adan','"PMI/Edain": Edain','"RGEO/66": Adan','"RGEO/66": Edain','"SA/adan": adan','"SA/adan": Edain','"SI/Atani": Adan','"SI/Atani": Edain','"SI/Edain": Edain','"SMI/Edain": Edain','"UT/385": adan','"UTI/Atani": Edain','"UTI/Drúedain": adan','"UTI/Edain": Edain','"UTI/Edain": Adan','"VT50/14": edain','"VT50/18": edain','"WJ/219": Edain','"WJ/387": Adan','"WJ/387": Edain','"WJI/Adan": Adan','"WJI/Adan": Edain','"WJI/Atani": Edain','"WJI/Edain": Edain','"WJI/Edain": Adan','"WRI/Edain": Edain']]
+      adanedhel: !!python/tuple 
+         - !!python/tuple ["Adanedhel", "masc-name", "Elf-man", "", False, "3692314037",  !!python/tuple ['"S/210": Adanedhel','"SA/adan": Adanedhel','"SA/edhel": Adanedhel','"SI/Adanedhel": Adanedhel','"UTI/Adanedhel": Adanedhel']]
+      adaneth: !!python/tuple 
+         - !!python/tuple ["adaneth", "n", "(mortal) woman", "", False, "2438171517",  !!python/tuple ['"MR/323": adaneth','"MR/349": Adaneth','"MR/470": adaneth']]
+      adar: !!python/tuple 
+         - !!python/tuple ["adar", "n", "father", "", False, "1791197021",  !!python/tuple ['"PM/324": adar','"VT44/22": Adar','"VT48/17": adar']]
+      adbed: !!python/tuple 
+         - !!python/tuple ["adbed-", "vb", "to rephrase", "", False, "665043545",  !!python/tuple ['"PE17/167": adbed']]
+      adertha: !!python/tuple 
+         - !!python/tuple ["adertha-", "vb", "to reunite", "#", False, "2811947765",  !!python/tuple ['"S/113": Adertha-']]
+      aderthad: !!python/tuple 
+         - !!python/tuple ["aderthad", "n", "reuniting", "", False, "327295253",  !!python/tuple ['"S/113": Aderthad']]
+      adu: !!python/tuple 
+         - !!python/tuple ["adu", "adj", "double", "", False, "1588992675",  !!python/tuple ['"SA/rant": adu']]
+      aduial: !!python/tuple 
+         - !!python/tuple ["aduial", "n", "(evening) twilight", "", False, "4029927507",  !!python/tuple ['"LotR/1111": aduial']]
+      adurant: !!python/tuple 
+         - !!python/tuple ["Adurant", "place-name", "Double Stream", "", False, "529759231",  !!python/tuple ['"SA/rant": Adurant','"SI/Adurant": Adurant','"WJI/Adurant": Adurant']]
+      advir: !!python/tuple 
+         - !!python/tuple ["advir", "n", "heirloom", "", False, "3354395703",  !!python/tuple ['"PE17/165": advir']]
+      aeg: !!python/tuple 
+         - !!python/tuple ["aeg", "adj", "sharp", "#", False, "3791653951",  !!python/tuple ['"PM/347": aeg','"SA/nár": Aeg']]
+      aeglir: !!python/tuple 
+         - !!python/tuple ["aeglir", "n", "line of peaks", "#", False, "1171788961",  !!python/tuple ['"RC/011": aeglir']]
+      aeglos: !!python/tuple 
+         - !!python/tuple ["Aeglos", "proper-name", "Snow-point", "", False, "3746197125",  !!python/tuple ['"LotRI/Aeglos": Aeglos','"SA/los": Aeglos','"SI/Aeglos": Aeglos','"UT/148": Aeglos','"UTI/Aeglos": Aeglos','"VT42/11": Aiglos','"VT42/11": Aeglos']]
+         - !!python/tuple ["aeglos", "n", "icicle, (lit.) snow-point; snowthorn (a plant)", "", False, "3078561477",  !!python/tuple ['"LotRI/Aeglos": Aeglos','"UT/099": aeglos','"UT/148": Aeglos','"UTI/aeglos": aeglos']]
+      aegnor: !!python/tuple 
+         - !!python/tuple ["Aegnor", "masc-name", "Fell Fire, Sharp Flame", "", False, "4200935619",  !!python/tuple ['"MR/323": Aegnor','"MR/327": Aegnor','"MRI/Aegnor": Aegnor','"MRI/Aikanár": Aegnor','"PM/346": Aegnor','"PM/347": Aegnor','"PMI/Aegnor": Aegnor','"SA/nár": Aegnor','"SI/Aegnor": Aegnor','"UTI/Aegnor": Aegnor','"VT41/19": Eignor','"VT41/19": Aegnor','"WJI/Aikanáro": Aegnor','"WJI/Egnor": Aegnor']]
+      ael: !!python/tuple 
+         - !!python/tuple ["ael", "n", "lake, pool", "#", False, "3934205215",  !!python/tuple ['"S/162": ael','"SA/aelin": aelin','"SA/lin¹": aelin']]
+      aelin: !!python/tuple 
+         - !!python/tuple ["aelin", "n", "lake, pool", "", True, "2913923685",  !!python/tuple []]
+      aelinuial: !!python/tuple 
+         - !!python/tuple ["Aelin-uial", "place-name", "Meres of Twilight", "", False, "1131882277",  !!python/tuple ['"LT2I/Aelin-uial": Aelin-uial','"S/122": Aelin-uial','"SA/aelin": Aelin-uial','"SA/uial": Aelin-uial','"SI/Aelin-uial": Aelin-uial','"SI/Meres of Twilight": Aelin-uial','"SI/Twilight Meres": Aelin-uial','"UTI/Aelin-uial": Aelin-uial','"WJI/Aelin-uial": Aelin-uial']]
+      aeluin: !!python/tuple 
+         - !!python/tuple ["Aeluin", "place-name", "*Blue Lake", "", False, "2322146435",  !!python/tuple ['"LBI/Tarn Aeluin": Aeluin','"LRI/Tarn Aeluin": Aeluin','"MRI/Aeluin": Aeluin','"S/162": Aeluin','"SI/Tarn Aeluin": Aeluin','"WJI/Aeluin": Aeluin']]
+      aen: !!python/tuple 
+         - !!python/tuple ["aen", "adv", "should be; ?may it be that", "", False, "1414245343",  !!python/tuple ['"SD/129": aen','"VT50/13": en']]
+      aer: !!python/tuple 
+         - !!python/tuple ["aer", "adj", "*hallowed, holy", "", False, "669292895",  !!python/tuple ['"VT44/24": aer']]
+      aerandir: !!python/tuple 
+         - !!python/tuple ["Aerandir", "masc-name", "Sea-wanderer", "", False, "4149084455",  !!python/tuple ['"SA/ran": Aerandir','"SI/Aerandir": Aerandir','"SMI/Aerandir": Aerandir','"WJI/Aerandir": Aerandir']]
+      aerlinn: !!python/tuple 
+         - !!python/tuple ["aerlinn", "n", "*hymn, (lit.) holy song", "", False, "2357253503",  !!python/tuple ['"RGEO/62": Aerlinn','"VT44/24": aerlinn']]
+      aew: !!python/tuple 
+         - !!python/tuple ["aew", "n", "(small) bird", "", False, "811844039",  !!python/tuple ['"PE17/097": aiwon','"PE17/097": aewon','"PE17/097": aewion','"SA/lin¹": aew']]
+      aewen: !!python/tuple 
+         - !!python/tuple ["aewen", "adj", "of birds", "#", False, "1113264857",  !!python/tuple ['"SA/lin¹": aewen']]
+      agar: !!python/tuple 
+         - !!python/tuple ["agar", "n", "blood", "#", True, "1201659389",  !!python/tuple ['"S/210": agar']]
+      agarwaen: !!python/tuple 
+         - !!python/tuple ["Agarwaen", "masc-name", "Blood-stained", "", False, "727028333",  !!python/tuple ['"LBI/Agarwaen": Agarwaen','"LT2I/Agarwaen": Agarwaen','"S/210": Agarwaen','"SI/Agarwaen": Agarwaen','"UTI/Agarwaen": Agarwaen','"WJI/Agarwaen": Agarwaen','"WJI/Iarwaeth": Agarwaen']]
+      aglar: !!python/tuple 
+         - !!python/tuple ["aglar", "n", "glory, brilliance, splendour, radiance", "", False, "1805593065",  !!python/tuple ['"Let/448": Aglar','"LotR/0238": aglar','"LotR/0953": Aglar','"PE17/024": aglar','"PE17/105": aglar','"PE17/124": aglar','"PE18/087": aglar','"RC/421": aglar','"RGEO/63": aglar','"RGEO/64": aglar','"RGEO/65": aglar','"SA/aglar": aglar','"VT47/13": aglar']]
+      aglareb: !!python/tuple 
+         - !!python/tuple ["aglareb", "adj", "glorious, brilliant", "", False, "3266035465",  !!python/tuple ['"PE17/024": aglareb','"S/115": Aglareb','"SA/aglar": aglareb','"WJ/412": aglareb']]
+      aglarond: !!python/tuple 
+         - !!python/tuple ["Aglarond", "place-name", "Glittering Cavern", "", False, "4174898697",  !!python/tuple ['"Let/282": Aglarond','"LotR/0548": Aglarond','"LotRI/Aglarond": Aglarond','"LotRI/Glittering Caves": Aglarond','"RC/421": Aglarond','"SA/aglar": Aglarond','"SA/rond": Aglarond','"SI/Aglarond": Aglarond','"UT/371": Aglarond','"UTI/Aglarond": Aglarond','"UTI/Glæ̂mscrafu": Aglarond']]
+      aglon: !!python/tuple 
+         - !!python/tuple ["Aglon", "place-name", "Narrow Pass", "", False, "1877775261",  !!python/tuple ['"SI/Aglon": Aglon','"WJI/Aglon": Aglon','"WJI/Aglon": Aglond']]
+      aglor: !!python/tuple 
+         - !!python/tuple ["aglor", "adj", "brilliant, glorious", "", True, "3355064255",  !!python/tuple ['"PE18/087": aglor']]
+      ai: !!python/tuple 
+         - !!python/tuple ["ai", "interj", "hail!", "", False, "1933822795",  !!python/tuple ['"LotR/0209": Ai','"PE17/016": ai']]
+         - !!python/tuple ["ai", "pron", "*those who", "", False, "16264317",  !!python/tuple ['"VT44/22": ayath','"VT44/22": ay','"VT44/30": ai']]
+      air: !!python/tuple 
+         - !!python/tuple ["air", "adj", "lonely", "", False, "3345570783",  !!python/tuple ['"PE17/028": air','"VT50/18": îr']]
+      ir: !!python/tuple 
+         - !!python/tuple ["îr", "adj", "*alone", "", True, "1365514869",  !!python/tuple []]
+         - !!python/tuple ["-ir", "suf", "past of intransitive verbs", "", False, "2470581535",  !!python/tuple ['"PE17/126": -ir']]
+         - !!python/tuple ["ir", "conj", "?when, while", "", False, "3586600781",  !!python/tuple ['"LB/354": Ir']]
+         - !!python/tuple ["î(r)", "pron", "impersonal plural pronoun", "", False, "2372885703",  !!python/tuple ['"VT50/14": î/îr']]
+      al: !!python/tuple 
+         - !!python/tuple ["al-", "pref", "no, not", "", False, "214267251",  !!python/tuple ['"PE17/101": al-']]
+         - !!python/tuple ["al-", "pref", "well, happily", "", True, "899496787",  !!python/tuple ['"PE17/146": al-','"PE17/172": al-']]
+      alae: !!python/tuple 
+         - !!python/tuple ["alae", "interj", "?behold", "", False, "3332359177",  !!python/tuple ['"UT/040": Alae']]
+      alaf: !!python/tuple 
+         - !!python/tuple ["alaf", "n", "elm", "", False, "780203177",  !!python/tuple ['"PE17/153": alaf']]
+      albeth: !!python/tuple 
+         - !!python/tuple ["albeth", "n", "(word of) good omen", "", False, "1782056915",  !!python/tuple ['"PE17/146": albeth']]
+      alf: !!python/tuple 
+         - !!python/tuple ["alf", "n", "flower", "-", True, "2218921843",  !!python/tuple ['"PE17/153": alf']]
+      alfirin: !!python/tuple 
+         - !!python/tuple ["alfirin", "adj n", "immortal, (lit.) not dying; a species of flower", "", False, "1283037789",  !!python/tuple ['"Let/248": alfirin','"Let/402": Alfirin','"LotR/0875": alfirin','"LotRI/Alfirin": Alfirin','"PE17/100": alfirin','"PE17/146": alfirin','"PE22/153": alfirin','"PE22/156": alfirin','"UT/055": alfirin','"UTI/alfirin": alfirin']]
+      alph: !!python/tuple 
+         - !!python/tuple ["alph", "n", "swan", "", False, "2924025105",  !!python/tuple ['"LotR/1114": alph','"NM/378": alph','"NM/378": Eilph','"NM/378": alf','"PE17/100": alph','"SA/alqua": alph','"UT/265": alph','"UT/265": eilph','"VT42/07": alph','"VT42/07": alf']]
+      alu: !!python/tuple 
+         - !!python/tuple ["alu", "adj", "wholesome", "*", False, "2646581155",  !!python/tuple ['"PE17/146": alw','"PE17/146": ely']]
+      alw: !!python/tuple 
+         - !!python/tuple ["alw", "adj", "wholesome", "", True, "126621223",  !!python/tuple []]
+      alwed: !!python/tuple 
+         - !!python/tuple ["alwed", "adj", "prosperous, fortunate", "", False, "2910593893",  !!python/tuple ['"PE17/146": alwed']]
+      am: !!python/tuple 
+         - !!python/tuple ["am", "adv", "up", "#", False, "638385031",  !!python/tuple ['"MR/320": Am']]
+      amar: !!python/tuple 
+         - !!python/tuple ["amar", "n", "world, the Earth, (lit.) settlement, the great habitation", "", False, "22584125",  !!python/tuple ['"NM/226": amar','"NM/228": amar','"PE17/104": amar','"PE17/105": amar','"PE17/124": amar']]
+      amarth: !!python/tuple 
+         - !!python/tuple ["amarth", "n", "fate, doom", "", False, "3222272777",  !!python/tuple ['"NM/227": amarth','"NM/228": amarth','"PE17/066": amarth','"PE17/104": amarth','"PE17/114": amarth','"PE17/123": amarth','"PE17/124": amarth','"PE18/092": ammarth','"PMI/Amarth": Amarth','"S/224": amarth','"SA/amarth": amarth','"VT41/10": ammarth','"VT41/10": amarth']]
+      ammarth: !!python/tuple 
+         - !!python/tuple ["ammarth", "n", "fate, doom", "†", True, "1634197053",  !!python/tuple []]
+      amartha: !!python/tuple 
+         - !!python/tuple ["amartha-", "vb", "to define, decree, destine", "", False, "1226991753",  !!python/tuple ['"PE17/104": amartha-']]
+      amarthan: !!python/tuple 
+         - !!python/tuple ["Amarthan", "masc-name", "Fated One", "", False, "832970905",  !!python/tuple ['"VT41/10": Amarthan']]
+      amdir: !!python/tuple 
+         - !!python/tuple ["amdir", "n", "hope [based on reason], (lit.) looking up", "", False, "2501521429",  !!python/tuple ['"MR/320": Amdir','"MR/470": amdir']]
+      amloth: !!python/tuple 
+         - !!python/tuple ["amloth", "n", "uprising flower", "", False, "4106654097",  !!python/tuple ['"WJ/318": amloth']]
+      amon: !!python/tuple 
+         - !!python/tuple ["amon", "n", "hill, mountain with steep sides; lump, clump, mass", "", False, "2107077031",  !!python/tuple ['"LotR/1097": Emyn','"LotR/1115": emyn','"LotR/1115": amon','"LotRI/Emyn Uial": Emyn','"PE17/015": amon','"PE17/033": Emyn','"PE17/033": Amon','"PE17/061": emyn','"PE17/061": amon','"PE17/093": amon','"PE17/121": amon','"PE17/121": emyn','"PM/186": Emyn','"RC/334": Emyn','"RC/334": amon','"RC/772": Amon','"S/204": Amon','"S/217": Amon','"SA/er": Amon','"UT/255": amon','"UT/280": Amon','"UT/280": Emyn','"UT/301": Amon','"UTI/Emyn-nu-Fuin": Emyn','"VT42/17": Emyn','"VT42/17": Amon','"WJ/187": Amon']]
+      thranduil: !!python/tuple 
+         - !!python/tuple ["Thranduil", "masc-name", "Vigorous Spring", "", False, "12015237",  !!python/tuple ['"LotRI/Thranduil": Thranduil','"PE17/027": th(a)randuil','"PE17/187": th(a)randuil','"PM/036": Thranduil','"PMI/Thranduil": Thranduil','"SI/Thranduil": Thranduil','"TII/Thranduil": Thranduil','"UT/256": Thranduil','"UTI/Thranduil": Thranduil']]
+      thu: !!python/tuple 
+         - !!python/tuple ["Thû", "masc-name", "Sauron; Manwë?", "", False, "658396623",  !!python/tuple ['"PE17/068": Thuon','"PE17/068": Thû','"PE17/099": Thû','"PE17/124": Thū']]
+         - !!python/tuple ["thû", "n", "horrible darkness, black mist", "", False, "2950002373",  !!python/tuple ['"PE17/183": thû']]
+         - !!python/tuple ["thû", "n", "movement of spirit", "", False, "1925422611",  !!python/tuple ['"NM/237": thû']]
+      thurin: !!python/tuple 
+         - !!python/tuple ["Thurin", "masc-name", "Secret", "", False, "419927569",  !!python/tuple ['"UT/157": Thurin','"UTI/Thurin": Thurin','"WJI/Thurin": Thurin']]
+         - !!python/tuple ["thurin", "adj", "secret, hidden", "", False, "2020516549",  !!python/tuple ['"UT/157": Thurin','"WJ/256": Thurin']]
+      thuringud: !!python/tuple 
+         - !!python/tuple ["Thuringud", "masc-name", "Hidden Foe", "", False, "3768851587",  !!python/tuple ['"WJ/256": Thuringud','"WJI/Thuringud": Thuringud']]
+      thuringwethil: !!python/tuple 
+         - !!python/tuple ["Thuringwethil", "fem-name", "Woman of Secret Shadow", "", False, "4256089343",  !!python/tuple ['"LT2I/Thuringwethil": Thuringwethil','"SA/gwath": Thuringwethil','"SI/Thuringwethil": Thuringwethil','"WJI/Thuringwethil": Thuringwethil']]
+      ti: !!python/tuple 
+         - !!python/tuple ["ti", "pron", "*they", "#", False, "206577057",  !!python/tuple ['"VT44/30": di']]
+      till: !!python/tuple 
+         - !!python/tuple ["till", "n", "point, spike, (sharp) horn, tine, ending", "", False, "759925601",  !!python/tuple ['"PE17/036": till','"PE17/055": til','"PE17/055": -il','"RC/775": dil','"TI/174": till']]
+      tinnu: !!python/tuple 
+         - !!python/tuple ["tinnu", "n", "*twilight", "#", False, "2339283191",  !!python/tuple ['"PE19/073": Tinnú']]
+      tinuviel: !!python/tuple 
+         - !!python/tuple ["Tinúviel", "fem-name", "Nightingale, (lit.) Daughter of Twilight", "", False, "3671129013",  !!python/tuple ['"LB/354": Tinúviel','"LotR/0193": Tinúviel','"LotRI/Lúthien": Tinúviel','"LotRI/Tinúviel": Tinúviel','"LT1I/Tinúviel": Tinúviel','"MR/373": Dinúviel','"MRI/Tinúviel": Tinúviel','"PE19/073": Tinnúviel','"S/165": Tinúviel','"SA/tin": Tinúviel','"SI/Tinúviel": Tinúviel','"UTI/Lúthien": Tinúviel','"UTI/Tinúviel": Tinúviel','"WJ/062": Tinúviel','"WJI/Tinúviel": Tinúviel']]
+      tir: !!python/tuple 
+         - !!python/tuple ["tir-", "vb", "to look (towards), watch (over), guard", "#", False, "1681096947",  !!python/tuple ['"Let/279": tíro','"Let/427": tíro','"Let/427": tĭro','"LotR/0729": tiro','"MR/320": dir','"PE17/095": tíro','"RGEO/64": tiro','"RGEO/65": tiro','"S/168": Dirnen']]
+      tira: !!python/tuple 
+         - !!python/tuple ["tíra-", "vb", "to see", "#", False, "608718335",  !!python/tuple ['"SD/129": tírad']]
+      tiria: !!python/tuple 
+         - !!python/tuple ["tiria-", "vb", "to watch, gaze; to ward, guard", "", False, "2230295347",  !!python/tuple ['"LB/354": díriel','"Let/279": díriel','"Let/427": tîriel','"Let/427": -thíriel','"LotR/0238": díriel','"LotR/0729": diriel','"PE17/025": tíria','"PE17/025": tíriel','"RGEO/63": díriel','"RGEO/64": díriel','"RGEO/64": diriel','"RGEO/65": díriel','"RGEO/65": -dĭriel']]
+      tirith: !!python/tuple 
+         - !!python/tuple ["tirith", "n", "watching, guarding, watch, ward, guard", "", False, "4116257429",  !!python/tuple ['"PE17/025": tĭrith','"PE17/031": tĭrith','"RC/772": Tirith','"SA/sîr": tirith','"VT42/11": tirith']]
+      tirithaear: !!python/tuple 
+         - !!python/tuple ["Tirith Aear", "place-name", "Sea-ward Tower", "", False, "530255251",  !!python/tuple ['"TR/192": Tirith Aear']]
+      tirnen: !!python/tuple 
+         - !!python/tuple ["tirnen", "adj", "guarded", "#", False, "2109043009",  !!python/tuple ['"S/168": Dirnen']]
+      tol: !!python/tuple 
+         - !!python/tuple ["tol-", "vb", "to come", "#", False, "2756894593",  !!python/tuple ['"PE17/166": Tôl','"PE22/168": tolen','"VT44/25": tolo','"WJ/254": Tôl','"WJ/301": Tûl']]
+         - !!python/tuple ["tol(l)", "n", "island, (high steep-sided) isle", "", False, "4200880481",  !!python/tuple ['"RC/333": Tol','"SA/tol": tol','"UT/054": Tol','"VT47/13": Tol','"VT47/28": Tol']]
+      ungol: !!python/tuple 
+         - !!python/tuple ["ungol", "n", "spider", "", False, "1216649663",  !!python/tuple ['"Let/180": Ungol','"RC/490": ungol','"RC/767": Ungol']]
+      unodui: !!python/tuple 
+         - !!python/tuple ["únodui", "adj", "countless", "", False, "727755329",  !!python/tuple ['"PE17/144": únodui']]
+      ur: !!python/tuple 
+         - !!python/tuple ["ûr", "n", "fire", "*", False, "18160847",  !!python/tuple ['"PE21/71": ūr']]
+      urug: !!python/tuple 
+         - !!python/tuple ["urug", "n", "bogey", "", False, "2276320421",  !!python/tuple ['"WJ/390": urug']]
+      urui: !!python/tuple 
+         - !!python/tuple ["Urui", "n", "August, *Hot-one", "", False, "3117949915",  !!python/tuple ['"LotR/1110": Urui','"SA/ur": Urui']]
+      uthaes: !!python/tuple 
+         - !!python/tuple ["úthaes", "n", "inducement to do wrong, *temptation", "", False, "1889777045",  !!python/tuple ['"VT44/30": úthaes','"VT44/30": úsaeth']]
+      uvelui: !!python/tuple 
+         - !!python/tuple ["úvelui", "adj", "not amiable, unloveable", "", False, "1535755907",  !!python/tuple ['"PE17/145": úvelui']]
+      wanedhel: !!python/tuple 
+         - !!python/tuple ["wanedhel", "adj", "elven fair", "", True, "2622402411",  !!python/tuple ['"PE17/057": Wanedhel','"PE17/057": Vanedhel']]
+      vanedhel: !!python/tuple 
+         - !!python/tuple ["vanedhel", "adj", "elven fair", "", False, "3466874281",  !!python/tuple []]
+      we: !!python/tuple 
+         - !!python/tuple ["-we", "suf", "person, being, individual", "", False, "2447472675",  !!python/tuple ['"PE17/189": -wi','"PE17/189": -we','"PE17/190": weg','"PE17/190": -wē/wĕ']]
+      weg: !!python/tuple 
+         - !!python/tuple ["-weg", "suf", "*name suffix", "", True, "1985128915",  !!python/tuple []]
+         - !!python/tuple ["-weg", "suf", "active in doing", "", False, "2750145265",  !!python/tuple ['"PE17/144": -weg']]
+      wen: !!python/tuple 
+         - !!python/tuple ["-wen", "suf", "maiden, *female suffix", "", False, "1299906099",  !!python/tuple ['"SA/wen": wen']]
+      ylf: !!python/tuple 
+         - !!python/tuple ["ylf", "n", "drinking-vessel", "", False, "1789842635",  !!python/tuple ['"WJ/416": ylf']]
+      yssi: !!python/tuple 
+         - !!python/tuple ["Yssi", "masc-name", "Ossë", "†", False, "3647202239",  !!python/tuple ['"WJ/400": yssı̯']]
+      yssion: !!python/tuple 
+         - !!python/tuple ["Yssion", "masc-name", "Ossë", "", False, "4100625631",  !!python/tuple ['"WJ/400": Yssion','"WJI/Yssion": Yssion']]
+      yneg: !!python/tuple 
+         - !!python/tuple ["ýneg", "cardinal", "twelve", "", False, "2342446351",  !!python/tuple ['"PE17/095": imp','"PE17/096": iug','"VT47/41": ýneg','"VT48/06": ýneg','"VT48/08": yneg','"VT48/09": yneg']]
+      yneb: !!python/tuple 
+         - !!python/tuple ["yneb", "cardinal", "*twelve", "", True, "3189877099",  !!python/tuple ['"VT48/08": yneb','"VT48/08": inib']]
+      inib: !!python/tuple 
+         - !!python/tuple ["inib", "cardinal", "*twelve", "", False, "3236558709",  !!python/tuple []]
+   q:
+      a: !!python/tuple 
+         - !!python/tuple ["-a", "suf", "adjectival suffix", "#", False, "1770267447",  !!python/tuple ['"LotR/1116": -a','"MC/223": -a','"PE16/096": -a','"PE17/115": -a','"PE17/149": -a','"VT39/20": -a']]
+         - !!python/tuple ["a-", "pref", "infinitive prefix", "#", False, "3482070047",  !!python/tuple ['"MC/223": na-']]
+         - !!python/tuple ["á", "particle", "imperative particle", "", False, "3322232159",  !!python/tuple ['"Let/448": A','"Let/448": a','"LotR/0953": A','"LotR/0953": a','"PE17/040": ā','"PE17/093": ā','"PE17/102": A','"PE17/162": á','"PE17/167": á','"PE22/140": á','"PE22/166": á','"VT43/14": á','"VT43/15": á','"VT43/17": A','"VT43/17": Alye','"VT43/17": ā̆','"VT43/18": á','"VT43/19": á-','"VT43/23": á','"VT43/23": aly’','"VT43/32": á','"VT43/32": alye','"VT43/33": aly’','"VT43/33": alya','"VT44/09": alye','"WJ/404": Ā']]
+         - !!python/tuple ["a", "interj", "O, Oh", "", False, "3204020863",  !!python/tuple ['"Let/448": A','"LotR/0981": A','"S/223": A','"UT/138": A','"VT43/13": A','"VT43/13": Ai','"VT44/07": á','"VT44/15": A']]
+         - !!python/tuple ["a", "article", "accusative definite article", "-", False, "3006823647",  !!python/tuple ['"PE21/76": a']]
+      na: !!python/tuple 
+         - !!python/tuple ["na-", "pref", "infinitive prefix", "", True, "1501503729",  !!python/tuple []]
+         - !!python/tuple ["na", "prep", "to, towards", "", False, "3635475519",  !!python/tuple []]
+         - !!python/tuple ["ná", "interj", "yes, it is so, it is a fact", "", False, "3005052249",  !!python/tuple ['"PE22/166": ná','"PE22/166": nása','"VT49/28": ná']]
+         - !!python/tuple ["ná-", "vb", "to be", "", False, "2562596025",  !!python/tuple ['"LotR/0377": ná','"Minor-Doc/1955-CT": na','"PE17/057": na','"PE17/058": nā','"PE17/058": á na','"PE17/059": na','"PE17/074": na','"PE17/090": na','"PE17/090": ná','"PE17/093": ná','"PE17/126": nas','"PE17/162": na','"PE22/154": ná','"PE22/154": nauva','"PE22/158": náne','"PE22/166": nár','"PE22/166": nā-','"PE22/167": ná','"PE22/168": nauva','"RGEO/58": nā̀','"RGEO/59": nā','"RGEO/60": Nā','"VT42/33": ná','"VT42/34": nauva','"VT43/13": na','"VT43/14": na','"VT43/14": nā','"VT43/15": na','"VT43/16": na','"VT43/23": na','"VT43/30": na','"VT43/30": nalye','"VT43/34": nar','"VT44/34": na','"VT49/09": nāner','"VT49/09": nār','"VT49/09": nā','"VT49/09": nár','"VT49/09": ná','"VT49/10": náner','"VT49/19": nauvan','"VT49/19": nauva','"VT49/23": ná','"VT49/27": nain','"VT49/27": naitye','"VT49/27": nailye','"VT49/27": na','"VT49/27": nánye','"VT49/27": na-lye','"VT49/27": na-tye','"VT49/27": nā','"VT49/27": nās(e)','"VT49/27": (nalme?)','"VT49/27": nāne','"VT49/27": anaie','"VT49/27": nauva','"VT49/27": anáye','"VT49/27": nā-','"VT49/27": náne','"VT49/28": nā-','"VT49/28": nā','"VT49/28": nē','"VT49/28": anen','"VT49/28": anel','"VT49/28": nēse','"VT49/28": anes','"VT49/29": nése','"VT49/30": nā','"VT49/30": nár','"VT49/30": nát','"VT49/30": nē','"VT49/30": nēr','"VT49/30": nēt','"VT49/30": nās','"VT49/30": nā̆','"VT49/30": nanye','"VT49/30": nalye','"VT49/30": nasse','"VT49/30": nalme','"VT49/30": nār','"VT49/30": năr','"VT49/30": uva']]
+         - !!python/tuple ["na-", "pref", "plu-", "", False, "2186733265",  !!python/tuple ['"PE17/146": ana','"PE17/146": na-']]
+      aha: !!python/tuple 
+         - !!python/tuple ["aha", "n", "rage", "", False, "3436893617",  !!python/tuple ['"LotR/1123": aha']]
+      ahtar: !!python/tuple 
+         - !!python/tuple ["ahtar-", "vb", "to do back, react; to requite, avenge", "|", False, "4040996631",  !!python/tuple ['"PE17/166": akkar','"PE17/166": ahtar']]
+      accar: !!python/tuple 
+         - !!python/tuple ["accar-", "vb", "to do back, react; to requite, avenge", "|", True, "2966543841",  !!python/tuple []]
+      ahto: !!python/tuple 
+         - !!python/tuple ["ahto", "n", "wright, maker", "|", False, "1101119191",  !!python/tuple ['"PE18/085": ahto']]
+      ahya: !!python/tuple 
+         - !!python/tuple ["ahya-", "vb", "to change", "#", False, "3227069231",  !!python/tuple ['"PM/395": ahyanë']]
+      ai: !!python/tuple 
+         - !!python/tuple ["ai", "interj", "ah, alas", "", False, "1675657295",  !!python/tuple ['"LotR/0377": Ai!','"PE17/061": ai!','"RGEO/58": Ai!']]
+         - !!python/tuple ["ai", "adv", "supposing, suppose, maybe", "", False, "4053066113",  !!python/tuple ['"PE22/138": ai']]
+      aian: !!python/tuple 
+         - !!python/tuple ["aian", "n", "holy thing or object or place", "", False, "3438444677",  !!python/tuple ['"PE17/149": aian']]
+      aica: !!python/tuple 
+         - !!python/tuple ["aica", "adj", "fell, terrible, dire", "", False, "2936799251",  !!python/tuple ['"PM/347": aika','"PM/363": aika']]
+      aicanaro: !!python/tuple 
+         - !!python/tuple ["Aicanáro", "masc-name", "Fell Fire; Sharp Flame", "", False, "2845564209",  !!python/tuple ['"MR/323": Aikanár','"MRI/Aikanár": Aikanár','"PM/346": Aikanáro','"PM/347": Aikanáro','"PMI/Aegnor": Aikanáro','"SA/nár": Aikanáro','"VT41/14": Ekyanāro','"VT41/19": Ekyanāro','"VT41/19": Ekynāro','"WJI/Aikanáro": Aikanáro']]
+      ailin: !!python/tuple 
+         - !!python/tuple ["ailin", "n", "a large lake", "", False, "160049701",  !!python/tuple ['"PE17/160": ailin']]
+      aina: !!python/tuple 
+         - !!python/tuple ["aina", "adj", "holy, revered, numinous", "", False, "234675263",  !!python/tuple ['"PE17/149": aina','"SA/aina": aina','"VT43/14": aina','"VT43/32": aina','"VT43/32": Aini','"VT44/05": Aini','"VT44/07": Aina','"VT44/17": Aina','"WJ/399": aina']]
+         - !!python/tuple ["aina-", "vb", "to hallow, bless, treat as holy", "", False, "1647781279",  !!python/tuple ['"PE17/149": aina']]
+      ainas: !!python/tuple 
+         - !!python/tuple ["ainas", "n", "hallow, fane", "", False, "1978498445",  !!python/tuple ['"PE17/149": ainas']]
+      ainima: !!python/tuple 
+         - !!python/tuple ["ainima", "adj", "blessed, holy (of things)", "", False, "3332819975",  !!python/tuple ['"PE17/149": ainima']]
+      ainu: !!python/tuple 
+         - !!python/tuple ["Ainu", "n", "holy one, spirit", "", False, "2369702793",  !!python/tuple ['"Let/284": Ainur','"MRI/Ainur": Ainur','"MRI/Ainur": Ainu','"PE17/146": ainu','"PE17/149": ainur','"PE17/149": ainu','"PMI/Ainur": Ainur','"S/015": Ainu','"S/015": Ainur','"SA/aina": Ainur','"SI/Ainur": Ainur','"SI/Ainur": Ainu','"WJ/399": Ainu','"WJI/Ainur": Ainur','"WJI/Ainur": Ainu']]
+      ainulindale: !!python/tuple 
+         - !!python/tuple ["Ainulindalë", "proper-name", "Music of the Ainur", "", False, "2854057487",  !!python/tuple ['"LT1I/Ainulindalë": Ainulindalë','"LT2I/Ainulindalë": Ainulindalë','"MRI/Ainulindalë": Ainulindalë','"S/015": Ainulindalë','"SA/aina": Ainulindalë','"SA/lin²": Ainulindalë','"SI/Ainulindalë": Ainulindalë','"SI/Music of the Ainur": Ainulindalë','"SMI/Ainulindalë": Ainulindalë','"WJI/Ainulindalë": Ainulindalë']]
+      aiquen: !!python/tuple 
+         - !!python/tuple ["aiquen", "pron", "if anybody, whoever", "", False, "3052306501",  !!python/tuple ['"WJ/372": aiquen','"WJ/375": aiquen']]
+      aira: !!python/tuple 
+         - !!python/tuple ["aira", "adj", "holy, sanctified", "", False, "1594792097",  !!python/tuple ['"PE17/027": airă','"PM/363": aira','"VT43/14": aira']]
+      aire: !!python/tuple 
+         - !!python/tuple ["airë", "adj n", "holy; sanctity, holiness", "", False, "71439553",  !!python/tuple ['"LotR/0377": aire','"PE17/027": aire','"PE17/067": aire','"PE17/067": airë','"PE17/067": aire-','"PE17/076": aire','"PE17/146": aire','"PE17/149": aire','"PE17/149": airi-','"PM/363": airë','"PM/363": Airë','"PM/364": Airë','"RGEO/58": aíre','"RGEO/59": aire','"VT43/14": aire','"VT43/32": Aire']]
+         - !!python/tuple ["airë", "n", "sea", "†", False, "4133685985",  !!python/tuple ['"PE17/027": aire']]
+      airea: !!python/tuple 
+         - !!python/tuple ["airëa", "adj", "holy (applied to persons)", "", False, "206012687",  !!python/tuple ['"Minor-Doc/1963-12-18": airea','"PE17/149": airëa','"VT43/14": airëa']]
+      airefea: !!python/tuple 
+         - !!python/tuple ["Airefëa", "proper-name", "Holy Spirit", "", False, "2431074897",  !!python/tuple ['"VT43/37": airefean']]
+      airetari: !!python/tuple 
+         - !!python/tuple ["Airë Tári", "proper-name", "Holy Queen", "", False, "4020349113",  !!python/tuple ['"PM/363": Airë Tári','"PMI/Varda": Airë Tári']]
+      airita: !!python/tuple 
+         - !!python/tuple ["airita-", "vb", "to hallow", "#", False, "2399206005",  !!python/tuple ['"VT32/07": airitáne']]
+      airon: !!python/tuple 
+         - !!python/tuple ["airon", "n", "ocean", "†", False, "1084314337",  !!python/tuple ['"PE17/027": airon','"PE17/149": airon']]
+      aista: !!python/tuple 
+         - !!python/tuple ["aista", "adj", "*holy", "-", True, "319331855",  !!python/tuple ['"VT43/37": aistan']]
+      aistana: !!python/tuple 
+         - !!python/tuple ["aistana", "adj", "*blessed", "", True, "3341755013",  !!python/tuple ['"VT43/28": aistan’','"VT43/30": aistana','"VT43/31": aistana']]
+      manna: !!python/tuple 
+         - !!python/tuple ["manna", "adj", "*blessed", "", True, "1634820671",  !!python/tuple ['"VT43/30": manna']]
+      aiwe: !!python/tuple 
+         - !!python/tuple ["aiwë", "n", "(small) bird", "", False, "1137358351",  !!python/tuple ['"SA/lin¹": aiwë','"UT/401": Aiwe']]
+      aiwendil: !!python/tuple 
+         - !!python/tuple ["Aiwendil", "masc-name", "Lover of Birds", "", False, "1532309033",  !!python/tuple ['"UT/401": Aiwendil','"UTI/Aiwendil": Aiwendil']]
+      aiya: !!python/tuple 
+         - !!python/tuple ["aiya", "interj", "hail; behold, lo", "", False, "1827512751",  !!python/tuple ['"Let/385": Aiya','"LotR/0720": Aiya','"LotR/0915": Aiya','"PE17/089": aiya!','"PE17/090": aiya!','"PE17/101": aiya','"PE17/146": Aiya','"PE17/149": aia','"S/190": Aiya','"SD/030": Aiya','"VT43/28": Aiya','"VT43/28": Aia','"WJ/166": Aiya']]
+      aia: !!python/tuple 
+         - !!python/tuple ["aia", "interj", "hail", "", False, "884736687",  !!python/tuple []]
+      la: !!python/tuple 
+         - !!python/tuple ["(a)lá", "interj", "yes", "", True, "441051823",  !!python/tuple ['"PE17/158": lá','"PE17/158": alá','"PE17/158": lá/alá','"PE17/158": ála','"VT42/33": lá']]
+         - !!python/tuple ["lá", "interj", "yes", "", False, "922620063",  !!python/tuple []]
+         - !!python/tuple ["-(i)la", "suf", "active participle", "", False, "2889418039",  !!python/tuple ['"PE22/154": -(i)lā','"PE22/154": -la','"PE22/155": -ila','"PE22/155": -la']]
+         - !!python/tuple ["-la", "suf", "active participle", "", False, "943211241",  !!python/tuple []]
+         - !!python/tuple ["la-", "pref", "not, in-, un-", "", False, "2141101407",  !!python/tuple ['"PE22/153": la','"PE22/155": la-','"PE22/156": la-','"PE22/156": lă']]
+         - !!python/tuple ["lá-", "vb", "to not be", "", False, "1882535733",  !!python/tuple ['"PE22/153": lanye','"PE22/153": laia','"PE22/153": lāne','"PE22/153": alaie','"PE22/153": lauva','"PE22/153": ala','"PE22/153": alā','"PE22/154": la','"PE22/156": lā-','"PE22/156": lain','"PE22/156": lanye','"PE22/156": lail','"PE22/156": lalye','"PE22/156": laia','"PE22/156": lauva','"PE22/156": lāne','"PE22/156": alaie','"PE22/160": lanye','"VT42/33": lanye','"VT42/33": lá','"VT43/22": la','"VT49/13": láne','"VT49/13": lā','"VT49/13": lamin','"VT49/13": lanye','"VT49/13": laia','"VT49/13": lāne','"VT49/13": alaie','"VT49/13": lauva','"VT49/13": lá','"VT49/15": la','"VT49/15": lanye']]
+         - !!python/tuple ["lá", "adv", "no, not", "", False, "1952675039",  !!python/tuple ['"PE22/153": lā','"PE22/153": lanye','"PE22/154": la','"PE22/154": lá','"PE22/158": la','"PE22/158": lá','"PE22/160": lá','"PE22/160": la','"PE22/161": lá','"PE22/162": la','"PE22/166": lá','"PE22/166": lánye','"VT42/33": lá','"VT42/33": la','"VT49/13": lā','"VT49/18": la']]
+         - !!python/tuple ["lá", "prep", "beyond, over, across, athwart", "", False, "35116351",  !!python/tuple ['"PE17/065": lá','"PE17/065": lā','"PE17/065": la','"PE17/090": lá','"PE17/091": lá','"VT42/32": lá','"VT44/04": lá']]
+      ala: !!python/tuple 
+         - !!python/tuple ["(a)lá", "interj", "yes", "", True, "441051823",  !!python/tuple ['"PE17/158": lá','"PE17/158": alá','"PE17/158": lá/alá','"PE17/158": ála','"VT42/33": lá']]
+         - !!python/tuple ["ála", "particle", "do not", "", False, "2392274047",  !!python/tuple ['"VT43/22": alalye','"VT43/22": Álalye','"VT43/22": ala','"VT43/22": Ála-','"VT44/08": alalye','"VT49/13": ala','"VT49/13": alā']]
+         - !!python/tuple ["al(a)-", "pref", "in-, un-, not; †-less, without", "", False, "4051074567",  !!python/tuple ['"PE22/153": al','"PE22/153": ala-','"PE22/153": ala','"PE22/156": ala','"PE22/160": ala','"VT42/33": ala','"VT42/33": al-']]
+         - !!python/tuple ["ala-", "vb", "to plant, grow", "", False, "1613809687",  !!python/tuple ['"PE17/100": ala-','"PE17/132": alanye','"PE17/132": alalye','"PE17/132": alatar','"PE17/132": alas/alasse','"PE17/132": ala','"PE17/132": alambe','"PE17/132": alalme','"PE17/132": alalle','"PE17/132": alaltar','"PE17/132": alante','"PE17/132": alar','"PE17/132": alammo','"PE17/132": alalmo','"PE17/132": alallo','"PE17/132": alastar','"PE17/132": alasto','"PE17/132": alat','"PE22/164": alan','"PE22/164": alean','"PE22/164": ālan','"PE22/164": aluva','"PE22/164": alane','"PE22/164": alde','"PE22/164": ālie','"PE22/164": alālie','"PE22/164": ālean','"PE22/164": aluvan','"PE22/164": alanen','"PE22/164": alden','"PE22/164": alālien','"PE22/164": ālien']]
+         - !!python/tuple ["al(a)-", "pref", "well, happily", "", True, "3744832185",  !!python/tuple ['"PE17/146": ala-','"PE17/146": al-','"PE17/172": ala-','"PE17/172": al-']]
+         - !!python/tuple ["ala-", "vb", "to deny", "", False, "1381089033",  !!python/tuple ['"PE22/167": ala-']]
+      al: !!python/tuple 
+         - !!python/tuple ["al(a)-", "pref", "in-, un-, not; †-less, without", "", False, "4051074567",  !!python/tuple ['"PE22/153": al','"PE22/153": ala-','"PE22/153": ala','"PE22/156": ala','"PE22/160": ala','"VT42/33": ala','"VT42/33": al-']]
+         - !!python/tuple ["al(a)-", "pref", "well, happily", "", True, "3744832185",  !!python/tuple ['"PE17/146": ala-','"PE17/146": al-','"PE17/172": ala-','"PE17/172": al-']]
+      alacarna: !!python/tuple 
+         - !!python/tuple ["alacarna", "adj", "well-done, well-made", "|", False, "970587683",  !!python/tuple ['"PE17/172": alacarna']]
+      alahasta: !!python/tuple 
+         - !!python/tuple ["alahasta", "adj", "unmarred", "", False, "451527979",  !!python/tuple ['"MR/254": Alahasta']]
+      alahen: !!python/tuple 
+         - !!python/tuple ["alahen", "adj", "eyeless", "", False, "138641759",  !!python/tuple ['"PE22/153": alahen','"PE22/153": alahendi']]
+      alalme: !!python/tuple 
+         - !!python/tuple ["alalmë", "n", "inflorescence", "", False, "376464289",  !!python/tuple ['"PE17/153": alalme']]
+      alalbe: !!python/tuple 
+         - !!python/tuple ["alalbë", "n", "inflorescence", "-", True, "2953823883",  !!python/tuple ['"PE17/153": alalbe']]
+      alalvea: !!python/tuple 
+         - !!python/tuple ["alalvëa", "adj", "having many elms", "", False, "1580178729",  !!python/tuple ['"PE17/146": alalvea']]
+      alalvinore: !!python/tuple 
+         - !!python/tuple ["Alalvinórë", "place-name", "Land of Many Elms", "", False, "3669988095",  !!python/tuple ['"PE17/153": alalbinóre','"PE17/153": alalvinore','"PE17/153": alalmi-nóre','"PE17/153": alalbinore']]
+      alamen: !!python/tuple 
+         - !!python/tuple ["alamen", "n", "good omen on departure", "", False, "784175479",  !!python/tuple ['"PE17/162": alámen(e)','"PE17/162": alamen']]
+      alanesse: !!python/tuple 
+         - !!python/tuple ["alanessë", "n", "nicotiana, pipeweed", "", False, "3921139409",  !!python/tuple ['"PE17/100": alenesse','"PE17/100": alanesse']]
+      alenesse: !!python/tuple 
+         - !!python/tuple ["alenessë", "n", "nicotiana, pipeweed", "", False, "3420717649",  !!python/tuple []]
+      alaquenta: !!python/tuple 
+         - !!python/tuple ["alaquenta", "adj", "well (happily) said", "", False, "2559291621",  !!python/tuple ['"PE17/146": alaquenta']]
+      alasaila: !!python/tuple 
+         - !!python/tuple ["alasaila", "adj", "unwise", "", False, "2239380991",  !!python/tuple ['"PE22/154": alasaila','"VT41/13": alasaila','"VT41/18": alasaila','"VT42/33": alasaila']]
+      alasse: !!python/tuple 
+         - !!python/tuple ["alassë", "n", "happiness", "", False, "3383391839",  !!python/tuple ['"MS/01": alasse']]
+      haimenar: !!python/tuple 
+         - !!python/tuple ["Haimenar", "masc-name", "*Far-farer", "", False, "3649571781",  !!python/tuple ['"NM/095": Haimenar']]
+      alca: !!python/tuple 
+         - !!python/tuple ["alca-", "vb", "to glitter", "", False, "326652077",  !!python/tuple ['"PE18/087": alka-']]
+      alcar: !!python/tuple 
+         - !!python/tuple ["alcar", "n", "glory, splendour, radiance, brilliance", "", False, "2464648865",  !!python/tuple ['"PE17/024": alkar','"PE17/105": alkar','"PE17/124": alkar','"PE18/085": alkar','"PE18/087": alkar','"RGEO/65": alcar','"SA/aglar": alkar','"UT/305": alcar','"UT/317": alcar','"VT43/37": Alcar','"VT44/10": alcare','"VT44/34": alcar','"VT44/34": alkar','"VT47/13": alkar','"WJ/369": alkar']]
+      alcarin: !!python/tuple 
+         - !!python/tuple ["Alcarin", "proper-name", "Glorious", "", False, "1016580549",  !!python/tuple ['"LotR/1038": Alcarin','"LotRI/Atanatar II": Alcarin','"LotRI/Tar-Alcarin": Alcarin','"PE17/024": Alcarin','"PE17/114": Alcarin','"PMI/Alkarin": Alkarin','"UTI/Atanatar": Alcarin','"UTI/Tar-Alcarin": Alcarin']]
+         - !!python/tuple ["alcarin(qua)", "adj", "glorious, brilliant", "", False, "3088983891",  !!python/tuple ['"PE17/024": alcarin','"PE17/024": alcarinqua','"RGEO/65": alcarin','"VT44/10": alcarin','"VT44/10": alcarinqua','"VT44/10": alcare','"WJ/412": alkarinqua']]
+      alcarinqua: !!python/tuple 
+         - !!python/tuple ["alcarin(qua)", "adj", "glorious, brilliant", "", False, "3088983891",  !!python/tuple ['"PE17/024": alcarin','"PE17/024": alcarinqua','"RGEO/65": alcarin','"VT44/10": alcarin','"VT44/10": alcarinqua','"VT44/10": alcare','"WJ/412": alkarinqua']]
+      alcarinque: !!python/tuple 
+         - !!python/tuple ["Alcarinquë", "proper-name", "Glorious", "", False, "2576654869",  !!python/tuple ['"MR/435": Alkarinque','"MRI/Alkarinquë": Alkarinquë','"SA/aglar": Alkarinquë','"SI/Alcarinquë": Alcarinquë']]
+      alcarondas: !!python/tuple 
+         - !!python/tuple ["Alcarondas", "proper-name", "Castle of the Sea", "", False, "2565222535",  !!python/tuple ['"PM/156": Alkarondas','"PMI/Aglarrâma": Alkarondas','"S/278": Alcarondas','"SDI2/Aglarrâma": Alcarondas','"SDI2/Alcarondas": Alcarondas','"SI/Alcarondas": Alcarondas']]
+      alda: !!python/tuple 
+         - !!python/tuple ["alda", "n", "tree", "", False, "539805327",  !!python/tuple ['"Let/426": alda','"LotR/0377": aldaron','"LotR/1113": alda','"LotR/1123": alda','"MR/100": Aldu','"NM/352": alda','"PE17/025": alda','"PE17/050": alda','"PE17/063": alda','"PE17/063": aldăron','"PE17/063": aldali','"PE17/063": aldalion','"PE17/126": alda','"PE17/135": alda','"PE17/136": aldaron','"PE17/153": alda','"PE22/160": alda','"RC/385": Alda','"RGEO/58": áldaròn','"RGEO/58": aldaron','"RGEO/65": alda','"RGEO/65": aldaron','"SA/alda": alda','"UT/167": aldar','"VT39/07": alda']]
+      aldalome: !!python/tuple 
+         - !!python/tuple ["Aldalómë", "place-name", "Tree-twilight", "", False, "3242291153",  !!python/tuple ['"LotR/0469": Aldalómë','"LotRI/Aldalómë": Aldalómë','"PE17/082": Aldalóme','"RC/385": Aldalómë','"TII/Aldalómë": Aldalómë']]
+      aldamir: !!python/tuple 
+         - !!python/tuple ["Aldamir", "masc-name", "*Tree Jewel", "", False, "1126937443",  !!python/tuple ['"LotRI/Aldamir": Aldamir','"PMI/Aldamir": Aldamir']]
+      aldanil: !!python/tuple 
+         - !!python/tuple ["Aldanil", "masc-name", "Lover of Trees", "", False, "3025306943",  !!python/tuple ['"PE21/83": Aldanil','"PE21/83": Alandil']]
+      aldarembina: !!python/tuple 
+         - !!python/tuple ["aldarembina", "adj", "tree-meshed", "", False, "1992388353",  !!python/tuple ['"PE17/026": aldarembina','"PE17/026": aldarembine','"PE17/127": aldarembina','"PE17/136": aldarembina']]
+      aldarion: !!python/tuple 
+         - !!python/tuple ["Aldarion", "masc-name", "*Son of Trees", "", False, "822173433",  !!python/tuple ['"LotRI/Tar-Aldarion": Aldarion','"PMI/Aldarion": Aldarion','"PMI/Tar-Aldarion": Aldarion','"SDI2/Aldarion": Aldarion','"UT/210": Aldarion','"UTI/Aldarion": Aldarion','"UTI/Tar-Aldarion": Aldarion','"WJI/Aldarion": Aldarion']]
+      aldaron: !!python/tuple 
+         - !!python/tuple ["Aldaron", "masc-name", "Lord of Forests, (lit.) Of Trees", "", False, "3330088929",  !!python/tuple ['"MRI/Aldaron": Aldaron','"PE21/86": Aldar','"S/029": Aldaron','"SA/alda": Aldaron','"SI/Aldaron": Aldaron']]
+      aldea: !!python/tuple 
+         - !!python/tuple ["Aldëa", "n", "*Tuesday, Tree-day (Númenórean)", "", False, "4158418399",  !!python/tuple ['"LotR/1110": Aldëa']]
+      aldinga: !!python/tuple 
+         - !!python/tuple ["aldinga", "n", "tree-top", "", False, "1598925071",  !!python/tuple ['"VT47/28": aldinga']]
+      aldudenie: !!python/tuple 
+         - !!python/tuple ["Aldudénië", "proper-name", "Lament for the Two Trees", "", False, "2442652045",  !!python/tuple ['"MR/100": Aldudénië','"MR/288": Aldudénië','"MRI/Aldudénië": Aldudénië','"S/076": Aldudénië','"SA/alda": Aldudenië','"SI/Aldudénië": Aldudénië','"SI/Elemmírë²": Aldudénië']]
+      alduya: !!python/tuple 
+         - !!python/tuple ["Aldúya", "n", "*Tuesday, Day of the Two Trees", "", False, "2566863855",  !!python/tuple ['"Let/427": Aldūya','"LotR/1110": Aldúya','"PM/138": Aldauya']]
+      aldauya: !!python/tuple 
+         - !!python/tuple ["Aldauya", "n", "*Tuesday, Day of the Two Trees", "", True, "1237937839",  !!python/tuple []]
+      aleldarin: !!python/tuple 
+         - !!python/tuple ["aleldarin", "adj", "unelvish", "", False, "415262653",  !!python/tuple ['"PE22/156": aleldarin']]
+      aleldarinwa: !!python/tuple 
+         - !!python/tuple ["aleldarinwa", "adj", "unElvish", "-", False, "2293400207",  !!python/tuple ['"PE22/156": aleldarinwa']]
+      alima: !!python/tuple 
+         - !!python/tuple ["alima", "adj", "fair, good", "", False, "2871813959",  !!python/tuple ['"PE17/146": alima']]
+      alla: !!python/tuple 
+         - !!python/tuple ["alla", "interj", "welcome, hail", "", False, "3260046495",  !!python/tuple ['"PE17/146": Alla!']]
+      alma: !!python/tuple 
+         - !!python/tuple ["alma", "n", "flower", "", False, "1452592063",  !!python/tuple ['"PE17/146": alma','"PE17/153": alma']]
+      alba: !!python/tuple 
+         - !!python/tuple ["alba", "n", "flower", "-", True, "4154712331",  !!python/tuple ['"PE17/153": alba']]
+      alme: !!python/tuple 
+         - !!python/tuple ["almë", "n", "good (or blessed) thing, blessing, piece of good fortune", "", False, "1442578625",  !!python/tuple ['"PE17/146": almë','"PE17/153": almë']]
+      almiel: !!python/tuple 
+         - !!python/tuple ["Almiel", "fem-name", "?Blessed Daughter", "", False, "2220848169",  !!python/tuple ['"UT/210": Almiel','"UTI/Almiel": Almiel']]
+      alqua: !!python/tuple 
+         - !!python/tuple ["alqua", "n", "swan", "", False, "4104058537",  !!python/tuple ['"NM/378": alqua','"PE18/100": alqua','"SA/alqua": alqua','"UT/265": alqua','"VT42/07": alqua']]
+      alqualonde: !!python/tuple 
+         - !!python/tuple ["Alqualondë", "place-name", "Haven of the Swans", "", False, "2284449801",  !!python/tuple ['"LBI/Alqualondë": Alqualondë','"LT1I/Alqualondë": Alqualondë','"MRI/Alqualondë": Alqualondë','"PMI/Alqualondë": Alqualondë','"S/061": Alqualondë','"SA/alqua": Alqualondë','"SA/londë": Alqualondë','"SI/Alqualondë": Alqualondë','"SI/Havens": Alqualondë','"SI/Swanhaven": Alqualondë','"UT/265": Alqualondë','"UTI/Alqualondë": Alqualondë','"WJI/Alqualondë": Alqualondë']]
+      altariel: !!python/tuple 
+         - !!python/tuple ["Altáriel", "fem-name", "Galadriel", "", False, "1362129291",  !!python/tuple ['"MR/182": Altariellë','"MRI/Altariellë": Altariellë','"NM/346": Alatáriel','"NM/353": Altáriel','"NM/353": Altariello','"PE17/050": Altariel(le)','"PE17/050": altáriel','"PE17/084": Altáriel','"PE17/169": Altariel(le)','"PM/347": Altariel','"PMI/Galadriel": Altariel','"RGEO/58": Altariello','"SA/kal": Al(a)táriel','"UT/266": Altáriel','"UTI/Al(a)táriel": Al(a)táriel']]
+      caltariel: !!python/tuple 
+         - !!python/tuple ["Caltáriel", "fem-name", "woman crowned with glory, radiance", "-", False, "3749975063",  !!python/tuple ['"PE17/050": Kaltáriel(le)','"PE17/050": Kaltariel(le)','"PE17/050": kaltáriel','"PE17/084": Caltariel']]
+      naltariel: !!python/tuple 
+         - !!python/tuple ["Naltariel", "fem-name", "Galadriel", "", False, "470878163",  !!python/tuple ['"PE17/059": Naldariel(lle)','"PE17/060": Ñaltariel','"PM/347": Ñaltariel']]
+      alve: !!python/tuple 
+         - !!python/tuple ["alvë", "n", "elm", "", False, "2355361641",  !!python/tuple ['"PE17/146": alve','"PE17/153": albe']]
+      albe: !!python/tuple 
+         - !!python/tuple ["albë", "n", "elm", "", False, "4144409663",  !!python/tuple []]
+      alya: !!python/tuple 
+         - !!python/tuple ["alya", "adj", "fair, good", "", False, "1237975119",  !!python/tuple ['"PE17/146": alya']]
+         - !!python/tuple ["alya-", "vb", "to cause to prosper, bless (a work), help one", "", False, "3743403951",  !!python/tuple ['"PE17/146": alya-']]
+      am: !!python/tuple 
+         - !!python/tuple ["am-", "pref", "up", "#", False, "4282118887",  !!python/tuple ['"MC/223": am-']]
+         - !!python/tuple ["am(a)-", "pref", "intensive prefix", "†", False, "1449367445",  !!python/tuple []]
+      ama: !!python/tuple 
+         - !!python/tuple ["ama-", "pref", "*well, happily", "-", False, "2350197575",  !!python/tuple ['"PE17/172": ama-']]
+         - !!python/tuple ["am(a)-", "pref", "intensive prefix", "†", False, "1449367445",  !!python/tuple []]
+      amaltil: !!python/tuple 
+         - !!python/tuple ["amaltil", "n", "*mother finger", "", True, "3992966901",  !!python/tuple ['"VT47/27": amaltil']]
+      aman: !!python/tuple 
+         - !!python/tuple ["Aman", "place-name", "Blessed Realm", "", False, "4290710469",  !!python/tuple ['"LBI/Aman": Aman','"LotRI/Aman": Aman','"LotRI/Blessed Realm": Aman','"LRI/Aman": Aman','"LT1I/Aman": Aman','"LT2I/Aman": Aman','"MRI/Aman": Aman','"PE17/106": Aman','"PE17/162": Aman','"PMI/Aman": Aman','"RC/766": Aman','"S/062": Aman','"SA/mān": Aman','"SD/376": Aman','"SDI2/Amân": Aman','"SI/Aman": Aman','"SI/Blessed Realm": Aman','"SMI/Aman": Aman','"UTI/Aman": Aman','"VT49/26": Amanna','"VT49/26": Aman','"WJ/399": aman','"WJI/Aman": Aman']]
+      amanar: !!python/tuple 
+         - !!python/tuple ["Amanar", "proper-name", "Yule", "", False, "3178456103",  !!python/tuple ['"Minor-Doc/1963-12-18": Amanar']]
+      amandil: !!python/tuple 
+         - !!python/tuple ["Amandil", "masc-name", "Lover of Aman", "", False, "2943820837",  !!python/tuple ['"LotRI/Amandil": Amandil','"LotRI/Tar-Amandil": Amandil','"LRI/Amandil": Amandil','"PMI/Amandil": Amandil','"SA/mān": Amandil','"SA/(n)dil": Amandil','"SDI2/Amandil": Amandil','"SDI2/Amardil": Amandil','"SDI2/Aphanuzîr": Amandil','"SDI2/Arbazân": Amandil','"SI/Amandil": Amandil','"UT/210": Amandil','"UTI/Amandil": Amandil','"UTI/Tar-Amandil": Amandil']]
+      amaneldi: !!python/tuple 
+         - !!python/tuple ["Amaneldi", "collective-name", "*Elves of Aman", "", False, "542820085",  !!python/tuple ['"WJ/373": Amaneldi','"WJI/Amaneldi": Amaneldi']]
+      amanya: !!python/tuple 
+         - !!python/tuple ["amanya", "adj", "*blessed", "", False, "1379423095",  !!python/tuple ['"VT49/41": amanya']]
+      amanyar: !!python/tuple 
+         - !!python/tuple ["Amanyar", "collective-name", "Those of Aman", "", False, "2065727157",  !!python/tuple ['"SI/Úmanyar": Amanyar','"WJ/373": Amanyar','"WJ/411": Amanya','"WJI/Amanyar": Amanyar','"WJI/Amanyar": Amanya']]
+      amaure: !!python/tuple 
+         - !!python/tuple ["amaurë", "n", "dawn, early day, morning", "*", False, "638905337",  !!python/tuple ['"MC/223": amaurë']]
+      amaurea: !!python/tuple 
+         - !!python/tuple ["amaurëa", "adj", "dawn, early day, morning", "†", False, "1989269657",  !!python/tuple ['"MC/222": amaurëasse','"MC/223": amaurëa']]
+      amba: !!python/tuple 
+         - !!python/tuple ["amba", "adv", "up(wards)", "", False, "615438895",  !!python/tuple ['"PE17/082": amba-','"PE17/091": amba','"PE17/157": amba-','"PM/354": amba','"RC/385": amba','"UT/255": amba']]
+         - !!python/tuple ["amba", "adj pron", "more", "", False, "382718241",  !!python/tuple ['"PE17/090": amba','"PE17/091": amba']]
+      ambalotse: !!python/tuple 
+         - !!python/tuple ["ambalotsë", "n", "uprising-flower", "", False, "2789973233",  !!python/tuple ['"WJ/318": ambalotse']]
+      ambar: !!python/tuple 
+         - !!python/tuple ["Ambar", "n", "The World, Earth, (lit.) Habitation, Settlement", "", False, "4273482913",  !!python/tuple ['"LotR/0967": Ambar','"MR/337": Imbar','"MRI/Ambar": Ambar','"MRI/Imbar": Imbar','"MS/01": Ambarello','"NM/226": ambar','"NM/228": ambar','"PE17/064": ambar','"PE17/066": ambar','"PE17/066": ambăr-','"PE17/074": ambar','"PE17/078": Ambar','"PE17/090": ambar','"PE17/103": ambar','"PE17/104": ambar','"PE17/105": ambar','"PE17/105": Ambar','"PE17/124": ambar','"PE17/163": ambar-','"PE22/147": ambar','"VT44/36": ambar','"WJ/402": Ambar','"WJI/Ambar": Ambar','"WJI/Imbar": Imbar']]
+         - !!python/tuple ["ambar", "n", "fate, doom", "", False, "95686817",  !!python/tuple []]
+      imbar: !!python/tuple 
+         - !!python/tuple ["Imbar", "n", "Habitation", "", True, "2155292065",  !!python/tuple []]
+      ambarato: !!python/tuple 
+         - !!python/tuple ["Ambaráto", "masc-name", "*High Champion", "", False, "2175363371",  !!python/tuple ['"PM/347": Ambaráto','"PMI/Aegnor": Ambaráto']]
+      ambarmenie: !!python/tuple 
+         - !!python/tuple ["Ambarmenië", "proper-name", "Way of the World", "", False, "2691113183",  !!python/tuple ['"NM/227": ambarmenië']]
+      ambarona: !!python/tuple 
+         - !!python/tuple ["Ambaróna", "place-name", "Eastern (Land)", "", False, "414140927",  !!python/tuple ['"LotR/0469": Ambaróna','"LotRI/Ambaróna": Ambaróna','"PE17/082": Ambaróna','"PE17/091": Ambaróna','"RC/384": Ambaróna']]
+      ambarone: !!python/tuple 
+         - !!python/tuple ["ambarónë", "n", "dawn", "", False, "3288832145",  !!python/tuple ['"PE17/082": ambaróne','"RC/385": ambaróne']]
+      le: !!python/tuple 
+         - !!python/tuple ["-lë", "suf", "abstract noun, adverb", "", False, "3159645779",  !!python/tuple ['"PE17/058": -le','"PE17/074": -le','"S/015": -lë','"UT/214": -lë','"VT39/16": -lë']]
+         - !!python/tuple ["le", "pron", "you (plural)", "", False, "1974988543",  !!python/tuple ['"Minor-Doc/1955-CT": lenna','"PE22/162": le','"VT49/51": lé']]
+         - !!python/tuple ["lé", "n", "way, method, manner", "", False, "3010255839",  !!python/tuple ['"PE17/074": lé']]
+         - !!python/tuple ["lé", "prep", "with", "|", True, "1092697151",  !!python/tuple ['"PE17/095": lé']]
+      namarie: !!python/tuple 
+         - !!python/tuple ["namárië", "interj", "farewell, (lit.) be well, let it be well (to you)", "", False, "2466400815",  !!python/tuple ['"Let/224": namárië','"LotR/0352": namárië','"LotR/0378": Namárië','"PE17/058": namárië','"PE17/059": na mārie','"PE17/059": namárië','"PE17/074": na-mārië','"PE17/162": namárië','"RGEO/58": Namā́rië́','"RGEO/59": Namārië','"WJ/369": namárië','"WJI/Namárië": Namárië']]
+      namie: !!python/tuple 
+         - !!python/tuple ["námië", "n", "single judgment or desire", "", False, "3383194491",  !!python/tuple ['"VT41/13": námie']]
+      namna: !!python/tuple 
+         - !!python/tuple ["namna", "n", "statute", "", False, "3138369023",  !!python/tuple ['"MR/258": Namna','"MR/471": namna']]
+      namo: !!python/tuple 
+         - !!python/tuple ["Námo", "masc-name", "Judge, Ordainer", "", False, "2625007833",  !!python/tuple ['"MR/150": Núr','"MR/150": Námo','"MRI/Námo": Námo','"MRI/Núr": Núr','"MRI/Núr": Námo','"PE21/85": Námo','"PE22/154": Návo','"PE22/154": Námo','"S/028": Námo','"SI/Námo": Námo','"UT/397": Námo','"UTI/Námo": Námo','"WJ/402": Námo','"WJI/Námo": Námo']]
+         - !!python/tuple ["námo", "n", "person, somebody (unnamed)", "", False, "985798135",  !!python/tuple ['"PM/340": námo']]
+         - !!python/tuple ["námo", "n", "judge", "", False, "2265271197",  !!python/tuple ['"WJ/402": Námo']]
+      nan: !!python/tuple 
+         - !!python/tuple ["nan-", "pref", "back (again)", "", False, "800769433",  !!python/tuple ['"PE17/166": nan-','"PE17/166": nat']]
+         - !!python/tuple ["nan(do)", "n", "(wide) valley, vale", "", False, "1559656549",  !!python/tuple ['"Let/308": nan','"Let/308": nand-','"NM/351": nan(do)','"NM/351": -nan','"PE17/028": Nand’','"PE17/028": nan(do)','"PE17/080": nando','"PE17/080": -nan','"PE17/080": nanda','"RC/384": nan','"RC/384": nand','"UT/166": -nan','"UT/253": nandë','"UT/253": nan(d)']]
+         - !!python/tuple ["nan", "n", "valley, vale", "", False, "752710265",  !!python/tuple []]
+      yuyal: !!python/tuple 
+         - !!python/tuple ["yúyal", "n", "twilight", "", False, "2254977541",  !!python/tuple ['"PE17/153": úyale','"PE17/169": yúyal']]
+      uyale: !!python/tuple 
+         - !!python/tuple ["úyalë", "n", "twilight", "", True, "3985925553",  !!python/tuple []]
+      yuyo: !!python/tuple 
+         - !!python/tuple ["yúyo", "adj", "both", "", False, "1863628559",  !!python/tuple ['"VT49/10": yúyo']]
+      ezel: !!python/tuple 
+         - !!python/tuple ["ezel(la)", "adj", "green", "", False, "888470127",  !!python/tuple []]
+      ezella: !!python/tuple 
+         - !!python/tuple ["ezel(la)", "adj", "green", "", False, "888470127",  !!python/tuple []]

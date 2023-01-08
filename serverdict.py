@@ -27,33 +27,25 @@ with SimpleXMLRPCServer(('localhost', 8002), logRequests=True, allow_none=True) 
     @server.register_function
     def find_random_word():
             
-        words     = data.get("words")
-        lang_dict = random.choice(list(words.values()))
-        word_lang = random.choice(list(lang_dict.keys()))
-        word_aux  = lang_dict[word_lang]
+        word_lang = random.choice(list(data.get("dictionaries").keys()))
+        logger.debug("word language : %s", word_lang)
 
-        # en este punto tenemos una lista de acepciones o un diccionario 
-        if isinstance(word_aux, list):
-            word_dict = random.choice(word_aux) 
-        else: 
-            word_dict = word_aux
+        word_tuple = find_filtered_random_word(word_lang)
 
-        return word_dict, word_lang
-
+        return word_tuple, word_lang
 
     @server.register_function
     def find_filtered_random_word(word_lang):
-            
-        words     = data.get("dictionaries")[word_lang]
-        word_aux  = random.choice(list(words.values()))
 
-        # en este punto tenemos una lista de acepciones o un diccionario 
-        if isinstance(word_aux, list):
-            word_dict = random.choice(word_aux) 
+        word_aux  = random.choice(list(self._data.get("dictionaries")[word_lang].values()))
+
+        # en este punto tenemos una tuple de acepciones o una tuple-paraula  
+        if isinstance(word_aux[0], tuple):
+            word_tuple = random.choice(word_aux) 
         else: 
-            word_dict = word_aux
+            word_tuple = word_aux
 
-        return word_dict
+        return word_tuple
 
     @server.register_function
     def find_word(word_query):
@@ -61,29 +53,34 @@ with SimpleXMLRPCServer(('localhost', 8002), logRequests=True, allow_none=True) 
         found     = False
         lang_dict = {}
         
-        if word_query in data.get("words"):
-            found    = True
-            lang_dict = data.get("words")[word_query]
+        for word_lang in data.get("languages"):
+
+            logger.debug("word language : %s", word_lang)
+
+            found_aux, word_tuple = find_filtered_word(word_query, word_lang)
+
+            if found_aux:
+                lang_dict[word_lang] = word_tuple
+                found = found_aux
 
         return found, lang_dict
+
 
     @server.register_function
     def find_filtered_word(word_query, word_lang):
             
         found     = False
-        word_list = [] 
         
-        words     = data.get("dictionaries")[word_lang]
-        if word_query in words: 
+        if word_query in data.get("dictionaries")[word_lang]: 
             found    = True
-            word_aux = words[word_query]
-            # en este punto tenemos una lista de acepciones o un diccionario 
-            if isinstance(word_aux, list):
-                word_list = word_aux 
-            else: 
-                word_list.append(word_aux)
+            word_tuple = data.get("dictionaries")[word_lang][word_query]
+            # en este punto tenemos una tuple de acepciones  
 
-        return found, word_list
+        if not found:
+            word_tuple = ()
+
+        return found, word_tuple
+
 
     # Run the server's main loop
     server.serve_forever()

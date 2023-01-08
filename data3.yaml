@@ -1,4 +1,231 @@
 
+languages:
+   "neo": "Combined (Neo) Languages"
+   "np": "Neo-Primitive Elvish"
+   "nq": "Neo-Quenya"
+   "ns": "Neo-Sindarin"
+   "late": "Late Period (1950-1973)"
+   "p": "Primitive Elvish"
+   "aq": "Ancient Quenya"
+   "q": "Quenya"
+   "van": "Vanyarin"
+   "at": "Ancient Telerin"
+   "t": "Telerin"
+   "os": "Old Sindarin"
+   "s": "Sindarin"
+   "norths": "North Sindarin"
+   "nan": "Nandorin"
+   "av": "Avarin"
+   "un": "Unknown"
+   "ed": "Edain"
+   "pad": "Primitive Adûnaic"
+   "ad": "Adûnaic"
+   "wes": "Westron"
+   "roh": "Rohirric"
+   "wos": "Wose"
+   "dun": "Dunlending"
+   "eas": "Easterling"
+   "kh": "Khuzdul"
+   "khx": "Khuzdul (External)"
+   "bs": "Black Speech"
+   "val": "Valarin"
+   "ent": "Entish"
+   "teng": "Tengwar"
+   "cir": "Cirth"
+   "sar": "Sarati"
+   "middle": "Middle Period (1930-1950)"
+   "mp": "Middle Primitive Elvish"
+   "maq": "Middle Ancient Quenya"
+   "mq": "Middle Quenya"
+   "lin": "Lindarin"
+   "on": "Old Noldorin"
+   "n": "Noldorin"
+   "mt": "Middle Telerin"
+   "ilk": "Ilkorin/Doriathrin"
+   "dan": "Danian/Ossiriandic"
+   "lem": "Lemberin"
+   "tal": "Taliska"
+   "early": "Early Period (1910-1930)"
+   "ep": "Early Primitive Elvish"
+   "eq": "Early Quenya"
+   "g": "Gnomish"
+   "en": "Early Noldorin"
+   "et": "Solosimpi/Early Telerin"
+   "eilk": "Early Ilkorin"
+
+sources: !!python/tuple
+   - '"1000W": 1000 Words'
+   - '"AAD": An Adunaic Dictionary'
+   - '"AAQ": Agreement of Adjectives in Quenya'
+   - '"ABNW": Ales Bican’s New Words'
+   - '"AESED": Ambar Eldaron’s Sindarin English Dictionary'
+   - '"AF": Atalante Fragments'
+   - '"AL": Ardalambion Website'
+   - '"AL-Doriathrin": Ardalambion — Doriathrin'
+   - '"AL-Ilkorin": Ardalambion — Ilkorin'
+   - '"AL-Nandorin": Ardalambion — Nandorin'
+   - '"ANQP": Atanquesta: a NeoQuenya Primer'
+   - '"AT": Amanye Tenceli'
+   - '"ATD": A Tolkien Dictionary'
+   - '"CH": The Children of Húrin'
+   - '"DEANS": On the Diphthongs ei, ai in Noldorin and Sindarin'
+   - '"DTS": Mellonath Daeron Index of Tengwa Specimina'
+   - '"EA": Encyclopedia of Arda'
+   - '"EE": Essekenta Endamarwa'
+   - '"EIP": Early Ilkorin Phonology'
+   - '"Elfling": Elfling Mailing List'
+   - '"ENPP": Early Noldorin Plural Patterns'
+   - '"EotAL": Etymologies of the Atani Languages'
+   - '"Ety": Etymologies'
+   - '"EtyAC": Etymologies, Addenda and Corrigenda'
+   - '"FJNQ": Fiona Jallings’s Neo-Quenya Wordlist'
+   - '"FJNS": Fiona Jallings’s Neo-Sindarin Wordlist'
+   - '"GG": Gnomish Grammar'
+   - '"GGAI": The Goldogrin Grammar — An Introduction'
+   - '"GL": Gnomish Lexicon'
+   - '"GP": Goldogrin Pronouns '
+   - '"GPT": The Goldogrin Past Tense'
+   - '"GS": Gateway to Sindarin'
+   - '"GTLC": Glǽmscrafu — Tolkien’s Linguistic Cellar'
+   - '"HFQC": Helge Fauskanger’s Quenya Course'
+   - '"HH": History of the Hobbit'
+   - '"HPG": Historical Phonology of Goldogrin'
+   - '"HPITN": Historical Phonologies of Ilkorin, Telerin and Noldorin around 1923'
+   - '"HSD": Hiswelókë’s Sindarin Dictionary'
+   - '"LA": I Lam Arth'
+   - '"Lambengolmor": Lambengolmor Mailing List'
+   - '"LB": Lays of Beleriand'
+   - '"LBI": Lays of Beleriand — Index'
+   - '"Let": Letters of J.R.R. Tolkien'
+   - '"LFC": Letters from Father Christmas'
+   - '"LGtAG": Lalaith’s Guide to Adûnaic Grammar'
+   - '"LotR": Lord of the Rings, 50th Anniversary One-Volume Edition'
+   - '"LotRI": Lord of the Rings — Index'
+   - '"LP-AM": Lord’s Prayer and Ave Maria'
+   - '"LR": Lost Road and Other Writings'
+   - '"LRI": Lost Road and Other Writings — Index'
+   - '"LT1": Book of Lost Tales Part One'
+   - '"LT1A": Book of Lost Tales Part One — Appendix'
+   - '"LT1I": Book of Lost Tales Part One — Index'
+   - '"LT2": Book of Lost Tales Part Two'
+   - '"LT2A": Book of Lost Tales Part Two — Appendix'
+   - '"LT2I": Book of Lost Tales Part Two — Index'
+   - '"MC": Monsters and the Critics'
+   - '"Minor-Doc": Minor Documents'
+   - '"MR": Morgoth’s Ring'
+   - '"MRI": Morgoth’s Ring — Index'
+   - '"MS": Merin Sentence'
+   - '"NBA": Ni-bitha Adûnâyê'
+   - '"NM": The Nature of Middle-Earth'
+   - '"NPE": Noldorin Plurals in the Etymologies'
+   - '"NQNT": Neo-Quenya New Testament'
+   - '"NQW": Neo-Quenya Wiki'
+   - '"NTTLS": Notes Towards a Translation of Lúthien’s Song'
+   - '"OT": On Telerin'
+   - '"PE11": Parma Eldalamberon #11'
+   - '"PE12": Parma Eldalamberon #12'
+   - '"PE13": Parma Eldalamberon #13'
+   - '"PE14": Parma Eldalamberon #14'
+   - '"PE15": Parma Eldalamberon #15'
+   - '"PE16": Parma Eldalamberon #16'
+   - '"PE17": Parma Eldalamberon #17'
+   - '"PE18": Parma Eldalamberon #18'
+   - '"PE19": Parma Eldalamberon #19'
+   - '"PE20": Parma Eldalamberon #20'
+   - '"PE21": Parma Eldalamberon #21'
+   - '"PE22": Parma Eldalamberon #22'
+   - '"PED-TAI": Une Phrase Elfique Dans « J. R. R. Tolkien, Artist & Illustrator »'
+   - '"PEE": Parma Eldalamberon Errata'
+   - '"PESC": Pedin Edhellen: a Sindarin Course'
+   - '"Plotz": Plotz Letter'
+   - '"PM": Peoples of Middle-Earth'
+   - '"PMCH": Parma Mittarion - Calma Hendas'
+   - '"PME": Poetic and Mythological Words of Eldarissa'
+   - '"PMI": Peoples of Middle-Earth — Index'
+   - '"PPQ": Parma Penyanë Quettaron'
+   - '"PPW": Parf Pith ’Wain'
+   - '"QL": Qenya Lexicon'
+   - '"QLE": Quetin i Lambë Eldaiva'
+   - '"QPT": Quenya Past Tense'
+   - '"QPW": Quenya Psalmist Wordlist'
+   - '"QQ": Quettaparma Quenyallo'
+   - '"RC": The Lord of the Rings: a Reader’s Companion'
+   - '"RGEO": The Road Goes Ever On'
+   - '"RS": Return of the Shadow'
+   - '"RSI": Return of the Shadow — Index'
+   - '"S": Silmarillion'
+   - '"SA": Silmarillion Appendix'
+   - '"SD": Sauron Defeated'
+   - '"SDI1": Sauron Defeated — Index 1'
+   - '"SDI2": Sauron Defeated — Index 2'
+   - '"SI": Silmarillion — Index'
+   - '"SM": Shaping of Middle-Earth'
+   - '"SMI": Shaping of Middle-Earth — Index'
+   - '"TAI": J.R.R. Tolkien: Artist and Illustrator'
+   - '"TFC": Tamas Ferencz’s Coinages'
+   - '"TG": Tolkien Gateway'
+   - '"TI": Treason of Isengard'
+   - '"TII": Treason of Isengard — Index'
+   - '"TLM": Teleri Lambëo Minaþurië'
+   - '"TMME": Tolkien, Maker of Middle-earth'
+   - '"Tolklang": Tolklang Mailing List'
+   - '"TR": Tolkien Reader'
+   - '"TT17": Tyalië Tyelelliéva #17'
+   - '"UT": Unfinished Tales of Númenor and Middle-earth'
+   - '"UTI": Unfinished Tales — Index'
+   - '"VASN": Vowel Affection in Sindarin and Noldorin'
+   - '"VLDS": Vinyë Lambengolmor Discord Server'
+   - '"VQP": VinQuettaParma Wiki'
+   - '"VSH": Verbs, Syntax, Hooray!'
+   - '"VT06": Vinyar Tengwar #06'
+   - '"VT21": Vinyar Tengwar #21'
+   - '"VT24": Vinyar Tengwar #24'
+   - '"VT27": Vinyar Tengwar #27'
+   - '"VT28": Vinyar Tengwar #28'
+   - '"VT32": Vinyar Tengwar #32'
+   - '"VT36": Vinyar Tengwar #36'
+   - '"VT39": Vinyar Tengwar #39'
+   - '"VT40": Vinyar Tengwar #40'
+   - '"VT41": Vinyar Tengwar #41'
+   - '"VT42": Vinyar Tengwar #42'
+   - '"VT43": Vinyar Tengwar #43'
+   - '"VT44": Vinyar Tengwar #44'
+   - '"VT45": Vinyar Tengwar #45'
+   - '"VT46": Vinyar Tengwar #46'
+   - '"VT47": Vinyar Tengwar #47'
+   - '"VT48": Vinyar Tengwar #48'
+   - '"VT49": Vinyar Tengwar #49'
+   - '"VT50": Vinyar Tengwar #50'
+   - '"VTE": Vinyar Tengwar Errata'
+   - '"WGHC": A Welsh Grammar, Historical and Comparative'
+   - '"WJ": War of the Jewels'
+   - '"WJI": War of the Jewels — Index'
+   - '"WR": War of the Ring'
+   - '"WRI": War of the Ring — Index'
+
+word_marks:
+   "*": ""
+   "#": ""
+   "?": ""
+   "-": ""
+   "**": ""
+   "†": ""
+   "‽": ""
+   "-‽": ""
+   "|": ""
+   "!": ""
+   "^": ""
+   "|#": ""
+   "-#": ""
+   "|?": ""
+   "†#": ""
+   "-?": ""
+   "#†": ""
+   "#-": ""
+   "-†": ""
+   "|†": ""
+   "^#": ""
+   "^†": ""
 dictionaries:
    s:
       caras: !!python/tuple 
