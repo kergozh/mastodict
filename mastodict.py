@@ -428,7 +428,7 @@ class Bot(Mastobot):
             found, lang_dict = self._proxy.find_word(self, word_query)
 
         else:
-            for word_lang in self._data.get("languages"):
+            for word_lang in self._data.get("dictionaries").keys():
 
                 self._logger.debug("word language : %s", word_lang)
 

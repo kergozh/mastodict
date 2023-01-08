@@ -53,7 +53,7 @@ with SimpleXMLRPCServer(('localhost', 8002), logRequests=True, allow_none=True) 
         found     = False
         lang_dict = {}
         
-        for word_lang in data.get("languages"):
+        for word_lang in data.get("dictionaries").keys():
 
             logger.debug("word language : %s", word_lang)
 
