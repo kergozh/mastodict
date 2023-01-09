@@ -11,7 +11,7 @@ app:
   # [String] Name of the data file 
   data_file_name: "data.yaml" 
   # [Bool] Remote calls. 
-  remote_calls: True 
+  remote_calls: True
 
 # Mastobot config
 bot:
@@ -47,7 +47,7 @@ testing:
   # [Bool] Ignore test toots
   ignore_test_toot: False
   # [Bool] Disable post the answer to Mastodon
-  disable_post: True
+  disable_post: False
   # [Bool] Disable dismiss de the notification
   disable_dismiss: True
   # [Bool] Force programmer

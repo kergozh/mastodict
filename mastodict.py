@@ -11,6 +11,7 @@ import xmlrpc.client
 from pybot.mastobot import Mastobot
 
 BOT_NAME = "Lambebot"
+MAX_LENGTH = 490
 
 class Bot(Mastobot):
 
@@ -87,7 +88,7 @@ class Bot(Mastobot):
         _text     = self._translator.get_text
 
         post_text  = "@" + username + ", " + _text("error")
-        post_text = (post_text[:400] + '... ') if len(post_text) > 400 else post_text
+        post_text = (post_text[:MAX_LENGTH] + '... ') if len(post_text) > MAX_LENGTH else post_text
         self._logger.debug ("answer text\n" + post_text)
         post_texts.append(post_text)
         
@@ -106,22 +107,22 @@ class Bot(Mastobot):
         _text     = self._translator.get_text
 
         post_text  = "@" + username + ":\n\n" + _text("intro") + _text("opcions1")
-        post_text = (post_text[:400] + '... ') if len(post_text) > 400 else post_text
+        post_text = (post_text[:MAX_LENGTH] + '... ') if len(post_text) > MAX_LENGTH else post_text
         self._logger.debug ("answer text\n" + post_text)
         post_texts.append(post_text)
 
         post_text  = "@" + username + ":\n\n" + _text("opcions2")
-        post_text = (post_text[:400] + '... ') if len(post_text) > 400 else post_text
+        post_text = (post_text[:MAX_LENGTH] + '... ') if len(post_text) > MAX_LENGTH else post_text
         self._logger.debug ("answer text\n" + post_text)
         post_texts.append(post_text)
 
         post_text  = "@" + username + ":\n\n" + _text("opcions3")
-        post_text = (post_text[:400] + '... ') if len(post_text) > 400 else post_text
+        post_text = (post_text[:MAX_LENGTH] + '... ') if len(post_text) > MAX_LENGTH else post_text
         self._logger.debug ("answer text\n" + post_text)
         post_texts.append(post_text)
 
         post_text  = "@" + username + ":\n\n" + _text("opcions4")
-        post_text = (post_text[:400] + '... ') if len(post_text) > 400 else post_text
+        post_text = (post_text[:MAX_LENGTH] + '... ') if len(post_text) > MAX_LENGTH else post_text
         self._logger.debug ("answer text\n" + post_text)
         post_texts.append(post_text)
 
@@ -138,12 +139,20 @@ class Bot(Mastobot):
         self._translator.fix_language (language)
         _text     = self._translator.get_text
 
-        post_text = "@" + notif.account.acct + ":\n\n" 
+        init_text = "@" + notif.account.acct + ":\n\n" 
+        post_text = init_text
 
         for lang in self._data.get("languages"):
-            post_text += _text("idioma") + ": " + self._data.get("languages")[lang] + ", " + _text("codigo") + ": " + lang + "\n" 
+            lang_text = _text("idioma") + ": " + self._data.get("languages")[lang] + ", " + _text("codigo") + ": " + lang + "\n"
+            if len(post_text) + len(lang_text) > (MAX_LENGTH):
+                post_text = (post_text[:MAX_LENGTH] + '... ') if len(post_text) > MAX_LENGTH else post_text
+                self._logger.debug ("answer text\n" + post_text)
+                post_texts.append(post_text)
+                post_text = init_text + lang_text
+            else:
+                post_text += lang_text
             
-        post_text = (post_text[:400] + '... ') if len(post_text) > 400 else post_text
+        post_text = (post_text[:MAX_LENGTH] + '... ') if len(post_text) > MAX_LENGTH else post_text
         self._logger.debug ("answer text\n" + post_text)
         post_texts.append(post_text)
 
@@ -164,14 +173,16 @@ class Bot(Mastobot):
         post_text = init_text
 
         for mark in self._data.get("word_marks"):
-            post_text += "\"" + mark + "\": " + self._data.get("word_marks")[mark] + "\n" 
-            if len(post_text) > 350:
-                post_text = (post_text[:400] + '... ') if len(post_text) > 400 else post_text
+            mark_text = "\"" + mark + "\": " + self._data.get("word_marks")[mark] + "\n" 
+            if len(post_text) + len(mark_text) > (MAX_LENGTH):
+                post_text = (post_text[:MAX_LENGTH] + '... ') if len(post_text) > MAX_LENGTH else post_text
                 self._logger.debug ("answer text\n" + post_text)
                 post_texts.append(post_text)
-                post_text = init_text
+                post_text = init_text + mark_text
+            else:
+                post_text += mark_text
             
-        post_text = (post_text[:400] + '... ') if len(post_text) > 400 else post_text
+        post_text = (post_text[:MAX_LENGTH] + '... ') if len(post_text) > MAX_LENGTH else post_text
         self._logger.debug ("answer text\n" + post_text)
         post_texts.append(post_text)
 
@@ -192,14 +203,16 @@ class Bot(Mastobot):
         post_text = init_text
 
         for biblio in self._data.get("sources"):
-            post_text += biblio + "\n" 
-            if len(post_text) > 350:
-                post_text = (post_text[:400] + '... ') if len(post_text) > 400 else post_text
+            biblio_text = biblio + "\n" 
+            if len(post_text) + len(biblio_text) > (MAX_LENGTH):
+                post_text = (post_text[:MAX_LENGTH] + '... ') if len(post_text) > MAX_LENGTH else post_text
                 self._logger.debug ("answer text\n" + post_text)
                 post_texts.append(post_text)
-                post_text = init_text
-            
-        post_text = (post_text[:400] + '... ') if len(post_text) > 400 else post_text
+                post_text = init_text + biblio_text
+            else:
+                post_text += biblio_text
+
+        post_text = (post_text[:MAX_LENGTH] + '... ') if len(post_text) > MAX_LENGTH else post_text
         self._logger.debug ("answer text\n" + post_text)
         post_texts.append(post_text)
 
@@ -212,15 +225,16 @@ class Bot(Mastobot):
         word_tuple, word_lang = self.find_random_word()
 
         if notif == None:
-            post_text = ""        
+            init_text = ""        
         else:
-            post_text  = "@" + notif.account.acct + ":\n\n" 
-        
-        post_text += self.find_word_text(word_tuple, word_lang, all = True)
-             
-        post_text += self._hashtag
+            init_text  = "@" + notif.account.acct + ":\n\n" 
 
-        post_text = (post_text[:400] + '... ') if len(post_text) > 400 else post_text
+        post_text = init_text + self.find_word_text(word_tuple, word_lang, len(init_text) + len(self._hashtag), all = True)
+             
+        if len(post_text) + len(self._hashtag) < (MAX_LENGTH):
+            post_text += self._hashtag
+
+        post_text = (post_text[:MAX_LENGTH] + '... ') if len(post_text) > MAX_LENGTH else post_text
         self._logger.debug ("answer text\n" + post_text)
         post_texts.append(post_text)
         
@@ -243,20 +257,20 @@ class Bot(Mastobot):
 
         if found:
             init_text = "@" + notif.account.acct + ":\n\n" 
-           # en este punto tenemos un diccionario de lenguages
+            # en este punto tenemos un diccionario de lenguages
             for word_lang in lang_dict:
                 word_aux = lang_dict[word_lang]     
                 # en este punto tenemos una lista de accepciones
                 for word_tuple in word_aux:
-                    post_text = init_text + self.find_word_text(word_tuple, word_lang, all = True)
-                    post_text = (post_text[:400] + '... ') if len(post_text) > 400 else post_text
+                    post_text = init_text + self.find_word_text(word_tuple, word_lang, len(init_text), all = True)
+                    post_text = (post_text[:MAX_LENGTH] + '... ') if len(post_text) > MAX_LENGTH else post_text
                     self._logger.debug ("answer text\n" + post_text)
                     post_texts.append(post_text)
  
         else:
             init_text = "@" + notif.account.acct + ": " 
             post_text = init_text + _text("not_found")
-            post_text = (post_text[:400] + '... ') if len(post_text) > 400 else post_text
+            post_text = (post_text[:MAX_LENGTH] + '... ') if len(post_text) > MAX_LENGTH else post_text
             self._logger.debug ("answer text\n" + post_text)
             post_texts.append(post_text)
         
@@ -285,21 +299,22 @@ class Bot(Mastobot):
                 word_aux = lang_dict[word_lang]
                 # en este punto tenemos una lista de accepciones
                 for word_tuple in word_aux:
-                    word_text = self.find_word_text(word_tuple, word_lang, all = False)
-                    if len(post_text) + len (word_text) > 390:
-                        post_text = (post_text[:400] + '... ') if len(post_text) > 400 else post_text
+                    word_text = self.find_word_text(word_tuple, word_lang, 0, all = False)
+                    if len(post_text) + len (word_text) > MAX_LENGTH:
+                        post_text = (post_text[:MAX_LENGTH] + '... ') if len(post_text) > MAX_LENGTH else post_text
                         self._logger.debug ("answer text\n" + post_text)
                         post_texts.append(post_text)
                         post_text = init_text + word_text
                     else:
-                        post_text += word_text   
-            post_text = (post_text[:400] + '... ') if len(post_text) > 400 else post_text
+                        post_text += word_text 
+
+            post_text = (post_text[:MAX_LENGTH] + '... ') if len(post_text) > MAX_LENGTH else post_text
             self._logger.debug ("answer text\n" + post_text)
             post_texts.append(post_text)         
         else:
             init_text = "@" + notif.account.acct + ": " 
             post_text = init_text + _text("not_found")
-            post_text = (post_text[:400] + '... ') if len(post_text) > 400 else post_text
+            post_text = (post_text[:MAX_LENGTH] + '... ') if len(post_text) > MAX_LENGTH else post_text
             self._logger.debug ("answer text\n" + post_text)
             post_texts.append(post_text)
         
@@ -334,18 +349,16 @@ class Bot(Mastobot):
         self._translator.fix_language (language)
         _text     = self._translator.get_text
 
-        if notif == None:
-            post_text = ""        
-        else:
-            post_text  = "@" + notif.account.acct + ":\n\n" 
+        init_text  = "@" + notif.account.acct + ":\n\n" 
+        post_text = init_text
 
         if word_lang in self._data.get("languages"):
             word_tuple = self.find_filtered_random_word(word_lang)
-            post_text += self.find_word_text(word_tuple, word_lang, all = True)
+            post_text += self.find_word_text(word_tuple, word_lang, len(init_text), all = True)
         else:
             post_text += _text("error_idioma")
 
-        post_text = (post_text[:400] + '... ') if len(post_text) > 400 else post_text
+        post_text = (post_text[:MAX_LENGTH] + '... ') if len(post_text) > MAX_LENGTH else post_text
         self._logger.debug ("answer text\n" + post_text)
         post_texts.append(post_text)
         
@@ -368,21 +381,20 @@ class Bot(Mastobot):
         self._translator.fix_language (language)
         _text     = self._translator.get_text
 
-
         found, word_list = self.find_filtered_word(word_query, word_lang)
 
         if found:
             init_text = "@" + notif.account.acct + ":\n\n" 
             # en este punto tenemos una lista de accepciones
             for word_tuple in word_list:
-                post_text = init_text + self.find_word_text(word_tuple, word_lang, all = True)
-                post_text = (post_text[:400] + '... ') if len(post_text) > 400 else post_text
+                post_text = init_text + self.find_word_text(word_tuple, word_lang, len(init_text), all = True)
+                post_text = (post_text[:MAX_LENGTH] + '... ') if len(post_text) > MAX_LENGTH else post_text
                 self._logger.debug ("answer text\n" + post_text)
                 post_texts.append(post_text)
         else:
             init_text = "@" + notif.account.acct + ": " 
             post_text = init_text + _text("not_found")
-            post_text = (post_text[:400] + '... ') if len(post_text) > 400 else post_text
+            post_text = (post_text[:MAX_LENGTH] + '... ') if len(post_text) > MAX_LENGTH else post_text
             self._logger.debug ("answer text\n" + post_text)
             post_texts.append(post_text)
         
@@ -412,29 +424,28 @@ class Bot(Mastobot):
             post_text = init_text     
             # en este punto tenemos una lista de accepciones
             for word_tuple in word_list:
-                word_text = self.find_word_text(word_tuple, word_lang, all = False)
-                if len(post_text) + len (word_text) > 390:
-                    post_text = (post_text[:400] + '... ') if len(post_text) > 400 else post_text
+                word_text = self.find_word_text(word_tuple, word_lang, 0, all = False)
+                if len(post_text) + len (word_text) > MAX_LENGTH:
+                    post_text = (post_text[:MAX_LENGTH] + '... ') if len(post_text) > MAX_LENGTH else post_text
                     self._logger.debug ("answer text\n" + post_text)
                     post_texts.append(post_text)
                     post_text = init_text + word_text
                 else:
                     post_text += word_text   
-            post_text = (post_text[:400] + '... ') if len(post_text) > 400 else post_text
+            post_text = (post_text[:MAX_LENGTH] + '... ') if len(post_text) > MAX_LENGTH else post_text
             self._logger.debug ("answer text\n" + post_text)
             post_texts.append(post_text)
         else:
             init_text = "@" + notif.account.acct + ": " 
             post_text = init_text + _text("not_found")
-            post_text = (post_text[:400] + '... ') if len(post_text) > 400 else post_text
+            post_text = (post_text[:MAX_LENGTH] + '... ') if len(post_text) > MAX_LENGTH else post_text
             self._logger.debug ("answer text\n" + post_text)
             post_texts.append(post_text)
 
         return post_texts
 
 
-
-    def find_word_text(self, word_tuple, language, all):
+    def find_word_text(self, word_tuple, language, init_lenght, all):
 
         """
         La tuple de palabra de diccionario tiene este aspecto:
@@ -482,14 +493,20 @@ class Bot(Mastobot):
             if word_tuple[deprecated]:
                 post_text += "Most likely it is a deprecated word" + "\n"
 
+            if word_tuple[page] != "":
+                last_text = "https://eldamo.org/content/words/word-" + word_tuple[page] +".html\n"
+            else:
+                last_text = ""
+        
             if len(word_tuple[referencies]) > 0:
                 post_text += "References:\n"
                 for ref in word_tuple[referencies]:
-                    if (len(post_text) + len(ref) + 2) < 330:
-                        post_text += "- " + ref + "\n"
+                    ref_text = "- " + ref + "\n"
+                    if (init_lenght + len(post_text) + len(ref_text) + len(last_text)) < MAX_LENGTH:
+                        post_text += ref_text
                 
-            if word_tuple[page] != "":
-                post_text += "https://eldamo.org/content/words/word-" + word_tuple[page] +".html\n"
+            if last_text != "":
+                post_text += last_text
              
         return post_text
 

@@ -18,9 +18,9 @@ opcions1:
   en: "Also, if mentioned with \"-h\" or \"--help\" it replies with these instructions: \"@lambebot -h\".\nWith \"-w\" or \"--word\" it replies with a random word: \"@lambebot -w\".\nWith \"-s\" or \"--search\" and a word (or with only the word), it searches the dictionaries and answers with the word data: \"@lambebot -s lambe\"."
 
 opcions2:
-  es: "Con \"-r\" o \"--reverse\" y una palabra contesta con las palabras de los diccionarios donde la palabra indicada sale en la traducción (excepto \"with\", \"to\", \"or\", \"a\", \"of\", \"one\", \"the\", \"not\", \"in\", \"lit\"): \"@lambebot -r fort\".\n"
-  ca: "Amb \"-r\" o \"--reverse\" i una paraula contesta amb les paraules dels diccionaris on la paraula indicada surt a la traducció (excepte \"with\", \"to\", \"or\", \"a\", \"of\", \"one\", \"the\", \"not\", \"in\", \"lit\"): \"@lambebot -r fort\".\n"
-  en: "With \"-r\" o \"--reverse\" and a word it answers with the words from the dictionaries where the indicated word appears in the translation (except \"with\", \"to\", \"or\", \"a\", \"of\", \"one\", \"the\", \"not\", \"in\", \"lit\"): \"@lambebot -r fort\".\n"
+  es: "Con \"-r\" o \"--reverse\" y una palabra contesta con las palabras de los diccionarios donde la palabra indicada sale en la traducción (excepto \"with\", \"to\", \"or\", \"a\", \"of\", \"one\", \"the\", \"not\", \"in\" y \"lit\"): \"@lambebot -r fort\".\n"
+  ca: "Amb \"-r\" o \"--reverse\" i una paraula contesta amb les paraules dels diccionaris on la paraula indicada surt a la traducció (excepte \"with\", \"to\", \"or\", \"a\", \"of\", \"one\", \"the\", \"not\", \"in\" i \"lit\"): \"@lambebot -r fort\".\n"
+  en: "With \"-r\" o \"--reverse\" and a word it answers with the words from the dictionaries where the indicated word appears in the translation (except \"with\", \"to\", \"or\", \"a\", \"of\", \"one\", \"the\", \"not\", \"in\" and \"lit\"): \"@lambebot -r fort\".\n"
 
 opcions3:
   es: "En las opciones anteriores se puede filtrar por idioma añadiendo \"-l\" o \"--lang\": \"@lambebot -s lambe -l q\" o \"@lambebot -w -l s\" o \"@lambebot -r fort -l q\".\nCon \"-d\" o \"--dicts\" contesta con la lista de diccionarios disponibles y el código para filtrar por idioma en las opciones previas: \"@lambebot -d\". Los diccionarios provienen de https://eldamo.org/ y están en inglés.\n"
