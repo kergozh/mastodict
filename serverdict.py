@@ -86,6 +86,36 @@ with SimpleXMLRPCServer(('localhost', 8002), logRequests=True, allow_none=True) 
         return found, word_tuple
 
 
+    @server.register_function
+    def find_gloss(word_query):
+            
+        found      = False
+        lang_dict  = {}
+        
+        if word_query in data.get("english"):
+            found = True
+            lang_dict = data.get("english")[word_query]
+        else:
+            lang_dict["error"] = "not found"
+
+        return found, lang_dict
+
+    @server.register_function
+    def find_filtered_gloss(word_query, word_lang):
+            
+        found     = False
+        
+        if word_query in data.get("english"):
+            if word_lang in data.get("english")[word_query]:
+                found    = True
+                word_tuple = data.get("english")[word_query][word_lang]
+                # en este punto tenemos una tuple de acepciones  
+
+        if not found:
+            word_tuple = ("error", "not found")
+
+        return found, word_tuple
+
     # Run the server's main loop
     server.serve_forever()
 

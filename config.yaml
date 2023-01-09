@@ -9,9 +9,9 @@ app:
   # [String] Name of the actions file 
   actions_file_name: "actions.yaml" 
   # [String] Name of the data file 
-  data_file_name: "data_all_r.yaml" 
+  data_file_name: "data.yaml" 
   # [Bool] Remote calls. 
-  remote_calls: False 
+  remote_calls: True 
 
 # Mastobot config
 bot:
