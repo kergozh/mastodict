@@ -9,9 +9,7 @@ import re
 import xmlrpc.client
 import yaml
 
-from types import SimpleNamespace
-
-from mastobot import Mastobot
+from pybot.mastobot import Mastobot
 
 BOT_NAME = "Lambebot"
 MAX_LENGTH = 490
@@ -79,30 +77,6 @@ class Bot(Mastobot):
     
         super().run(botname = botname)
 
-
-    def get_notifications(self):
-
-        notifications = []
-        
-        if self._config.get("testing.test_file"):        
-
-            with open(self._config.get("testing.test_file_name"), encoding='utf-8') as f:
-                for linea in f:
-                    mydict = {}
-                    notif   = yaml.safe_load(linea)
-                    account = SimpleNamespace(**notif["account"])
-                    status  = SimpleNamespace(**notif["status"])
-                    mydict["id"] = notif["id"]
-                    mydict["type"] = notif["type"]
-                    mydict["account"] = account
-                    mydict["status"] = status
-                    mynam  = SimpleNamespace(**mydict)
-                    notifications.append(mynam)
-
-        else:
-            notifications = self.mastodon.notifications()          
-
-        return notifications
 
     def find_error_text(self, notif):
             

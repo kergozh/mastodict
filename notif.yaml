@@ -1,8 +1,14 @@
-{'id': 1, 'type': 'mention', 'account': {'acct': 'kergozh'}, 'status': {'id': 0, 'in_reply_to_id': None, 'visibility': 'public', 'language': 'es', 'content' : '@lambebot -j'}}
-{'id': 2, 'type': 'mention', 'account': {'acct': 'kergozh'}, 'status': {'id': 0, 'in_reply_to_id': None, 'visibility': 'public', 'language': 'es', 'content' : '@lambebot -h'}}
-{'id': 3, 'type': 'mention', 'account': {'acct': 'kergozh'}, 'status': {'id': 0, 'in_reply_to_id': None, 'visibility': 'public', 'language': 'es', 'content' : '@lambebot -m'}}
-{'id': 4, 'type': 'mention', 'account': {'acct': 'kergozh'}, 'status': {'id': 0, 'in_reply_to_id': None, 'visibility': 'public', 'language': 'es', 'content' : '@lambebot -b'}}
-{'id': 5, 'type': 'mention', 'account': {'acct': 'kergozh'}, 'status': {'id': 0, 'in_reply_to_id': None, 'visibility': 'public', 'language': 'es', 'content' : '@lambebot namarië'}}
-{'id': 6, 'type': 'mention', 'account': {'acct': 'kergozh'}, 'status': {'id': 0, 'in_reply_to_id': None, 'visibility': 'public', 'language': 'es', 'content' : '@lambebot namarie -l q'}}
-{'id': 7, 'type': 'mention', 'account': {'acct': 'kergozh'}, 'status': {'id': 0, 'in_reply_to_id': None, 'visibility': 'public', 'language': 'es', 'content' : '@lambebot pepe'}}
-{'id': 8, 'type': 'mention', 'account': {'acct': 'kergozh'}, 'status': {'id': 0, 'in_reply_to_id': None, 'visibility': 'public', 'language': 'es', 'content' : '@lambebot pepe -l q'}}
+{'id': 1, 'type': 'mention', 'acct': 'kergozh', 'id2': 0, 'in_reply_to_id': None, 'visibility': 'public', 'language': 'es', 'content' : '@lambebot -j'}
+{'id': 2, 'type': 'mention', 'acct': 'kergozh', 'id2': 0, 'in_reply_to_id': None, 'visibility': 'public', 'language': 'es', 'content' : '@lambebot -h'}
+{'id': 3, 'type': 'mention', 'acct': 'kergozh', 'id2': 0, 'in_reply_to_id': None, 'visibility': 'public', 'language': 'es', 'content' : '@lambebot -m'}
+{'id': 4, 'type': 'mention', 'acct': 'kergozh', 'id2': 0, 'in_reply_to_id': None, 'visibility': 'public', 'language': 'es', 'content' : '@lambebot -b'}
+{'id': 5, 'type': 'mention', 'acct': 'kergozh', 'id2': 0, 'in_reply_to_id': None, 'visibility': 'public', 'language': 'es', 'content' : '@lambebot namarië'}
+{'id': 6, 'type': 'mention', 'acct': 'kergozh', 'id2': 0, 'in_reply_to_id': None, 'visibility': 'public', 'language': 'es', 'content' : '@lambebot namarie -l q'}
+{'id': 7, 'type': 'mention', 'acct': 'kergozh', 'id2': 0, 'in_reply_to_id': None, 'visibility': 'public', 'language': 'es', 'content' : '@lambebot pepe'}
+{'id': 8, 'type': 'mention', 'acct': 'kergozh', 'id2': 0, 'in_reply_to_id': None, 'visibility': 'public', 'language': 'es', 'content' : '@lambebot pepe -l q'}
+{'id': 7, 'type': 'mention', 'acct': 'kergozh', 'id2': 0, 'in_reply_to_id': None, 'visibility': 'public', 'language': 'es', 'content' : '@lambebot -s a'}
+{'id': 8, 'type': 'mention', 'acct': 'kergozh', 'id2': 0, 'in_reply_to_id': None, 'visibility': 'public', 'language': 'es', 'content' : '@lambebot --search a -l q'}
+{'id': 9, 'type': 'mention', 'acct': 'kergozh', 'id2': 0, 'in_reply_to_id': None, 'visibility': 'public', 'language': 'es', 'content' : '@lambebot -w'}
+{'id': 10, 'type': 'mention', 'acct': 'kergozh', 'id2': 0, 'in_reply_to_id': None, 'visibility': 'public', 'language': 'es', 'content' : '@lambebot --word -l s'}
+{'id': 11, 'type': 'mention', 'acct': 'kergozh', 'id2': 0, 'in_reply_to_id': None, 'visibility': 'public', 'language': 'es', 'content' : '@lambebot -r fort'}
+{'id': 12, 'type': 'mention', 'acct': 'kergozh', 'id2': 0, 'in_reply_to_id': None, 'visibility': 'public', 'language': 'es', 'content' : '@lambebot --reverse do -l q'}
