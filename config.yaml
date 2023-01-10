@@ -56,6 +56,11 @@ testing:
   force_mention: True
   # [String] user to mention when force private
   user_mention: "kergozh"
+  # [Bool] get notifications from file test
+  test_file: True
+  # [String] Name of the test file
+  test_file_name: "notif.yaml"
+  
 
 # Logging config
 logger:
