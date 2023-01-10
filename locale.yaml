@@ -28,9 +28,9 @@ opcions3:
   en: "In the above options you can filter by language by adding \"-l\" or \"--lang\": \"@lambebot -s lambe -l q\" or \"@lambebot -r -l s\".\nWith \"-d\" or \"--dicts\" it replies with the list of available dictionaries and the code to filter by language in the previous options: \"@lambebot -d\". Dictionaries from https://eldamo.org/ .\n"
 
 opcions4:
-  es: "Con \"-m\" o \"--marks\" contesta con el significado de las marcas de fiabilidad que aparecen en palabras y definiciones: \"@lambebot -m\".\nCon \"-b\" o \"--biblio\" contesta con la bibliografía y las abrevaciones utilizadas para refererse a cada fuente (12 toots): \"@lambebot -b\"." 
-  ca: "Amb \"-m\" o \"--marks\" contesta amb el signifacat de les marques de fiabilitat que apareixen en paraules i definicions: \"@lambebot -m\".\nAmb \"-b\" o \"--biblio\" contesta amb la bibliografia i les abrevacions que es fan servir per referir-se a cadascuna de les fonts (12 toots): \"@lambebot -b\"."
-  en: "With \"-m\" o \"--marks\" it replais answer with an explanation of the reliability marks that appear on words and definitions: \"@lambebot -m\".\n With \"-b\" o \"--biblio\" it replies with the bibliography and the abbreviations used to refer to each source (12 toots): \"@lambebot -b\"." 
+  es: "Con \"-m\" o \"--marks\" contesta con el significado de las marcas de fiabilidad que aparecen en palabras y definiciones: \"@lambebot -m\".\nCon \"-b\" o \"--biblio\" contesta con la bibliografía y las abrevaciones utilizadas para refererse a cada fuente (9 toots): \"@lambebot -b\"." 
+  ca: "Amb \"-m\" o \"--marks\" contesta amb el signifacat de les marques de fiabilitat que apareixen en paraules i definicions: \"@lambebot -m\".\nAmb \"-b\" o \"--biblio\" contesta amb la bibliografia i les abrevacions que es fan servir per referir-se a cadascuna de les fonts (9 toots): \"@lambebot -b\"."
+  en: "With \"-m\" o \"--marks\" it replais answer with an explanation of the reliability marks that appear on words and definitions: \"@lambebot -m\".\n With \"-b\" o \"--biblio\" it replies with the bibliography and the abbreviations used to refer to each source (9 toots): \"@lambebot -b\"." 
 
 idioma:
   es: "Idioma"

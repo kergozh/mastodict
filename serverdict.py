@@ -69,7 +69,6 @@ with SimpleXMLRPCServer(('localhost', 8002), logRequests=True, allow_none=True) 
 
         return found, lang_dict
 
-
     @server.register_function
     def find_filtered_word(word_query, word_lang):
             
@@ -77,14 +76,13 @@ with SimpleXMLRPCServer(('localhost', 8002), logRequests=True, allow_none=True) 
         
         if word_query in data.get("dictionaries")[word_lang]: 
             found    = True
-            word_tuple = data.get("dictionaries")[word_lang][word_query]
+            word_tuples = data.get("dictionaries")[word_lang][word_query]
             # en este punto tenemos una tuple de acepciones  
 
         if not found:
-            word_tuple = ("error", "not found")
+            word_tuples = ("error", "not found")
 
-        return found, word_tuple
-
+        return found, word_tuples
 
     @server.register_function
     def find_gloss(word_query):
@@ -108,13 +106,13 @@ with SimpleXMLRPCServer(('localhost', 8002), logRequests=True, allow_none=True) 
         if word_query in data.get("english"):
             if word_lang in data.get("english")[word_query]:
                 found    = True
-                word_tuple = data.get("english")[word_query][word_lang]
+                word_tuples = data.get("english")[word_query][word_lang]
                 # en este punto tenemos una tuple de acepciones  
 
         if not found:
-            word_tuple = ("error", "not found")
+            word_tuples = ("error", "not found")
 
-        return found, word_tuple
+        return found, word_tuples
 
     # Run the server's main loop
     server.serve_forever()

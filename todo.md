@@ -1,4 +1,4 @@
-* Añadir hashtags en la publicació. 
+
+* Casos de pruebas en local
 * Poder forzar la publicación de toots sin que sean respuestas a la mención (por ejemplo para fijar el help)
-* Busqueda inversa de palabras en inglés
-* Añadir más información disponible en Endamo. Por ejemplo, las referencias de las palabras incluídas en otras... (ver "Maya").
+* Añadir más información disponible en Endamo. 

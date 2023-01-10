@@ -30,6 +30,7 @@ class Bot(Mastobot):
 
         self._hashtag = "#Tolkien #Tolkiendili"
 
+
     def run(self, botname: str = BOT_NAME) -> None:
 
         if self.check_programmer(self._actions.get("post.hours"), True):
@@ -82,8 +83,6 @@ class Bot(Mastobot):
         username = notif.account.acct
         post_texts = []
         
-        self._logger.debug("notif language: %s", language)
-        
         self._translator.fix_language (language)
         _text     = self._translator.get_text
 
@@ -100,8 +99,6 @@ class Bot(Mastobot):
         username = notif.account.acct
         language = notif.status.language
         post_texts = []
-        
-        self._logger.debug("notif language: %s", language)
         
         self._translator.fix_language (language)
         _text     = self._translator.get_text
@@ -134,8 +131,6 @@ class Bot(Mastobot):
         post_texts = []    
         language  = notif.status.language
 
-        self._logger.debug("notif language: %s", language)
-
         self._translator.fix_language (language)
         _text     = self._translator.get_text
 
@@ -164,8 +159,6 @@ class Bot(Mastobot):
         post_texts = []    
         language  = notif.status.language
 
-        self._logger.debug("notif language: %s", language)
-
         self._translator.fix_language (language)
         _text     = self._translator.get_text
 
@@ -193,8 +186,6 @@ class Bot(Mastobot):
             
         post_texts = []    
         language  = notif.status.language
-
-        self._logger.debug("notif language: %s", language)
 
         self._translator.fix_language (language)
         _text     = self._translator.get_text
@@ -248,8 +239,6 @@ class Bot(Mastobot):
         word_query = (re.sub(r'((-|--)\s*\w+)', '', content)).strip()
         word_query = self.clean_word(word_query).strip()
 
-        self._logger.debug("notif language: %s", language)
-
         self._translator.fix_language (language)
         _text     = self._translator.get_text
 
@@ -283,8 +272,6 @@ class Bot(Mastobot):
         language   = notif.status.language
         word_query = (re.sub(r'((-|--)\s*\w+)', '', content)).strip()
         word_query = self.clean_word(word_query).strip()
-
-        self._logger.debug("notif language: %s", language)
 
         self._translator.fix_language (language)
         _text     = self._translator.get_text
@@ -323,7 +310,7 @@ class Bot(Mastobot):
 
     def clean_word(self, word_query):
 
-        self._logger.debug("word query antes: %s", word_query)
+        self._logger.debug("word: %s", word_query)
 
         word_query = word_query.lower()
         word_query = re.sub(r'[^a-záéíóúàèìòùâêîôûäëïöüāēīōūýŷ]', '', word_query)
@@ -332,7 +319,7 @@ class Bot(Mastobot):
         word_tuple  = word_query.maketrans("áéíóúàèìòùâêîôûäëïöüāēīōūýŷ", "aeiouaeiouaeiouaeiouaeiouyy")
         word_query = word_query.translate(word_tuple)
 
-        self._logger.debug("word query cleaned: %s", word_query)
+        self._logger.debug("cleaned word: %s", word_query)
 
         return word_query
 
@@ -343,7 +330,6 @@ class Bot(Mastobot):
         language   = notif.status.language
         word_lang  = (re.sub(r'((-|--)\s*\w+)', '', content)).strip()
 
-        self._logger.debug("notif language: %s", language)
         self._logger.debug("word language : %s", word_lang)
 
         self._translator.fix_language (language)
@@ -375,22 +361,22 @@ class Bot(Mastobot):
         word_query   = self.clean_word(content_list[0]).strip()
         word_lang    = (content_list[1]).strip()
         
-        self._logger.debug("notif language: %s", language)
         self._logger.debug("word language : %s", word_lang)
 
         self._translator.fix_language (language)
         _text     = self._translator.get_text
 
-        found, word_list = self.find_filtered_word(word_query, word_lang)
+        found, word_tuples = self.find_filtered_word(word_query, word_lang)
 
         if found:
             init_text = "@" + notif.account.acct + ":\n\n" 
             # en este punto tenemos una lista de accepciones
-            for word_tuple in word_list:
+            for word_tuple in word_tuples:
                 post_text = init_text + self.find_word_text(word_tuple, word_lang, len(init_text), all = True)
                 post_text = (post_text[:MAX_LENGTH] + '... ') if len(post_text) > MAX_LENGTH else post_text
                 self._logger.debug ("answer text\n" + post_text)
                 post_texts.append(post_text)
+
         else:
             init_text = "@" + notif.account.acct + ": " 
             post_text = init_text + _text("not_found")
@@ -411,19 +397,18 @@ class Bot(Mastobot):
         word_query   = self.clean_word(content_list[0]).strip()
         word_lang    = (content_list[1]).strip()
         
-        self._logger.debug("notif language: %s", language)
         self._logger.debug("word language : %s", word_lang)
 
         self._translator.fix_language (language)
         _text     = self._translator.get_text
 
-        found, word_list = self.find_filtered_gloss(word_query, word_lang)
+        found, word_tuples = self.find_filtered_gloss(word_query, word_lang)
 
         if found:
             init_text = "@" + notif.account.acct + ":\n\n" 
             post_text = init_text     
             # en este punto tenemos una lista de accepciones
-            for word_tuple in word_list:
+            for word_tuple in word_tuples:
                 word_text = self.find_word_text(word_tuple, word_lang, 0, all = False)
                 if len(post_text) + len (word_text) > MAX_LENGTH:
                     post_text = (post_text[:MAX_LENGTH] + '... ') if len(post_text) > MAX_LENGTH else post_text
@@ -432,9 +417,11 @@ class Bot(Mastobot):
                     post_text = init_text + word_text
                 else:
                     post_text += word_text   
+
             post_text = (post_text[:MAX_LENGTH] + '... ') if len(post_text) > MAX_LENGTH else post_text
             self._logger.debug ("answer text\n" + post_text)
             post_texts.append(post_text)
+
         else:
             init_text = "@" + notif.account.acct + ": " 
             post_text = init_text + _text("not_found")
@@ -453,7 +440,6 @@ class Bot(Mastobot):
         0-    line = line + '\"' + item3[str_word] + '\", ' 
         1-    line = line + '\"' + item3[str_grammar] + '\", ' 
         2-    line = line + '\"' + item3[str_gloss] + '\", ' 
-              #line = line + '\"' + item3[str_category] + '\", ' 
         3-    line = line + '\"' + item3[str_mark] + '\", ' 
         4-    line = line + '\"' + str(item3[str_deprecated]) + '\"' + ', ' 
         5-    line = line + '\"' + item3[str_page] + '\", '
@@ -477,15 +463,9 @@ class Bot(Mastobot):
             post_text += self._data.get("languages")[language] + " " + word_tuple[grammar] + ": "
         else:
             post_text += language + " " + word_tuple[grammar] + ": "
+        
         post_text += "\"" + word_tuple[gloss] + "\"\n"
         
-        """
-        de mmomento hemos eliminado las categorias porque no apostan mucho y ocupan memoria...
-        if word_tuple[category] != "":
-            post_text += " (category: " +  self._data.get("word_categories")[word_tuple[category]]  + ")"
-        post_text += "\n\n"
-        """
-
         if all:
             for i in word_tuple[mark]:
                 post_text += self._data.get("word_marks")[i] + "\n"
@@ -554,7 +534,6 @@ class Bot(Mastobot):
             for word_lang in self._data.get("dictionaries").keys():
 
                 self._logger.debug("word language : %s", word_lang)
-
                 found_aux, word_tuple = self.find_filtered_word(word_query, word_lang)
 
                 if found_aux:
@@ -572,18 +551,18 @@ class Bot(Mastobot):
         found     = False
         
         if self._config.get("app.remote_calls"):
-            found, word_tuple = self._proxy.find_filtered_word(word_query, word_lang)
+            found, word_tuples = self._proxy.find_filtered_word(word_query, word_lang)
 
         else:
             if word_query in self._data.get("dictionaries")[word_lang]: 
                 found    = True
-                word_tuple = self._data.get("dictionaries")[word_lang][word_query]
+                word_tuples = self._data.get("dictionaries")[word_lang][word_query]
                 # en este punto tenemos una tuple de acepciones  
 
         if not found:
-            word_tuple = ("error", "not found")
+            word_tuples = ("error", "not found")
 
-        return found, word_tuple
+        return found, word_tuples
 
 
     def find_gloss(self, word_query):
@@ -609,19 +588,19 @@ class Bot(Mastobot):
         found     = False
         
         if self._config.get("app.remote_calls"):
-            found, word_tuple = self._proxy.find_filtered_gloss(word_query, word_lang)
+            found, word_tuples = self._proxy.find_filtered_gloss(word_query, word_lang)
 
         else:
             if word_query in self._data.get("english"):
                 if word_lang in self._data.get("english")[word_query]:
                     found    = True
-                    word_tuple = self._data.get("english")[word_query][word_lang]
+                    word_tuples = self._data.get("english")[word_query][word_lang]
                     # en este punto tenemos una tuple de acepciones  
 
             if not found:
-                word_tuple = ("error", "not found")
+                word_tuples = ("error", "not found")
 
-        return found, word_tuple
+        return found, word_tuples
 
 
 # main

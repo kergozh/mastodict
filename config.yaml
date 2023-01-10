@@ -9,9 +9,9 @@ app:
   # [String] Name of the actions file 
   actions_file_name: "actions.yaml" 
   # [String] Name of the data file 
-  data_file_name: "data.yaml" 
+  data_file_name: "data_all_r.yaml" 
   # [Bool] Remote calls. 
-  remote_calls: True
+  remote_calls: False
 
 # Mastobot config
 bot:
@@ -47,7 +47,7 @@ testing:
   # [Bool] Ignore test toots
   ignore_test_toot: False
   # [Bool] Disable post the answer to Mastodon
-  disable_post: False
+  disable_post: True
   # [Bool] Disable dismiss de the notification
   disable_dismiss: True
   # [Bool] Force programmer
