@@ -29,7 +29,7 @@ class Bot(Mastobot):
         if self._config.get ("app.remote_calls"):
             self._proxy = xmlrpc.client.ServerProxy('http://localhost:8002')
 
-        self._hashtag = "#Tolkien #Tolkiendili"
+        self._hashtag = "\n#Tolkien #Tolkiendili"
 
 
     def run(self, botname: str = BOT_NAME) -> None:
@@ -221,7 +221,7 @@ class Bot(Mastobot):
         else:
             init_text  = "@" + notif.account.acct + ":\n\n" 
 
-        post_text = init_text + self.find_word_text(word_tuple, word_lang, len(init_text) + len(self._hashtag), all = True)
+        post_text = init_text + self.find_word_text(word_tuple, word_lang, len(init_text) + len(self._hashtag), True)
              
         if len(post_text) + len(self._hashtag) < (MAX_LENGTH):
             post_text += self._hashtag
@@ -252,7 +252,7 @@ class Bot(Mastobot):
                 word_aux = lang_dict[word_lang]     
                 # en este punto tenemos una lista de accepciones
                 for word_tuple in word_aux:
-                    post_text = init_text + self.find_word_text(word_tuple, word_lang, len(init_text), all = True)
+                    post_text = init_text + self.find_word_text(word_tuple, word_lang, len(init_text), True)
                     post_text = (post_text[:MAX_LENGTH] + '... ') if len(post_text) > MAX_LENGTH else post_text
                     self._logger.debug ("answer text\n" + post_text)
                     post_texts.append(post_text)
@@ -287,7 +287,7 @@ class Bot(Mastobot):
                 word_aux = lang_dict[word_lang]
                 # en este punto tenemos una lista de accepciones
                 for word_tuple in word_aux:
-                    word_text = self.find_word_text(word_tuple, word_lang, 0, all = False)
+                    word_text = self.find_word_text(word_tuple, word_lang, 0, False)
                     if len(post_text) + len (word_text) > MAX_LENGTH:
                         post_text = (post_text[:MAX_LENGTH] + '... ') if len(post_text) > MAX_LENGTH else post_text
                         self._logger.debug ("answer text\n" + post_text)
@@ -341,7 +341,7 @@ class Bot(Mastobot):
 
         if word_lang in self._data.get("languages"):
             word_tuple = self.find_filtered_random_word(word_lang)
-            post_text += self.find_word_text(word_tuple, word_lang, len(init_text), all = True)
+            post_text += self.find_word_text(word_tuple, word_lang, len(init_text), True)
         else:
             post_text += _text("error_idioma")
 
@@ -373,7 +373,7 @@ class Bot(Mastobot):
             init_text = "@" + notif.account.acct + ":\n\n" 
             # en este punto tenemos una lista de accepciones
             for word_tuple in word_tuples:
-                post_text = init_text + self.find_word_text(word_tuple, word_lang, len(init_text), all = True)
+                post_text = init_text + self.find_word_text(word_tuple, word_lang, len(init_text), True)
                 post_text = (post_text[:MAX_LENGTH] + '... ') if len(post_text) > MAX_LENGTH else post_text
                 self._logger.debug ("answer text\n" + post_text)
                 post_texts.append(post_text)
@@ -410,7 +410,7 @@ class Bot(Mastobot):
             post_text = init_text     
             # en este punto tenemos una lista de accepciones
             for word_tuple in word_tuples:
-                word_text = self.find_word_text(word_tuple, word_lang, 0, all = False)
+                word_text = self.find_word_text(word_tuple, word_lang, 0, False)
                 if len(post_text) + len (word_text) > MAX_LENGTH:
                     post_text = (post_text[:MAX_LENGTH] + '... ') if len(post_text) > MAX_LENGTH else post_text
                     self._logger.debug ("answer text\n" + post_text)
