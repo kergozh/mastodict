@@ -490,8 +490,8 @@ class Bot(Mastobot):
             for i in word_tuple[mark]:
                 p_txt += self._data.get("word_marks")[i] + "\n"
 
-            if word_tuple[deprecated]:
-                p_txt += "Most likely it is a deprecated word" + "\n"
+            #if word_tuple[deprecated]:
+            #    p_txt += "Most likely it is a deprecated word" + "\n"
 
             if len(word_tuple[elements]) > 0:
                 p_txt += "Elements: "
