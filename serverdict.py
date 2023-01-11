@@ -18,25 +18,28 @@ logger.info("init " + PGM_NAME)
 
 data       = Config(config.get("app.data_file_name"))
 
-logger.info("ready " + PGM_NAME)
+logger.info("ready %s", PGM_NAME)
 
 with SimpleXMLRPCServer(('localhost', 8002), logRequests=True, allow_none=True) as server:
 
     server.register_introspection_functions()
 
+
     @server.register_function
     def find_random_word():
-            
+
         word_lang = random.choice(list(data.get("dictionaries").keys()))
-        logger.debug("word language : %s", word_lang)
+        logger.debug("word language: %s", word_lang)
 
         word_tuple = find_filtered_random_word(word_lang)
 
         return word_tuple, word_lang
 
+
     @server.register_function
     def find_filtered_random_word(word_lang):
 
+        logger.debug("word language: %s", word_lang)
         word_aux  = random.choice(list(data.get("dictionaries")[word_lang].values()))
 
         # en este punto tenemos una tuple de acepciones o una tuple-paraula  
@@ -47,15 +50,18 @@ with SimpleXMLRPCServer(('localhost', 8002), logRequests=True, allow_none=True) 
 
         return word_tuple
 
+
     @server.register_function
     def find_word(word_query):
             
+        logger.debug("word query: %s", word_query)
+
         found     = False
         lang_dict = {}
         
         for word_lang in data.get("dictionaries").keys():
 
-            logger.debug("word language : %s", word_lang)
+            logger.debug("word language: %s", word_lang)
 
             found_aux, word_tuple = find_filtered_word(word_query, word_lang)
 
@@ -69,11 +75,15 @@ with SimpleXMLRPCServer(('localhost', 8002), logRequests=True, allow_none=True) 
 
         return found, lang_dict
 
+
     @server.register_function
     def find_filtered_word(word_query, word_lang):
             
         found     = False
-        
+
+        logger.debug("word query: %s", word_query)
+        logger.debug("word language: %s", word_lang)
+
         if word_query in data.get("dictionaries")[word_lang]: 
             found    = True
             word_tuples = data.get("dictionaries")[word_lang][word_query]
@@ -84,12 +94,15 @@ with SimpleXMLRPCServer(('localhost', 8002), logRequests=True, allow_none=True) 
 
         return found, word_tuples
 
+
     @server.register_function
     def find_gloss(word_query):
             
         found      = False
         lang_dict  = {}
-        
+
+        logger.debug("word query: %s", word_query)
+
         if word_query in data.get("english"):
             found = True
             lang_dict = data.get("english")[word_query]
@@ -98,10 +111,14 @@ with SimpleXMLRPCServer(('localhost', 8002), logRequests=True, allow_none=True) 
 
         return found, lang_dict
 
+
     @server.register_function
     def find_filtered_gloss(word_query, word_lang):
             
         found     = False
+
+        logger.debug("word query: %s", word_query)
+        logger.debug("word language: %s", word_lang)
         
         if word_query in data.get("english"):
             if word_lang in data.get("english")[word_query]:
@@ -117,5 +134,5 @@ with SimpleXMLRPCServer(('localhost', 8002), logRequests=True, allow_none=True) 
     # Run the server's main loop
     server.serve_forever()
 
-logger.info("end " + PGM_NAME)
+logger.info("end %s", PGM_NAME)
 

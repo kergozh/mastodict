@@ -59,7 +59,7 @@ testing:
   # [Bool] get notifications from file test
   test_file: True
   # [String] Name of the test file
-  test_file_name: "notif.yaml"
+  test_file_name: "notif2.yaml"
   
 
 # Logging config
